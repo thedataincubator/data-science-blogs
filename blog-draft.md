@@ -1,20 +1,30 @@
-*I'm thinking of using a format like this, with large interactive image upfront:*
+***I'm thinking of using a format like this, with large interactive image upfront:***
 
 *[http://www.nytimes.com/interactive/2014/07/08/upshot/how-the-year-you-were-born-influences-your-politics.html](http://www.nytimes.com/interactive/2014/07/08/upshot/how-the-year-you-were-born-influences-your-politics.html)*
+
+*(this is a draft, looking for big-picture feedback)*
 
 
 # Top R packages for ML
 
 *[this will be interactive, with D3?]*
 
+What are the popular ML packages? Let's look at a ranking based on CRAN
+downloads, and Stack Overflow (SO) activity
+
 <img src="img/ranks.png" width=600px></img>
 
+
+Data notes:
 
 This is data from the past year.
 
 CRAN = number of package downloads in last year
 
-SO = stack overflow (in question body, in question body, with [R] tag). 
+SO = stack overflow (pacakge name is in question body / package name is in
+question body with [R] tag/ package name is an SO tag)
+
+[TBD: add github stars to this list? and only use one "SO" result]
 
 [add details on text]
 

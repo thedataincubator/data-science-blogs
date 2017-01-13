@@ -1,8 +1,22 @@
-# Identifying top R packages for machine learning
+*I'm thinking of using a format like this, with large interactive image upfront:*
 
-[hook]
+*[http://www.nytimes.com/interactive/2014/07/08/upshot/how-the-year-you-were-born-influences-your-politics.html](http://www.nytimes.com/interactive/2014/07/08/upshot/how-the-year-you-were-born-influences-your-politics.html)*
 
-BLUFF: provide some results up-front
+
+# Top R packages for ML
+
+*[this will be interactive, with D3?]*
+
+<img src="img/ranks.png" width=600px></img>
+
+
+This is data from the past year.
+
+CRAN = number of package downloads in last year
+
+SO = stack overflow (in question body, in question body, with [R] tag). 
+
+[add details on text]
 
 
 # Identifying an exhaustive list of packages
@@ -11,8 +25,8 @@ Before ranking the packages to find the "top" ones, you need an exhaustive list
 of R packages that are used for ML. 
 
 This list can be scraped from a CRAN "Task View" for "Machine Learning and
-Statistical Learning" (latest update: January 6, 2017 - kudos to its
-maintainer, Torsten Hothorn, who keeps it current).
+Statistical Learning". It seems to be kept up-to-date (latest update: January
+6, 2017), so kudos to its maintainer, Torsten Hothorn!
 
 
 # How to define "best" or "top"?
@@ -20,9 +34,9 @@ maintainer, Torsten Hothorn, who keeps it current).
 Rankings should be based on some objective metrics that will yield "relevant"
 results for the intended audience. 
 
-One approach could be to rank the packages based on popularity.
+One approach could be to rank the packages based on popularity. Instead of
+creating a global ranking, we let you compare results from different sources.
 
-Or have an expert just create a ranking or list.
 
 # Using APIs to get usage statistics 
 
@@ -40,24 +54,27 @@ Problems:
   * APIs help a lot, but there are still quirks to figure out: it's useful to
     compare API results to a manual search results
 
+See [Resources](#Resources) for code details!
 
 
 # Results
 
+See above for results. Here are some trending packages
 
-# Other lists
+[show recently trending packages from CRAN trends?]
+
+
+# Other lists (limitations)
 
 other lists are mostly of low quality:
 
   * old results
   * subjective ranking
-  * 
-
-
 
 
 
 # Resources
 
-Scraping the CRAN Task view: <link>
+github link (working): [https://github.com/pavopax/data-science-blogs/tree/drafts](https://github.com/pavopax/data-science-blogs/tree/drafts)
+
 

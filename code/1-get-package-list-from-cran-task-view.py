@@ -16,9 +16,8 @@ def get_package_list(url):
   return [re.sub(" \([A-z]+\)", "", item) for item in descendants_list]
 
 
-package_list = get_package_list(MAINURL)
-
-print "Found {0} packages.".format(len(package_list))
-
-with open("../package-list-from-cran-task-view.txt", "w") as f:
-  f.write(','.join(package_list))
+if __name__ == "__main__":
+  package_list = get_package_list(MAINURL)
+  print "Found {0} packages.".format(len(package_list))
+  with open("../package-list-from-cran-task-view.txt", "w") as f:
+    f.write(','.join(package_list))

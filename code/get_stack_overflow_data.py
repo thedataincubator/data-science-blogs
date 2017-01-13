@@ -2,7 +2,7 @@ import requests
 import urllib2
 import logging
 
-logging.basicConfig(level=logging.WARN)
+logging.basicConfig(level=logging.INFO)
 
 
 GLOBAL_PARAMS = {
@@ -15,16 +15,18 @@ GLOBAL_PARAMS = {
 
 
 def get_tag_counts(tag_list):
-  """"Given tag list, return counts as json"""
-   
-  formatted_tags = ';'.join(tag_list)
-  tag_url = "https://api.stackexchange.com/2.2/tags/"
-  url = tag_url + formatted_tags + "/info?site=stackoverflow"
-
-  r = requests.get(url)
-  if r.json()['has_more']:
-    logging.warning("Request has more data than is not shown here.")
-  return r.json()['items']
+    """"Given tag list, return tag counts as json"""
+    
+    formatted_tags = ';'.join(tag_list)
+    url = "https://api.stackexchange.com/2.2/tags/" + formatted_tags + "/info"
+  
+    try:
+        r = requests.get(url, params=GLOBAL_PARAMS)
+        if r.json()['has_more']:
+            print "WARNING: Request has more data than is not shown here."
+        return r.json()['items']
+    except:
+        logging.warning("Error in response.")
 
 
 def get_body_count(body_string, tag=None):
@@ -45,9 +47,25 @@ def get_body_count(body_string, tag=None):
   return r.json()['total']
 
 
-# tag_counts = get_tag_counts(package_list)
-# question_body_counts = { item: get_body_count(item) for item in package_list}
+if __name__=="__main__":
+  import json
+  from utils import read_package_txt
 
-# print tag_counts
-# print question_body_counts
-  
+  package_list = read_package_txt("../package-list-from-cran-task-view.txt")
+  logging.info("Getting tags...")
+  tag_counts = get_tag_counts(package_list)
+  logging.info("Getting body counts (<60 seconds)...")
+  question_body_counts = { item: get_body_count(item) for item in package_list}
+  logging.info("Getting body counts with R tag (<60 seconds)...")
+  question_body_counts_r = { item: get_body_count(item, tag='r')
+                             for item in package_list}
+
+  logging.info("Writing to disk...")
+  with open('../data/so_tags.json', 'w') as f:
+    json.dump(tag_counts, f)
+  with open('../data/body_counts.json', 'w') as f:
+    json.dump(question_body_counts, f)
+  with open('../data/body_counts_r.json', 'w') as f:
+    json.dump(question_body_counts_r, f)
+  logging.info("DONE.")  
+

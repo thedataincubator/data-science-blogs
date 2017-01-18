@@ -31,7 +31,8 @@ def search_repo_return_star_info(repo_query, lang='r', add_str=None,
       logging.info("Found {0} repos for query '{1}' in language '{2}' and add_str '{3}.".format(  # noqa
         repo_info.json()['total_count'], repo_query, lang, add_str))
       return {repo_info.json()['items'][0]['full_name']:
-              repo_info.json()['items'][0]['stargazers_count']}
+              repo_info.json()['items'][0]['stargazers_count'],
+              "package_name": repo_query}
     else:
       logging.warning("No data found or other response error for query '{0}'".format(repo_query))  # noqa
       pass

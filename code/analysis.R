@@ -32,6 +32,32 @@ so_body_r <- json_dict_to_tbl("../data/body_counts_r.json") %>%
     mutate(kind="SO body + [R]",
            rank=dense_rank(desc(count)))
 
+## GITHUB data
+github <- read_csv("../data/github_stars.csv") %>%
+    separate(X1, c("package_author", "package_name"), "/") %>%
+    select(package_name, package_author, starts_with("string")) %>%
+    arrange(package_name, package_author, desc(string))
+
+
+
+## ============================================================================
+## data checks
+## ============================================================================
+write.csv(github, "../tmp_github.csv")
+
+github %>% group_by(package_name) %>%
+    filter(n()>1) %>%
+    write.csv("../tmp_dups.csv")
+
+
+
+## ============================================================================
+## analysis
+## ============================================================================
+
+
+
+
 df <- bind_rows(cran, so_tags, so_body, so_body_r) %>%
     select(-count)
 

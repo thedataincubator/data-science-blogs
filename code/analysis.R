@@ -1,6 +1,7 @@
 library(tidyverse)
 library(jsonlite)
 library(forcats)
+library(magrittr)
 
 json_dict_to_tbl <- function(file, cols=2, names=c("package", "count")) {
     return(fromJSON(file) %>%
@@ -33,11 +34,21 @@ so_body_r <- json_dict_to_tbl("../data/body_counts_r.json") %>%
            rank=dense_rank(desc(count)))
 
 ## GITHUB data
-github <- read_csv("../data/github_stars.csv") %>%
+github0 <- read_csv("../data/github_stars.csv") %>%
     separate(X1, c("package_author", "package_name"), "/") %>%
     select(package_name, package_author, starts_with("string")) %>%
     arrange(package_name, package_author, desc(string))
 
+
+## to long, and select one package_name with highest count
+github <- github0 %>%
+    gather(type, count, starts_with("str")) %>%
+    group_by(package_name) %>%
+    filter(count>0) %>%
+    top_n(1, count) %>%
+    arrange(desc(count), package_name)
+
+github %>% filter(n() > 1)
 
 
 ## ============================================================================

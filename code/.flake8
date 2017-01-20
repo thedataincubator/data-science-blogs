@@ -1,0 +1,6 @@
+[flake8]
+# E111 indentation is not a multiple of four
+# E114 indentation is not a multiple of four (comment)
+# E121 continuation line under-indented for hanging indent
+ignore = E111, E114, E121
+exclude = scratch*

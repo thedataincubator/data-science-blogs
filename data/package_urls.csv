@@ -1,0 +1,88 @@
+,github_url,all_urls
+BayesTree,,"[u'http://www.r-project.org', u'http://www.rob-mcculloch.org']"
+Boruta,https://github.com/mbq/Boruta/issues,"[u'https://github.com/mbq/Boruta/issues', u'https://m2.icm.edu.pl/boruta/']"
+C50,,
+CORElearn,,[u'http://lkm.fri.uni-lj.si/rmarko/software/']
+CoxBoost,,
+Cubist,,
+ElemStatLearn,,[u'http://www-stat.stanford.edu/~tibs/ElemStatLearn/']
+FCNN4R,,
+GAMBoost,,
+GMMBoost,,
+LiblineaR,,[u'http://dnalytics.com/liblinear/']
+LogicForest,,
+LogicReg,,
+OneR,https://github.com/vonjd/OneR,"[u'https://github.com/vonjd/OneR', u'https://github.com/vonjd/OneR/issues']"
+REEMtree,,[u'http://pages.stern.nyu.edu/~jsimonof/REEMtree/']
+ROCR,,[u'http://rocr.bioinf.mpi-sb.mpg.de/']
+RPMM,,
+RSNNS,https://github.com/cbergmeir/RSNNS,"[u'https://github.com/cbergmeir/RSNNS', u'https://github.com/cbergmeir/RSNNS/issues']"
+RWeka,,
+RXshrink,,"[u'http://www.r-project.org', u'http://members.iquest.net/~softrx']"
+Rborist,https://github.com/suiji/Arborist,"[u'https://github.com/suiji/Arborist', u'http://www.suiji.org/arborist']"
+Rmalschains,,[u'http://sci2s.ugr.es/dicits/software/Rmalschains']
+RoughSets,https://github.com/janusza/RoughSets,[u'https://github.com/janusza/RoughSets']
+SIS,,[u'http://www.stat.columbia.edu/~yangfeng/pubs/jss1375.pdf']
+SuperLearner,https://github.com/ecpolley/SuperLearner,[u'https://github.com/ecpolley/SuperLearner']
+ahaz,,[u'http://www.gorst.dk/software.htm']
+arules,https://github.com/mhahsler/arules/issues,"[u'http://lyle.smu.edu/IDA/arules', u'https://github.com/mhahsler/arules/issues']"
+bigRR,,
+biglasso,https://github.com/YaohuiZeng/biglasso/issues,"[u'https://github.com/YaohuiZeng/biglasso/issues', u'https://github.com/YaohuiZeng/biglasso']"
+bmrm,,
+bst,,
+caret,https://github.com/topepo/caret/issues,"[u'https://github.com/topepo/caret/issues', u'https://github.com/topepo/caret/']"
+e1071,,
+earth,,[u'http://www.milbo.users.sonic.net/earth']
+elasticnet,,[u'http://www.stat.umn.edu/~hzou']
+evclass,,
+evtree,,
+frbs,,[u'http://sci2s.ugr.es/dicits/software/FRBS']
+gamboostLSS,https://github.com/boost-R/gamboostLSS,[u'https://github.com/boost-R/gamboostLSS']
+gbm,,[u'http://code.google.com/p/gradientboostedmodels/']
+glmnet,,[u'http://www.jstatsoft.org/v33/i01/.']
+glmpath,,
+gmum.r,https://github.com/gmum/gmum.r,"[u'https://github.com/gmum/gmum.r', u'https://github.com/gmum/gmum.r/issues']"
+grplasso,,
+grpreg,,
+h2o,https://github.com/h2oai/h2o-3,"[u'https://github.com/h2oai/h2o-3', u'http://jira.h2o.ai']"
+hda,,
+hdi,,
+hdm,,
+ipred,,
+kernlab,,
+klaR,,[u'http://www.statistik.tu-dortmund.de']
+lars,,[u'http://www-stat.stanford.edu/~hastie/Papers/#LARS']
+lasso2,,[u'http://www.maths.uwa.edu.au/~berwin/software/lasso.html']
+maptree,,
+mboost,https://github.com/boost-R/mboost,"[u'https://github.com/boost-R/mboost', u'https://github.com/boost-R/mboost/issues']"
+mlr,https://github.com/mlr-org/mlr,"[u'https://github.com/mlr-org/mlr', u'https://github.com/mlr-org/mlr/issues']"
+ncvreg,http://github.com/pbreheny/ncvreg/issues,"[u'http://github.com/pbreheny/ncvreg/issues', u'http://myweb.uiowa.edu/pbreheny/publications/Breheny2011.pdf']"
+nnet,,[u'http://www.stats.ox.ac.uk/pub/MASS4/']
+oblique.tree,,
+pamr,,
+party,,[u'http://party.R-forge.R-project.org']
+partykit,,[u'http://partykit.R-Forge.R-project.org/partykit']
+penalized,,
+penalizedLDA,,
+penalizedSVM,,
+quantregForest,,
+randomForest,,[u'https://www.stat.berkeley.edu/~breiman/RandomForests/']
+randomForestSRC,,"[u'http://web.ccs.miami.edu/~hishwaran', u'http://www.kogalur.com']"
+ranger,https://github.com/imbs-hl/ranger,"[u'https://github.com/imbs-hl/ranger', u'https://github.com/imbs-hl/ranger/issues']"
+rattle,,[u'http://rattle.togaware.com/']
+rda,,[u'http://www.r-project.org']
+rdetools,,
+relaxo,,[u'http://www.stats.ox.ac.uk/~meinshau/']
+rgenoud,,[u'http://sekhon.berkeley.edu/rgenoud/']
+rgp,,[u'http://rsymbolic.org/projects/show/rgp']
+rminer,,"[u'http://www3.dsi.uminho.pt/pcortez/rminer.html', u'http://cran.r-project.org/package=rminer']"
+rnn,https://github.com/bquast/rnn/issues,"[u'http://qua.st/rnn', u'https://github.com/bquast/rnn/issues', u'https://github.com/bquast/rnn']"
+rpart,,
+sda,,[u'http://strimmerlab.org/software/sda/']
+spa,,
+stabs,https://github.com/hofnerb/stabs,[u'https://github.com/hofnerb/stabs']
+svmpath,,[u'http://www.jmlr.org/papers/volume5/hastie04a/hastie04a.pdf']
+tgp,,[u'http://bobby.gramacy.com/r_packages/tgp']
+tree,,
+varSelRF,https://github.com/rdiaz02/varSelRF,"[u'http://ligarto.org/rdiaz/Software/Software.html', u'http://ligarto.org/rdiaz/Papers/rfVS/randomForestVarSel.html', u'https://github.com/rdiaz02/varSelRF']"
+vcrpart,,

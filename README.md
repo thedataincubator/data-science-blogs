@@ -1,4 +1,4 @@
 # data-science-blogs
-A Handful of DuSt (Data Science)
+A Handful of D(u)S(t) (Data Science)
 
-Playing with Github Projects page
+See blog posts files.

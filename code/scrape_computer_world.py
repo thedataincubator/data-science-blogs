@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
-URL = 'http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html' # noqa
+URL = 'http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html'  # noqa
 
 r = requests.get(URL)
 soup = BeautifulSoup(r.text, 'lxml')

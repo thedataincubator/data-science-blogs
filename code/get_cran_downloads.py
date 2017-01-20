@@ -31,4 +31,3 @@ if __name__ == "__main__":
 
   with open('data/cran_downloads.json', 'w') as f:
     json.dump(data, f)
-

@@ -2,7 +2,7 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
-MAINURL = 'https://cran.r-project.org/web/views/MachineLearning.html'
+URL = 'https://cran.r-project.org/web/views/MachineLearning.html'
 
 
 def get_package_list(url):
@@ -17,7 +17,7 @@ def get_package_list(url):
 
 
 if __name__ == "__main__":
-  package_list = get_package_list(MAINURL)
+  package_list = get_package_list(URL)
   print "Found {0} packages.".format(len(package_list))
   with open("../package-list-from-cran-task-view.txt", "w") as f:
     f.write(','.join(package_list))

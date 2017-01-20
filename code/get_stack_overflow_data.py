@@ -4,14 +4,13 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
+# NOTE: SO api is NOT case-sensitive
+# package_list = ['dplyr', 'digest', 'ggplot2', 'rcpp', 'the']
 
 GLOBAL_PARAMS = {
     "site" : "stackoverflow",
-    "key" : "y38PeNERQJQIC8EPliKAVQ(("
+    "key" : "y38PeNERQJQIC8EPliKAVQ(("  # SO says this key can be public
 }
-
-# SO api is NOT case-sensitive
-# package_list = ['dplyr', 'digest', 'ggplot2', 'rcpp', 'the']
 
 
 def get_tag_counts(tag_list):
@@ -19,7 +18,7 @@ def get_tag_counts(tag_list):
     
     formatted_tags = ';'.join(tag_list)
     url = "https://api.stackexchange.com/2.2/tags/" + formatted_tags + "/info"
-  
+
     try:
         r = requests.get(url, params=GLOBAL_PARAMS)
         if r.json()['has_more']:
@@ -51,7 +50,7 @@ if __name__=="__main__":
   import json
   from utils import read_package_txt
 
-  package_list = read_package_txt("../package-list-from-cran-task-view.txt")
+  package_list = read_package_txt("data/package-list-from-cran-task-view.txt")
   logging.info("Getting tags...")
   tag_counts = get_tag_counts(package_list)
   logging.info("Getting body counts (<60 seconds)...")
@@ -61,11 +60,10 @@ if __name__=="__main__":
                              for item in package_list}
 
   logging.info("Writing to disk...")
-  with open('../data/so_tags.json', 'w') as f:
+  with open('data/so_tag_counts.json', 'w') as f:
     json.dump(tag_counts, f)
-  with open('../data/body_counts.json', 'w') as f:
+  with open('data/so_body_counts.json', 'w') as f:
     json.dump(question_body_counts, f)
-  with open('../data/body_counts_r.json', 'w') as f:
+  with open('data/so_body_counts_r.json', 'w') as f:
     json.dump(question_body_counts_r, f)
   logging.info("DONE.")  
-

@@ -73,10 +73,9 @@ After that, obtaining the Github stars was easy with the API.
 
 Getting useful results from Stack Overflow was tricky. Some R package names
 like `tree` and `earth` present obvious difficulties: Stack overflow results
-may not be filter to results just for the R package. So we thought of also
-adding an 'r' string to the query, which sometimes helped. 
+may not be filter to results just for the R package. So added an 'r' string to the query, which greatly helped. 
 
-A good strategy (optimal?) was to look for the package's name in the question
+A good (optimal?) strategy was to look for the package's name in the question
 body, and for an attached 'R' tag. 
 
 

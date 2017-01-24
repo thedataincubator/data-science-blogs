@@ -20,14 +20,16 @@ has a great list at the bottom, and is easy to scrape.
 
 Its advantages are that the package list comes from an authoritative source
 (CRAN is the "official" R package repository) and it is regularly updated (last
-update: January 6, 2017). Kudos to the author, Torsten Hothorn, who is also
-very responsive via email.
+update: January 6, 2017). Kudos to the
+author, [Torsten Hothorn](http://user.math.uzh.ch/hothorn/), who is also very
+responsive via email.
 
 A previous thought was to use Google to look up lists of "top R ML packages"
 and then trying to scrape all the package names, combine them, and use that
-list as a starting point. But obviating the engineering task, we also found
+list as a starting point. But set aside the engineering task, we also found
 that the currently available lists were of poor quality relative to our
-needs. They were outdated, and often quite subjective.
+needs. They were outdated, didn't clearly specify methods, and were often quite
+subjective.
 
 
 # Determine objective metrics
@@ -73,10 +75,11 @@ After that, obtaining the Github stars was easy with the API.
 
 Getting useful results from Stack Overflow was tricky. Some R package names
 like `tree` and `earth` present obvious difficulties: Stack overflow results
-may not be filter to results just for the R package. So added an 'r' string to the query, which greatly helped. 
+may not be filter to results just for the R package, so we first added an 'r'
+string to the query, which greatly helped.
 
 A good (optimal?) strategy was to look for the package's name in the question
-body, and for an attached 'R' tag. 
+body, and then add an 'r' tag (which is different from adding the 'r' string).
 
 
 # Building the ranking

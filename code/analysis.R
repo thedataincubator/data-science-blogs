@@ -16,7 +16,7 @@ json_dict_to_tbl <- function(file, cols=2, names=c("package", "count")) {
 
 
 ## TODO: check date range
-cran <- fromJSON("../data/cran_metadata.json") %>% tbl_df %>%
+cran <- fromJSON("../data/cran_downloads.json") %>% tbl_df %>%
     select(package, downloads) %>%
     rename(count=downloads) %>%
     arrange(desc(count)) %>%
@@ -26,20 +26,20 @@ cran <- fromJSON("../data/cran_metadata.json") %>% tbl_df %>%
 packages <- cran$package %>% u %>% tolower
 
 ## filter this one for packages
-so_tags <- fromJSON("../data/so_tags.json") %>% tbl_df %>%
+so_tags <- fromJSON("../data/so_tag_counts.json") %>% tbl_df %>%
     filter(name %in% packages) %>% 
     select(name, count) %>%
     rename(package=name) %>%
-    mutate(kind="SO tag",
+    mutate(kind="SO_tag",
            rank=dense_rank(desc(count)))
-so_body <- json_dict_to_tbl("../data/body_counts.json") %>%
-    mutate(kind="SO body",
+so_body <- json_dict_to_tbl("../data/so_body_counts.json") %>%
+    mutate(kind="SO_body",
            rank=dense_rank(desc(count)))
-so_body_r <- json_dict_to_tbl("../data/body_counts_r.json") %>%
-    mutate(kind="SO body + [R]",
+so_body_r <- json_dict_to_tbl("../data/so_body_counts_r.json") %>%
+    mutate(kind="SO_body_r_tag",
            rank=dense_rank(desc(count)))
 github <- json_dict_to_tbl("../data/github_stars.json") %>%
-    mutate(kind="github star",
+    mutate(kind="Github_star",
            rank=dense_rank(desc(count)))
 
 ## ============================================================================
@@ -58,7 +58,26 @@ github %>% checks
 ## ============================================================================
 ## analysis
 ## ============================================================================
-df <- bind_rows(cran, so_tags, github) 
+df <- bind_rows(cran, so_body_r, github) 
+
+
+
+ranks <- df %>% group_by(package) %>%
+    summarise(mean_rank=round(mean(rank), 1), lists=n()) %>% arrange(mean_rank)
+
+df_wide <- df %>% select(package, kind, rank) %>%
+    spread(kind, rank) %>%
+    left_join(ranks %>% select(-lists), ., on="package") %>%
+    arrange(mean_rank)
+    
+write.csv(df_wide, file="tmp_df_wide.csv")
+
+
+
+
+
+
+
 
 top10any <- df %>%
     filter(rank<11) %>%

@@ -14,6 +14,10 @@ inverse correlation betwen stack overflow and Github!
 
 due to usability? pandas is not usable, so lots of questions...
 
+Github = stars and forks
+
+SO = tags and package name in question
+
 
 # Limitations
 

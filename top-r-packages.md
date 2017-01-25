@@ -1,6 +1,8 @@
-At The Data Incubator [The Data Incubator](https://www.thedataincubator.com/), we pride ourselves on having the latest data science curriculum.  Much of our curriculum is based on feedback from corporate and government partners about the technologies they are looking to learn.  But we wanted to develop a more data-driven approach to what we should be teaching in our [data science corporate training](https://www.thedataincubator.com/training.html) and our [free fellowship](https://www.thedataincubator.com/fellowship.html) for masters and PhDs looking to enter data science careers in industry.
-
 # Top R packages for Machine Learning
+
+At The Data Incubator [The Data Incubator](https://www.thedataincubator.com/), we pride ourselves on having the latest data science curriculum.  Much of our curriculum is based on feedback from corporate and government partners about the technologies they are looking to learn.  But we wanted to develop a more data-driven approach to what we should be teaching in our [data science corporate training](https://www.thedataincubator.com/training.html) and our [free fellowship](https://www.thedataincubator.com/fellowship.html) for masters and PhDs looking to enter data science careers in industry.  Here are the results.
+
+# The Rankings
 
 What are the most popular ML packages? Let's look at a ranking based on package
 downloads and social website activity.

@@ -1,5 +1,6 @@
 import requests
 import logging
+import urllib
 
 logging.basicConfig(level=logging.INFO)
 
@@ -16,7 +17,12 @@ def get_tag_counts(tag_list):
     """"Given tag list, return tag counts as json"""
 
     formatted_tags = ';'.join(tag_list)
-    url = "https://api.stackexchange.com/2.2/tags/" + formatted_tags + "/info"
+    # use quote() to replace possible spaces in a tag like "scikit learn"
+    url = urllib.quote("https://api.stackexchange.com/2.2/tags/" +\
+                       formatted_tags + "/info",
+                       safe = "/:;")
+
+    logging.debug(url)
 
     try:
         r = requests.get(url, params=GLOBAL_PARAMS)

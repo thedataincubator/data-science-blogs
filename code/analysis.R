@@ -60,50 +60,27 @@ github %>% checks
 ## ============================================================================
 df <- bind_rows(cran, so_body_r, github) 
 
+## main ranking (excludes github due to some missing data)
+ranks1 <- df %>% filter(kind != "Github_star") %>% group_by(package) %>%
+    summarise(mean_rank1=round(mean(rank), 1), lists1=n()) %>%
+    arrange(mean_rank1) %>%
+    rownames_to_column(var="ranking1")
+
+# ranks1$lists %>% unique
+
+## ranking which includes github data, if any
+ranks2 <- df %>% group_by(package) %>%
+    summarise(mean_rank2=round(mean(rank), 1), lists2=n()) %>%
+    arrange(mean_rank2) %>%
+    rownames_to_column(var="ranking2")
 
 
-ranks <- df %>% group_by(package) %>%
-    summarise(mean_rank=round(mean(rank), 1), lists=n()) %>% arrange(mean_rank)
-
-df_wide <- df %>% select(package, kind, rank) %>%
+## COMBINE ranks
+ranking <- df %>% select(package, kind, rank) %>%
     spread(kind, rank) %>%
-    left_join(ranks %>% select(-lists), ., on="package") %>%
-    arrange(mean_rank)
-    
-write.csv(df_wide, file="tmp_df_wide.csv")
+    left_join(ranks1 %>% select(-lists1, -ranking1), ., on="package") %>%
+    arrange(mean_rank1) %>%
+    select(package, CRAN, SO_body_r_tag, Github_star)
+names(ranking) <- c("Package", "CRAN", "Stack Overflow", "GitHub")
 
-
-
-
-
-
-
-
-top10any <- df %>%
-    filter(rank<11) %>%
-    .$package %>% unique
-
-top10_rank <- df %>%
-    group_by(package) %>%
-    summarise(mean_rank=mean(rank)) %>%
-    top_n(10, desc(mean_rank)) 
-
-top10 <- top10_rank %>% .$package %>% unique
-
-
-df$kind %>% factor %>% levels
-fix <- . %>% factor(levels=c("CRAN", "SO tag", "github star"))
-
-dft <- df %>% filter(package %in% top10)
-
-
-ggplot(dft,
-       aes(x=kind %>% fix, y=rank, group=package, colour=package)) +
-    coord_cartesian(ylim = c(1, 20)) +
-    scale_y_reverse(breaks = 1:20) +
-    scale_x_discrete() +
-    scale_color_brewer(type='qual') +
-    geom_line() +
-    labs(x="source")
-
-
+write.csv(ranking, "../ranking.csv")

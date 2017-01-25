@@ -5,12 +5,17 @@ lint:
 data1:
 	mkdir -p data
 	python code/get_package_list_from_cran_task_view.py
-	python code/get_package_repo_urls.links.py
+	python code/get_package_repo_urls.py
 
 data2:
 	python code/get_github_stars.py
 	python code/get_cran_downloads.py
 	python code/get_stack_overflow_data.py
+
+rank-r:
+	echo "Switching to /code..."
+	cd code
+	Rscript analysis.R
 
 help:
 	@echo "    NOTE: Run all scripts from here. EG: `python code/get_cran_metadata.py`"

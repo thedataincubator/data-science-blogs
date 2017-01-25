@@ -1,0 +1,7 @@
+*html
+.ipynb_checkpoints
+img/old
+code/secrets
+*.pyc
+.RData
+.Rhistory

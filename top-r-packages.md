@@ -3,13 +3,15 @@
 What are the most popular ML packages? Let's look at a ranking based on package
 downloads and social website activity.
 
-See [below](#Methods) for methodological details.
-
 <img src="img/rank.png" width=400px></img>
 
-*Also: OneR: 1 (SO); mlr: 2 (Github); ranger: 4 (Github); SuperLearner: 5 (Github)*
+*Notable: OneR: 1 (SO); mlr: 2 (Github); ranger: 4 (Github); SuperLearner: 5 (Github)*
 	
-[ NB: Full list here](tmp_ranking.csv)
+The ranking is based on average rank of CRAN downloads and Stack Overflow
+activity ([full ranking here [CSV] ](ranking.csv)). CRAN downloads are from the past year. Stack Overflow ranks the
+number of results based on package name in a question body, along with a tag
+'R'. GitHub ranking is based on the number of stars for the
+repository. See [below](#Methods) for methodological details.
 
 # Caret on top, neural nets feature strongly among other algorithm heavyweights
 
@@ -73,7 +75,7 @@ However, obtaining an initial list of all the R packages for Machine Learning
 was a tougher task. This list needed to be exhaustive, objective, and
 up-to-date. A bad initial list would affect our ranking dramatically.
 
-A friend helped us find
+Asking around helped. A friend pointed us to
 the
 ["CRAN Task View: Machine Learning & Statistical Learning"](https://cran.r-project.org/web/views/MachineLearning.html) which
 has a great list at the bottom, and is easy to scrape.
@@ -86,7 +88,7 @@ responsive via email.
 
 A previous thought was to use Google to look up lists of "top R ML packages"
 and then trying to scrape all the package names, combine them, and use that
-list as a starting point. But set aside the engineering task, we also found
+list as a starting point. But setting aside the engineering task, we also found
 that the currently available lists were of poor quality relative to our
 needs. They were outdated, didn't clearly specify methods, and were often quite
 subjective.
@@ -162,7 +164,7 @@ package as helping a data scientist. Should we include string manipulation
 packages? How about packages to read data from databases?
 
 A longer project, for another day, could be to use even more "Data Science" to
-come up with a ranking of the top "Data Science" packages.
+come up with a ranking of the top R packages for doing "Data Science."
 
 
 # Resources

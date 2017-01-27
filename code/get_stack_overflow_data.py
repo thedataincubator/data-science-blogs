@@ -16,9 +16,9 @@ def get_tag_counts(tag_list):
 
     formatted_tags = ';'.join(tag_list)
     # use quote() to replace possible spaces in a tag like "scikit learn"
-    url = urllib.quote("https://api.stackexchange.com/2.2/tags/" +\
+    url = urllib.quote("https://api.stackexchange.com/2.2/tags/" +
                        formatted_tags + "/info",
-                       safe = "/:;-")
+                       safe="/:;-")
 
     logging.debug("Requesting url: " + str(url))
 

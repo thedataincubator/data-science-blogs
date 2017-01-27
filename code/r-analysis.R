@@ -58,7 +58,11 @@ github %>% checks
 ## ============================================================================
 ## analysis
 ## ============================================================================
-df <- bind_rows(cran, so_body_r, github) 
+df <- bind_rows(cran, so_body_r, github)
+
+df_wide <- df %>% select(-rank) %>% spread(kind, count)
+
+write_csv(df_wide, "../output/r-data-wide.csv")
 
 ## main ranking (excludes github due to some missing data)
 ranks1 <- df %>% filter(kind != "Github_star") %>% group_by(package) %>%

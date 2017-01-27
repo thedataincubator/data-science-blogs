@@ -1,0 +1,1 @@
+plotly.py networkx jupyter-notebook seaborn pattern scrapy ggpy bokeh sympy numpy pandas pybrain shogun pylearn2 matplotlib ggplot csvkit scipy tensorflow ipython prettyplotlib jupyter pymc pytables scikit-learn mlpy plotly statsmodels theano d3py ipython-notebook basemap nltk

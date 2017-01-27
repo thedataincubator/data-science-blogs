@@ -1,0 +1,41 @@
+DEBUG:vanity:jupyter - 398,702
+DEBUG:vanity:notebook - 791,071
+DEBUG:vanity:networkx - 3,838,384
+DEBUG:vanity:seaborn - 414,400
+DEBUG:vanity:Pattern - 302,116
+DEBUG:vanity:Scrapy - 1,626,722
+DEBUG:vanity:ggpy - 6,803
+DEBUG:vanity:bokeh - 202,652
+DEBUG:vanity:ipython - 9,219,641
+DEBUG:vanity:notebook - 791,071
+DEBUG:vanity:sqlite3 - 5,066
+DEBUG:vanity:sympy - 891,636
+DEBUG:vanity:numpy - 13,639,317
+DEBUG:vanity:pandas - 5,897,234
+DEBUG:vanity:PyBrain - 56,723
+DEBUG:vanity:No downloads for shogun.
+DEBUG:vanity:No such module or package 'pylearn2'
+DEBUG:vanity:matplotlib - 4,041,733
+DEBUG:vanity:ggplot - 303,503
+DEBUG:vanity:csvkit - 241,019
+DEBUG:vanity:scipy - 4,955,021
+DEBUG:vanity:tensorflow - 35,501
+DEBUG:vanity:ipython - 9,219,641
+DEBUG:vanity:prettyplotlib - 50,178
+DEBUG:vanity:jupyter - 398,702
+DEBUG:vanity:pymc - 202,365
+DEBUG:vanity:No such module or package 'pytables'
+DEBUG:vanity:scikit-learn - 5,224,965
+DEBUG:vanity:mlpy - 6,259
+DEBUG:vanity:plotly - 494,131
+DEBUG:vanity:statsmodels - 611,436
+DEBUG:vanity:Theano - 608,210
+DEBUG:vanity:No downloads for d3py.
+DEBUG:vanity:No downloads for basemap.
+DEBUG:vanity:nltk - 2,395,089
+DEBUG:vanity:jupyter, notebook, networkx, seaborn, Pattern, Scrapy, ggpy, bokeh, ipython, notebook, sqlite3, sympy, numpy, pandas, PyBrain, shogun, matplotlib, ggplot, csvkit, scipy, tensorflow, ipython, prettyplotlib, jupyter, pymc, scikit-learn, mlpy, plotly, statsmodels, Theano, d3py, basemap and nltk have been downloaded 66,869,291 times!
+DEBUG:vanity:
+
+	 *** Note: PyPI stats are broken again; we're nowwaiting for warehouse. https://github.com/aclark4life/vanity/issues/22 ***
+
+

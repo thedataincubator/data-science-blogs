@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>top-r-packages.html</title>
+
+</head>
+
+<body>
+
+<h1 id="top-r-packages-for-machine-learning">Top R packages for Machine Learning</h1>
+<p>What are the most popular ML packages? Let's look at a ranking based on package downloads and social website activity.</p>
+<p><img src="img/rank.png" width=400px></img></p>
+<p><em>Notable: OneR: 1 (SO); mlr: 2 (Github); ranger: 4 (Github); SuperLearner: 5 (Github)</em></p>
+<p>The ranking is based on average rank of CRAN downloads and Stack Overflow activity (<a href="ranking.csv">full ranking here [CSV]</a>). CRAN downloads are from the past year. Stack Overflow ranks the number of results based on package name in a question body, along with a tag 'R'. GitHub ranking is based on the number of stars for the repository. See <a href="#Methods">below</a> for methodological details.</p>
+<h1 id="caret-on-top-neural-nets-feature-strongly-among-other-algorithm-heavyweights">Caret on top, neural nets feature strongly among other algorithm heavyweights</h1>
+<p>Perhaps not surprisingly, <code>caret</code> is on top. It's a general package for creating machine learning workflows, and it integrates well with some algorithm-specific packages, which come next in the ranking.</p>
+<p>These include <code>e1071</code> (for SVMs), <code>rpart</code> (trees), <code>glmnet</code> (regularized regressions), and, perhaps surprisingly for R, neural networks (<code>nnet</code>). See details on all of these packages <a href="#Package-details">below</a></p>
+<p>The ranking reveals the fragmentation of the R package community. Several of the top packages, such as <code>rpart</code> and <code>tree</code>, implement the same algorithms, which contrasts with the uniformity - and breadth - of Python's <code>scikit-learn</code>.</p>
+<p>Still, if you're loving R's for its data manipulation capabilities (as in the <code>tidyverse</code>), then you can use these packages to perform some powerful modeling, instead of switching to Python. Further, as more features are added to <a href="https://github.com/hadley/modelr"><code>modelr</code></a>, a <code>tidy tool</code>, we may soon see it included in this list.</p>
+<h1 id="package-details">Package details</h1>
+<p><code>caret</code> is a general package for creating machine learning workflows, and it comes out on top of this ranking. Next come a few packages implementing specific machine learning algorithms: Random Forests (<code>randomForest</code>), Support Vector Machines (<code>e1071</code>), Classification and Regression Trees (<code>rpart</code>), and regularized regression models (<code>glmnet</code>).</p>
+<p><code>nnet</code> implements neural networks, while the <code>tree</code> package also implements trees. <code>party</code> is for recursive partitioning and visualization of binary trees, and <code>arules</code> is for association mining. SVMs and other kernel methods are implemented in <code>kernlab</code>. The <code>h2o</code> package is for scalable machine learning, and is part of the larger H2O project. <code>ROCR</code> is for model evaluation, including ROC curves, while <code>gbm</code> implements gradient boosting. More partitioning algorithms can be accessed with <code>RWeka</code>, while <code>rattle</code> is an R GUI for data mining.</p>
+<p>A few packages feature strongly on Github only: <code>mlr</code> and <code>SuperLearner</code> are 2 other meta-packages that offer similar functionality to <code>caret</code>, while <code>ranger</code> offers C++ implementations of random forests.</p>
+<p>Last, <code>OneR</code> is number one on Stack Overflow, but the SO API often auto-corrects this to &quot;one&quot; so the result is unreliable.</p>
+<h1 id="methods">Methods</h1>
+<p>Below, we describe the methodology to come up with this ranking.</p>
+<h2 id="step-1-obtain-an-exhaustive-list-of-ml-packages">Step 1: Obtain an exhaustive list of ML packages</h2>
+<p>From the beginning, we envisioned our ranking being built on a combination of package downloads and Stack Overflow and Github activity. We knew that APIs existed that would provide us with these metrics.</p>
+<p>However, obtaining an initial list of all the R packages for Machine Learning was a tougher task. This list needed to be exhaustive, objective, and up-to-date. A bad initial list would affect our ranking dramatically.</p>
+<p>Asking around helped. A friend pointed us to the <a href="https://cran.r-project.org/web/views/MachineLearning.html">&quot;CRAN Task View: Machine Learning &amp; Statistical Learning&quot;</a> which has a great list at the bottom, and is easy to scrape.</p>
+<p>Its advantages are that the package list comes from an authoritative source (CRAN is the &quot;official&quot; R package repository) and it is regularly updated (last update: January 6, 2017). Kudos to the author, <a href="http://user.math.uzh.ch/hothorn/">Torsten Hothorn</a>, who is also very responsive via email.</p>
+<p>A previous thought was to use Google to look up lists of &quot;top R ML packages&quot; and then trying to scrape all the package names, combine them, and use that list as a starting point. But set aside the engineering task, we also found that the currently available lists were of poor quality relative to our needs. They were outdated, didn't clearly specify methods, and were often quite subjective.</p>
+<h2 id="determine-objective-metrics">Determine objective metrics</h2>
+<p>A good ranking needs a definition of what &quot;best&quot; means, and needs to be constructed with good metrics.</p>
+<p>We defined &quot;best&quot; as &quot;most popular&quot;. This doesn't necessarily mean the packages are widely-loved (users could be frequently searching Stack Overflow because the API is horrible).</p>
+<p>We chose 3 components for our ranking:</p>
+<ul>
+<li>Downloads: number of downloads from a CRAN mirror</li>
+<li>Github: number of stars for package on its main repository page</li>
+<li>Stack Overflow: number of questions containing the package name and tagged with 'R'</li>
+</ul>
+<h2 id="cran-downloads">CRAN downloads</h2>
+<p>There are a few CRAN mirrors, and we used the R-Studio mirror since it has a convenient API. RStudio must be the most widely used IDE for R, but it is not the only one. Our ranking could be improved (though maybe not significantly) if we aggregated downloads from other CRAN mirrors.</p>
+<h2 id="github">GitHub</h2>
+<p>Initially, we looked for the packages' Github page by querying Github's search API for the package name, perhaps with &quot;language:R&quot;, but this proved unreliable. It was sometimes hard to pick out the correct Github repo, and not all R packages are implemented using the R language (the &quot;language:R&quot; parameter in the search API seems to refer to the most popular language that the repository is written in).</p>
+<p>Instead, we went back to CRAN to find these urls. Each package has an official CRAN page, which includes useful information, including source code links. This is where we got the packages' Github repository location.</p>
+<p>After that, obtaining the Github stars was easy with the API.</p>
+<h2 id="stack-overflow">Stack Overflow</h2>
+<p>Getting useful results from Stack Overflow was tricky. Some R package names like <code>tree</code> and <code>earth</code> present obvious difficulties: Stack overflow results may not be filter to results just for the R package, so we first added an 'r' string to the query, which greatly helped.</p>
+<p>A good (optimal?) strategy was to look for the package's name in the question body, and then add an 'r' tag (which is different from adding the 'r' string).</p>
+<h2 id="building-the-ranking">Building the ranking</h2>
+<p>We simply ranked the packages within each of the 3 metrics, and took the average ranking. Nothing fancy.</p>
+<h2 id="miscellaneous-notes">Miscellaneous notes</h2>
+<p>All data was downloaded on January 19, 2017. CRAN download counts were from the past 365 days: January 19, 2016 to January 19, 2017.</p>
+<h1 id="top-r-packages-for-data-science">Top R packages for Data Science?</h1>
+<p>This project started as a ranking of the top packages for &quot;Data Science&quot;, but we soon found that the scope was too broad.</p>
+<p>Data scientists do many different things, and you can classify almost any R package as helping a data scientist. Should we include string manipulation packages? How about packages to read data from databases?</p>
+<p>A longer project, for another day, could be to use even more &quot;Data Science&quot; to come up with a ranking of the top &quot;Data Science&quot; packages.</p>
+<h1 id="resources">Resources</h1>
+<p>Source code is available on Github [TODO ADD LINK].</p>
+
+</body>
+</html>

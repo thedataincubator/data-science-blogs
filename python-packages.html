@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>python-packages.html</title>
+
+</head>
+
+<body>
+
+<h1 id="draft-ranking-popular-python-packages-for-data-science">[Draft] Ranking Popular Python Packages for Data Science</h1>
+<p>Below is a ranking of Python packages applicable in Data Scienc, based on Github and Stack Overflow activity, as well as PyPI Downloads.</p>
+<p>The table shows standardized scores, where a value of 1 means one standard deviation above average (avarage = score of 0). See below for methods.</p>
+<p><img src="img/python-rank.png" width=500px></img></p>
+<p><em>For example, <code>numpy</code> is 2 standard deviations above average in Stack Overflow activity, while <code>tensorflow</code> is close to average.</em></p>
+<h1 id="results">Results</h1>
+<p>Due to massive total downloads and strong Stack Overflow activity, the clear leader is <code>numpy</code> (Scientific Computing). However, the scalable machine learning package <code>tensorflow</code> (stared at Google) trounces the other packages in Github activity (based on both stars and forks), with the more general machine learning module <code>scikit-learn</code> a distant second, but fifth overall.</p>
+<p>Both <code>numpy</code> and <code>pandas</code> (Data Manipulation) are only average on Github, but strong in the other two categories.</p>
+<p>The interactive interpretater <code>ipython</code> is fourth overall, while the <code>jupyter</code> project (of the popular notebook) is 19th overall (not shown).</p>
+<p>The <a href="output/python-ranks-with-na.csv">full ranking is here</a>, while the <a href="output/python-data-wide.csv">raw data is here</a>.</p>
+<h1 id="discussion">Discussion</h1>
+<p>There appears to be an inverse correlation in Github activity compared to Stack Overflow and Downloads for the top packages. For example, there are a lot of Stack Overflow questions for <code>numpy</code> and <code>pandas</code> compared to <code>tensorflow</code> and <code>scikit-learn</code>. Since the former are two &quot;utlity&quot; packages, perhaps more people are actually using them (and need help).</p>
+<p>The other deep-learning package, <code>Theano</code>, is a big distance behind <code>tensorflow</code> in this ranking.</p>
+<p>As expected, <code>Matplotlib</code> is the most popular graphics package, but <code>plotly</code> and <code>bokeh</code> both feature. <code>ggpy</code> (Python port for <code>ggplot</code>) was 18th overall, but the data is less reliable, as noted in the next section.</p>
+<h1 id="limitations">Limitations</h1>
+<p>As with <a href="https://twitter.com/benhamner/status/732392995610198016">any analysis</a>, decisions were made along the way. All source code and data is on <a href="https://github.com/thedataincubator/data-science-blogs">our Github Page</a>.</p>
+<p>First, our list of packages was <a href="#Methods">pre-selected</a>.</p>
+<p>The full list of machine learning packages <a href="#Methods">came from a few sources</a>, and a few packages were unranked, due to unavailable downloads or Github data. These are: <code>basemap</code> (mapping with <code>matplotlib</code>), <code>d3py</code> (D3-like plotting), <code>jupyter-notebook</code>, <code>mlpy</code> (machine learning based on <code>scipy</code> and <code>numpy</code>), <code>pylearn2</code> (machine learning, based on <code>theano</code>), <code>pytables</code> (big tables), and <code>shogun</code> (machine learning). They were all below average compared to the ranked packages, in all categories.</p>
+<p>The data presented a few difficulties;</p>
+<ul>
+<li>The python port for <code>ggplot</code> was recently renamed to <code>ggpy</code>, and we used the latter for all metrics, except downloads (which used <code>ggplot</code>).</li>
+<li><code>ipython notebook</code> is now <code>jupyter notebook</code>. Stack overflow auto-corrected <code>ipython-notebook</code> to <code>jupyter-notebook</code> so we combined these results with <code>jupyter-notebook</code> results from the other two sources. But <code>jupyter-notebook</code> didn't have a downloads count, so it doesn't feature in the final ranking. But we also performed analyses for <code>ipython</code> and <code>jupyter</code> individually, which do appear in the ranking.</li>
+<li>The <a href="https://github.com/clips/pattern">Pattern package</a> has inflated Stack Overflow question metrics (and no tags data). SO auto-corrects &quot;[pattern]&quot; search to something unrelated.</li>
+<li>SO data for <code>plotly</code> may also be inflated, as it's both an R and Python package.</li>
+</ul>
+<h1 id="methods">Methods</h1>
+<p>All source code and data is on <a href="https://github.com/thedataincubator/data-science-blogs">our Github Page</a>.</p>
+<p>We first generated a list of ML packages, from <a href="https://github.com/rasbt/pattern_classification/blob/master/resources/python_data_libraries.md">these</a> <a href="https://www.upwork.com/hiring/data/15-python-libraries-data-science/">three</a> <a href="http://www.datasciencecentral.com/profiles/blogs/9-python-analytics-libraries-1">sources</a>, and then collected metrics for all of them, to come up with the ranking.</p>
+<p>Github data is based on both stars and forks, while Stack Overfow data is based on tags and questions containing the package name. Downloads are from PyPI, using a <a href="https://github.com/pavopax/vanity">fork of the <code>vanity</code> project</a>. Other projects to get download counts include <a href="https://github.com/jantman/pypi-download-stats">pypi-download-stats</a> (couldn't get it to work) and <a href="http://pypi-ranking.info/alltime">pypi-ranking.info</a> (gives smaller numbers than <code>vanity</code>).</p>
+<p><code>sqlite3</code> was removed from analysis, as it is a base Python module.</p>
+<p><code>ggplot</code> downloads were combined with <code>ggpy</code> results from Github and Stack Overflow. Unavaiable Stack Overflow counts were covnerted to zero count.</p>
+<p>Counts were standardized to mean 0 and deviation 1, and then averaged to get Github and Stack Overflow scores, and, combined with the Downloads, the Overall score.</p>
+<p>Some manual checks were done to confirm Github repo location.</p>
+<p>All data was downloaded on January 26, 2017.</p>
+
+</body>
+</html>

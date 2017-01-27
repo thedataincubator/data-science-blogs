@@ -2,8 +2,6 @@ import requests
 import logging
 import urllib
 
-logging.basicConfig(level=logging.INFO)
-
 # NOTE: SO api is NOT case-sensitive
 # package_list = ['dplyr', 'digest', 'ggplot2', 'rcpp', 'the']
 
@@ -20,9 +18,9 @@ def get_tag_counts(tag_list):
     # use quote() to replace possible spaces in a tag like "scikit learn"
     url = urllib.quote("https://api.stackexchange.com/2.2/tags/" +\
                        formatted_tags + "/info",
-                       safe = "/:;")
+                       safe = "/:;-")
 
-    logging.debug(url)
+    logging.debug("Requesting url: " + str(url))
 
     try:
         r = requests.get(url, params=GLOBAL_PARAMS)
@@ -54,6 +52,8 @@ def get_body_count(body_string, tag=None):
 if __name__ == "__main__":
   import json
   from utils import read_package_txt
+
+  logging.basicConfig(level=logging.INFO)
 
   package_list = read_package_txt("data/package-list-from-cran-task-view.txt")
   logging.info("Getting tags...")

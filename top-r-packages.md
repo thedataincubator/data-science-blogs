@@ -1,5 +1,9 @@
 # Top R packages for Machine Learning
 
+At The Data Incubator [The Data Incubator](https://www.thedataincubator.com/), we pride ourselves on having the latest data science curriculum.  Much of our curriculum is based on feedback from corporate and government partners about the technologies they are looking to learn.  But we wanted to develop a more data-driven approach to what we should be teaching in our [data science corporate training](https://www.thedataincubator.com/training.html) and our [free fellowship](https://www.thedataincubator.com/fellowship.html) for masters and PhDs looking to enter data science careers in industry.  Here are the results.
+
+# The Rankings
+
 What are the most popular ML packages? Let's look at a ranking based on package
 downloads and social website activity.
 
@@ -7,7 +11,7 @@ downloads and social website activity.
 
 *Notable: OneR: 1 (SO); mlr: 2 (Github); ranger: 4 (Github); SuperLearner: 5 (Github)*
 	
-The ranking is based on average rank of CRAN downloads and Stack Overflow
+The ranking is based on average rank of CRAN ([The Comprehensive R Archive Network](https://cran.r-project.org/)) downloads and Stack Overflow
 activity ([full ranking here [CSV] ](ranking.csv)). CRAN downloads are from the past year. Stack Overflow ranks the
 number of results based on package name in a question body, along with a tag
 'R'. GitHub ranking is based on the number of stars for the
@@ -168,4 +172,11 @@ come up with a ranking of the top R packages for doing "Data Science."
 
 
 # Resources
-Source code is available on Github [TODO ADD LINK].
+Source code is available on [The Data Incubator](https://www.thedataincubator.com/)'s [Github](https://github.com/thedataincubator/data-science-blogs/).  If you're interested in learning more, consider
+
+1. [Data science corporate training](https://www.thedataincubator.com/training.html)
+2. [Free eight-week fellowship](https://www.thedataincubator.com/fellowship.html) for masters and PhDs looking to enter industry
+3. [Hiring Data Scientists](https://www.thedataincubator.com/hiring.html)
+
+# Authors:
+[Michael Li](https://github.com/tianhuil/) and [Paul Paczuski](https://github.com/pavopax/).

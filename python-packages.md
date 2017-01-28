@@ -1,7 +1,21 @@
-# [Draft] Ranking Popular Python Packages for Data Science
+# Ranking Popular Python Packages for Data Science
+
+At The Data Incubator [The Data Incubator](https://www.thedataincubator.com/),
+we pride ourselves on having the latest data science curriculum.  Much of our
+curriculum is based on feedback from corporate and government partners about
+the technologies they are looking to learn.  But we wanted to develop a more
+data-driven approach to what we should be teaching in
+our
+[data science corporate training](https://www.thedataincubator.com/training.html) and
+our [free fellowship](https://www.thedataincubator.com/fellowship.html) for
+masters and PhDs looking to enter data science careers in industry.  Here are
+the results.
+
+# The Rankings
 
 Below is a ranking of Python packages applicable in Data Science, based on
-Github and Stack Overflow activity, as well as PyPI Downloads.
+Github and Stack Overflow activity, as well
+as [PyPI (The Python Package Index)](https://pypi.python.org/pypi) downloads.
 
 The table shows standardized scores, where a value of 1 means one standard
 deviation above average (average = score of 0). See below for methods.
@@ -116,3 +130,17 @@ score.
 Some manual checks were done to confirm Github repository location.
 
 All data was downloaded on January 26, 2017.
+
+# Resources
+Source code is available
+on
+[The Data Incubator](https://www.thedataincubator.com/)'s
+[Github](https://github.com/thedataincubator/data-science-blogs/).  If you're
+interested in learning more, consider
+
+1. [Data science corporate training](https://www.thedataincubator.com/training.html)
+2. [Free eight-week fellowship](https://www.thedataincubator.com/fellowship.html) for masters and PhDs looking to enter industry
+3. [Hiring Data Scientists](https://www.thedataincubator.com/hiring.html)
+
+# Authors:
+[Michael Li](https://github.com/tianhuil/) and [Paul Paczuski](https://github.com/pavopax/).

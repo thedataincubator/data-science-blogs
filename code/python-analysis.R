@@ -13,7 +13,9 @@ so$package %<>% tolower
 pypi$package %<>% tolower
 
 
+## ============================================================================
 ## FIX DATA
+## ============================================================================
 ## github: ipython-notebook is ipython or jupyter/notebook
 ## so: jypyter-notebook is converted to ipython-notebook for tags
 ## pypi: yes ggplot, not ggpy
@@ -44,9 +46,9 @@ so %<>%
               so_question_count=sumx(so_question_count))
 
 
-
-
-## CHECKS
+## ============================================================================
+## check data
+## ============================================================================
 get_unique <- . %>% unique %>% length
 
 ## so$package %>% get_unique
@@ -60,6 +62,9 @@ expect_equal(1, pypi %>% count(package) %>% .$n %>% unique)
 expect_false("ggplot" %in% so$package)
 expect_false("ggplot" %in% github$package)
 
+## ============================================================================
+## make data
+## ============================================================================
 ## combine plotly.py and plotly
 ## combine ggplot downloads with ggpy results from SO and Github
 full_wide <- so %>%
@@ -89,11 +94,9 @@ full_wide %<>%
 write_csv(full_wide, "../output/python-data-wide.csv")
 
 
-
 ## ============================================================================
 ## Analysis
 ## ============================================================================
-
 scaled <- full_wide %>%
     gather(type, value, -package) %>%
     filter(!is.na(value)) %>%
@@ -103,9 +106,6 @@ scaled <- full_wide %>%
     spread(type, scaled) %>%
     rename(Package=package, Downloads=downloads)
 
-
-## function to make ranks
-meanx <- . %>% mean(., na.rm=TRUE)
 
 ## function to make ranks
 make_ranks <- . %>%

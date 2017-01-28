@@ -14,8 +14,6 @@ json_dict_to_tbl <- function(file, cols=2, names=c("package", "count")) {
 }
 
 
-
-## TODO: check date range
 cran <- fromJSON("../data/cran_downloads.json") %>% tbl_df %>%
     select(package, downloads) %>%
     rename(count=downloads) %>%

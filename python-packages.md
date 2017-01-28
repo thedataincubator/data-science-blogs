@@ -61,6 +61,10 @@ plotting), `jupyter-notebook`, `mlpy` (machine learning based on `scipy` and
 tables), and `shogun` (machine learning). They were all below average compared
 to the ranked packages, in all categories.
 
+Importantly,
+the [Anaconda distribution](https://www.continuum.io/anaconda-overview) bundles
+together many of these packages, and this was not considered.
+
 The data presented a few difficulties;
 
 * The python port for `ggplot` was recently renamed to `ggpy`, and we used the

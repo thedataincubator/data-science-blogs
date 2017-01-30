@@ -79,6 +79,9 @@ Importantly,
 the [Anaconda distribution](https://www.continuum.io/anaconda-overview) bundles
 together many of these packages, and this was not considered.
 
+Further, naturally, some packages that have been around longer will have higher
+metrics, and therefore higher ranking. This is not adjusted for in any way.
+
 The data presented a few difficulties;
 
 * The python port for `ggplot` was recently renamed to `ggpy`, and we used the

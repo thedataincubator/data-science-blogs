@@ -1,10 +1,10 @@
 # Ranking Popular Python Packages for Data Science
 
-At The Data Incubator [The Data Incubator](https://www.thedataincubator.com/),
-we pride ourselves on having the latest data science curriculum.  Much of our
-curriculum is based on feedback from corporate and government partners about
-the technologies they are looking to learn.  But we wanted to develop a more
-data-driven approach to what we should be teaching in
+At [The Data Incubator](https://www.thedataincubator.com/), we pride ourselves
+on having the latest data science curriculum.  Much of our curriculum is based
+on feedback from corporate and government partners about the technologies they
+are looking to learn.  However, we wanted to develop a more data-driven
+approach to what we should be teaching in
 our
 [data science corporate training](https://www.thedataincubator.com/training.html) and
 our [free fellowship](https://www.thedataincubator.com/fellowship.html) for
@@ -13,28 +13,35 @@ the results.
 
 # The Rankings
 
-Below is a ranking of Python packages applicable in Data Science, based on
-Github and Stack Overflow activity, as well
+Below is a ranking of Python packages that are useful for Data Science, based
+on Github and Stack Overflow activity, as well
 as [PyPI (The Python Package Index)](https://pypi.python.org/pypi) downloads.
 
 The table shows standardized scores, where a value of 1 means one standard
-deviation above average (average = score of 0). See below for methods.
+deviation above average (average = score of 0). For example, `numpy` is 2
+standard deviations above average in Stack Overflow activity, while
+`tensorflow` is close to average. See [below for methods](#Methods).
 
 <img src="img/python-rank.png" width=500px></img>
 
-*For example, `numpy` is 2 standard deviations above average in Stack Overflow
-activity, while `tensorflow` is close to average.*
 
-# Results
+
+
+# Results and Discussion
+
+## `numpy`, `tensorflow`, and `pandas` are top 3
 
 Due to massive total downloads and strong Stack Overflow activity, the clear
-leader is `numpy` (Scientific Computing). However, the scalable machine
-learning package `tensorflow` (stared at Google) trounces the other packages in
-Github activity (based on both stars and forks), with the more general machine
-learning module `scikit-learn` a distant second, but fifth overall.
+leader is `numpy` (a fundamental package for scientific computing with
+Python).
 
-Both `numpy` and `pandas` (Data Manipulation) are only average on Github, but
-strong in the other two categories.
+However, the scalable machine learning package `tensorflow` (stared at Google)
+trounces the other libraries in Github activity (based on both stars and
+forks), with the more general machine learning module `scikit-learn` a distant
+second, but fifth overall.
+
+Both `numpy` and `pandas` (high-performance data structures and data analysis
+package) are only average on Github, but strong in the other two categories.
 
 The interactive interpreter `ipython` is fourth overall, while the `jupyter`
 project (of the popular notebook) is 19th overall (not shown).
@@ -43,20 +50,36 @@ The [full ranking is here](output/python-ranks-with-na.csv), while
 the [raw data is here](output/python-data-wide.csv).
 
 
-# Discussion
 
+## Github vs. Stack Overflow activity
 There appears to be an inverse correlation in Github activity compared to Stack
 Overflow and Downloads for the top packages. For example, there are a lot of
 Stack Overflow questions for `numpy` and `pandas` compared to `tensorflow` and
-`scikit-learn`. Since the former are two "utility" packages, perhaps more people are
-actually using them (and need help).
+`scikit-learn`, but the latter two have an edge on Github. Since `numpy` and
+`pandas` are two "utility" packages, perhaps more people are actually using
+them (and need help).
 
-The other deep-learning package, `Theano`, is a big distance behind `tensorflow`
-in this ranking. 
+## `numpy` most popular core library (beats `pandas`, `scipy`)
 
-As expected, `Matplotlib` is the most popular graphics package, but `plotly`
-and `bokeh` both feature. `ggpy` (Python port for `ggplot`) was 18th overall,
-but the data is less reliable, as noted in the next section. 
+Among the core libraries, `numpy` is a clear first, with `pandas` third,
+`ipython` fourth, and `scipy` (an ecosystem of open-source software for
+mathematics, science, and engineering) ninth.
+
+## `tensorflow` outperforms `theano` in Neural Networks
+
+The other deep-learning package, `Theano`, is a big distance behind
+`tensorflow` in this ranking. The interactive and
+polished [Tensorflow Playground](http://playground.tensorflow.org) could be a
+factor.
+
+## `matplotlib` most popular graphics library
+
+As expected, `matplotlib` (2D plotting library) is the most popular graphics
+package, but the ranking also features `plotly` (interactive,
+publication-quality graphs that can be easily published online) and `bokeh` (an
+interactive visualization library that targets modern web browsers for
+presentation). `ggpy` (Python port for R's popular `ggplot2` package) was 18th
+overall, but the data is less reliable, as noted in the next section.
 
 
 # Limitations
@@ -82,7 +105,7 @@ together many of these packages, and this was not considered.
 Further, naturally, some packages that have been around longer will have higher
 metrics, and therefore higher ranking. This is not adjusted for in any way.
 
-The data presented a few difficulties;
+The data presented a few difficulties:
 
 * The python port for `ggplot` was recently renamed to `ggpy`, and we used the
   latter for all metrics, except downloads (which used `ggplot`).

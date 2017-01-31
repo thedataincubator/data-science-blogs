@@ -13,11 +13,11 @@
 
 <h1>Ranking Popular Python Packages for Data Science</h1>
 
-<p>At The Data Incubator <a href="https://www.thedataincubator.com/">The Data Incubator</a>,
-we pride ourselves on having the latest data science curriculum.  Much of our
-curriculum is based on feedback from corporate and government partners about
-the technologies they are looking to learn.  But we wanted to develop a more
-data-driven approach to what we should be teaching in
+<p>At <a href="https://www.thedataincubator.com/">The Data Incubator</a>, we pride ourselves
+on having the latest data science curriculum.  Much of our curriculum is based
+on feedback from corporate and government partners about the technologies they
+are looking to learn.  However, we wanted to develop a more data-driven
+approach to what we should be teaching in
 our
 <a href="https://www.thedataincubator.com/training.html">data science corporate training</a> and
 our <a href="https://www.thedataincubator.com/fellowship.html">free fellowship</a> for
@@ -26,28 +26,32 @@ the results.</p>
 
 <h1>The Rankings</h1>
 
-<p>Below is a ranking of Python packages applicable in Data Science, based on
-Github and Stack Overflow activity, as well
+<p>Below is a ranking of Python packages that are useful for Data Science, based
+on Github and Stack Overflow activity, as well
 as <a href="https://pypi.python.org/pypi">PyPI (The Python Package Index)</a> downloads.</p>
 
 <p>The table shows standardized scores, where a value of 1 means one standard
-deviation above average (average = score of 0). See below for methods.</p>
+deviation above average (average = score of 0). For example, <code>numpy</code> is 2
+standard deviations above average in Stack Overflow activity, while
+<code>tensorflow</code> is close to average. See <a href="#Methods">below for methods</a>.</p>
 
 <p><img src="img/python-rank.png" width=500px></img></p>
 
-<p><em>For example, <code>numpy</code> is 2 standard deviations above average in Stack Overflow
-activity, while <code>tensorflow</code> is close to average.</em></p>
+<h1>Results and Discussion</h1>
 
-<h1>Results</h1>
+<h2><code>numpy</code>, <code>tensorflow</code>, and <code>pandas</code> are top 3</h2>
 
 <p>Due to massive total downloads and strong Stack Overflow activity, the clear
-leader is <code>numpy</code> (Scientific Computing). However, the scalable machine
-learning package <code>tensorflow</code> (stared at Google) trounces the other packages in
-Github activity (based on both stars and forks), with the more general machine
-learning module <code>scikit-learn</code> a distant second, but fifth overall.</p>
+leader is <code>numpy</code> (a fundamental package for scientific computing with
+Python).</p>
 
-<p>Both <code>numpy</code> and <code>pandas</code> (Data Manipulation) are only average on Github, but
-strong in the other two categories.</p>
+<p>However, the scalable machine learning package <code>tensorflow</code> (stared at Google)
+trounces the other libraries in Github activity (based on both stars and
+forks), with the more general machine learning module <code>scikit-learn</code> a distant
+second, but fifth overall.</p>
+
+<p>Both <code>numpy</code> and <code>pandas</code> (high-performance data structures and data analysis
+package) are only average on Github, but strong in the other two categories.</p>
 
 <p>The interactive interpreter <code>ipython</code> is fourth overall, while the <code>jupyter</code>
 project (of the popular notebook) is 19th overall (not shown).</p>
@@ -55,20 +59,36 @@ project (of the popular notebook) is 19th overall (not shown).</p>
 <p>The <a href="output/python-ranks-with-na.csv">full ranking is here</a>, while
 the <a href="output/python-data-wide.csv">raw data is here</a>.</p>
 
-<h1>Discussion</h1>
+<h2>Github vs. Stack Overflow activity</h2>
 
 <p>There appears to be an inverse correlation in Github activity compared to Stack
 Overflow and Downloads for the top packages. For example, there are a lot of
 Stack Overflow questions for <code>numpy</code> and <code>pandas</code> compared to <code>tensorflow</code> and
-<code>scikit-learn</code>. Since the former are two "utility" packages, perhaps more people are
-actually using them (and need help).</p>
+<code>scikit-learn</code>, but the latter two have an edge on Github. Since <code>numpy</code> and
+<code>pandas</code> are two "utility" packages, perhaps more people are actually using
+them (and need help).</p>
 
-<p>The other deep-learning package, <code>Theano</code>, is a big distance behind <code>tensorflow</code>
-in this ranking. </p>
+<h2><code>numpy</code> most popular core library (beats <code>pandas</code>, <code>scipy</code>)</h2>
 
-<p>As expected, <code>Matplotlib</code> is the most popular graphics package, but <code>plotly</code>
-and <code>bokeh</code> both feature. <code>ggpy</code> (Python port for <code>ggplot</code>) was 18th overall,
-but the data is less reliable, as noted in the next section. </p>
+<p>Among the core libraries, <code>numpy</code> is a clear first, with <code>pandas</code> third,
+<code>ipython</code> fourth, and <code>scipy</code> (an ecosystem of open-source software for
+mathematics, science, and engineering) ninth.</p>
+
+<h2><code>tensorflow</code> outperforms <code>theano</code> in Neural Networks</h2>
+
+<p>The other deep-learning package, <code>Theano</code>, is a big distance behind
+<code>tensorflow</code> in this ranking. The interactive and
+polished <a href="http://playground.tensorflow.org">Tensorflow Playground</a> could be a
+factor.</p>
+
+<h2><code>matplotlib</code> most popular graphics library</h2>
+
+<p>As expected, <code>matplotlib</code> (2D plotting library) is the most popular graphics
+package, but the ranking also features <code>plotly</code> (interactive,
+publication-quality graphs that can be easily published online) and <code>bokeh</code> (an
+interactive visualization library that targets modern web browsers for
+presentation). <code>ggpy</code> (Python port for R's popular <code>ggplot2</code> package) was 18th
+overall, but the data is less reliable, as noted in the next section.</p>
 
 <h1>Limitations</h1>
 
@@ -93,7 +113,7 @@ together many of these packages, and this was not considered.</p>
 <p>Further, naturally, some packages that have been around longer will have higher
 metrics, and therefore higher ranking. This is not adjusted for in any way.</p>
 
-<p>The data presented a few difficulties;</p>
+<p>The data presented a few difficulties:</p>
 
 <ul>
 <li>The python port for <code>ggplot</code> was recently renamed to <code>ggpy</code>, and we used the

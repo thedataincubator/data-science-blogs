@@ -11,7 +11,7 @@ our [free fellowship](https://www.thedataincubator.com/fellowship.html) for
 masters and PhDs looking to enter data science careers in industry.  Here are
 the results.
 
-# The Rankings
+# The Ranking
 
 Below is a ranking of Python packages that are useful for Data Science, based
 on Github and Stack Overflow activity, as well
@@ -24,9 +24,6 @@ standard deviations above average in Stack Overflow activity, while
 
 <img src="img/python-rank.png" width=500px></img>
 
-
-
-
 # Results and Discussion
 
 The ranking is based on equally weighing its three components: Github (stars
@@ -37,7 +34,6 @@ scraped three different lists that we thought were representative
 (see [methods](#Methods) below for details). Computing standardized scores for
 each metric allows us to see which packages stand out in each category (look at
 `tensorflow`'s Github score!).
-
 
 ## `numpy`, `tensorflow`, and `pandas` are top 3
 
@@ -58,7 +54,6 @@ project (of the popular notebook) is 19th overall (not shown).
 
 The [full ranking is here](output/python-ranks-with-na.csv), while
 the [raw data is here](output/python-data-wide.csv).
-
 
 ## Github vs. Stack Overflow activity
 There appears to be an inverse correlation in Github activity compared to Stack
@@ -89,7 +84,6 @@ publication-quality graphs that can be easily published online) and `bokeh` (an
 interactive visualization library that targets modern web browsers for
 presentation). `ggpy` (Python port for R's popular `ggplot2` package) was 18th
 overall, but the data is less reliable, as noted in the next section.
-
 
 # Limitations
 
@@ -127,8 +121,6 @@ The data presented a few difficulties:
   as SO auto-corrects the query "[pattern]" to something unrelated.
 * SO data for `plotly` may also be inflated, as it's both an R and Python
   package.
-
-
 
 # Methods
 

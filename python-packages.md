@@ -29,6 +29,16 @@ standard deviations above average in Stack Overflow activity, while
 
 # Results and Discussion
 
+The ranking is based on equally weighing its three components: Github (stars
+and forks), Stack Overflow (tags and questions), and PyPI downloads. These were
+obtained using available APIs and a fork of the `vanity` project. Coming up
+with a comprehensive list of data science packages was tricky - in the end, we
+scraped three different lists that we thought were representative
+(see [methods](#Methods) below for details). Computing standardized scores for
+each metric allows us to see which packages stand out in each category (look at
+`tensorflow`'s Github score!).
+
+
 ## `numpy`, `tensorflow`, and `pandas` are top 3
 
 Due to massive total downloads and strong Stack Overflow activity, the clear
@@ -48,7 +58,6 @@ project (of the popular notebook) is 19th overall (not shown).
 
 The [full ranking is here](output/python-ranks-with-na.csv), while
 the [raw data is here](output/python-data-wide.csv).
-
 
 
 ## Github vs. Stack Overflow activity
@@ -87,8 +96,6 @@ overall, but the data is less reliable, as noted in the next section.
 As
 with [any analysis](https://twitter.com/benhamner/status/732392995610198016),
 decisions were made along the way. All source code and data is on [our Github Page](https://github.com/thedataincubator/data-science-blogs).
-
-First, our list of packages was [pre-selected](#Methods). 
 
 The full list of machine learning packages [came from a few sources](#Methods),
 and a few packages were unranked, due to unavailable downloads or Github
@@ -142,18 +149,16 @@ include [pypi-download-stats](https://github.com/jantman/pypi-download-stats)
 and [pypi-ranking.info](http://pypi-ranking.info/alltime) (gives smaller
 numbers than `vanity`).
 
-`sqlite3` was removed from analysis, as it is a base Python module.
+A few other notes:
 
-`ggplot` downloads were combined with `ggpy` results from Github and Stack
-Overflow.
-
-Any unavailable Stack Overflow counts were converted to zero count.
-
-Counts were standardized to mean 0 and deviation 1, and then averaged to get
-Github and Stack Overflow scores, and, combined with the Downloads, the Overall
-score.
-
-Some manual checks were done to confirm Github repository location.
+  * `sqlite3` was removed from analysis, as it is a base Python module.
+  * `ggplot` downloads were combined with `ggpy` results from Github and Stack
+    Overflow.
+  * Any unavailable Stack Overflow counts were converted to zero count. 
+  * Counts were standardized to mean 0 and deviation 1, and then averaged to
+  get Github and Stack Overflow scores, and, combined with the Downloads, the
+  Overall score. 
+  * Some manual checks were done to confirm Github repository location.
 
 All data was downloaded on January 26, 2017.
 

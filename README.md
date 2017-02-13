@@ -6,7 +6,7 @@ science blog posts:
 
   * [Ranking Python packages for Data Science](python-packages.md)
   * [Ranking R packages for Data Science](top-r-packages.md)
-  * [Comparing performance of sqlite and pandas](sqlite-vs-pandas.md)
+  * [Comparing performance of sqlite and pandas](http://htmlpreview.github.io/?https://github.com/thedataincubator/data-science-blogs/blob/master/sqlite-vs-pandas.html)
 
 
 # Methods

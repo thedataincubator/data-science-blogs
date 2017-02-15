@@ -169,4 +169,4 @@ out
 Here is
 a
 [syntax comparison](http://pandas.pydata.org/pandas-docs/stable/comparison_with_sql.html) between
-pandas and sql.
+`pandas` and `sql`.

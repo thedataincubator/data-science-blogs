@@ -14,54 +14,95 @@
 <h1>Comparing performance of sqlite and pandas</h1>
 
 <p>Depending on the task, you may need to choose one tool over another for
-performance considerations. Below, we compare Python's <code>pandas</code> to <code>sqlite</code> for
-some common data analysis operations: sort, select, load, join, filter, and
-group by.</p>
+performance considerations. </p>
 
-<p><div class='tableauPlaceholder' id='viz1487029455779' style='position: relative'><noscript><a href='#'><img alt='Comparing performance of sqlite vs. pandas ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Comparingperformanceofsqliteandpython-pandas&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Comparingperformanceofsqliteandpython-pandas&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Comparingperformanceofsqliteandpython-pandas&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1487029455779');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></p>
+<p>For example, your analysis requires you to perform a large number of
+group-by calculations on moderately large data. Or, your task is to filter out
+many invalid values for a dataset with 10 million records.</p>
+
+<p>Should you go with <code>pandas</code> or <code>sqlite</code>? </p>
+
+<p>Let's find out the tasks at which each of these excel. Below, we compare
+Python's <code>pandas</code> to <code>sqlite</code> for some common data analysis operations: sort,
+select, load, join, filter, and group by.</p>
+
+<p><em>Note that the axis is logarithmic, so that raw differences are more pronounced.</em></p>
+
+<p><div class='tableauPlaceholder' id='viz1487191497220' style='position: relative'><noscript><a href='#'><img alt='Comparing performance of sqlite vs. pandas ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Comparingperformanceofsqliteandpython-pandas&#47;bars&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Comparingperformanceofsqliteandpython-pandas&#47;bars' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Comparingperformanceofsqliteandpython-pandas&#47;bars&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1487191497220');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></p>
 
 <h1>Analysis details</h1>
 
-<p>For the analysis, we ran our six tasks 10 times each, for 5 different sample
+<p>For the analysis, we ran the six tasks 10 times each, for 5 different sample
 sizes, for each of 3 programs: <code>pandas</code>, <code>sqlite</code>, and <code>memory-sqlite</code> (where
-database is in memory instead of on disk). See below for the definitions of
+database is in memory instead of on disk). See <a href="#Code">below</a> for the definitions of
 each task.</p>
 
-<h1>Takeaways</h1>
+<p>Our sample data was randomly generated. Here's what it looks like:</p>
 
-<p>sqlite or memory-sqlite is faster for the following tasks:</p>
+<pre><code>sql_vs_pandas$ head -n 5 data/sample.100.csv
+
+qqFjQHQc,c,1981,82405.59262172286
+vILuhVGz,a,1908,27712.27152250119
+mwCjpoOF,f,1992,58974.38538762843
+kGbriYAK,d,1927,42258.24179716961
+MeoxuJng,c,1955,96907.56416314292
+</code></pre>
+
+<p>This consists of a random string of 8 characters, a random single character
+(for the filtering operation), a random integer simulating a year (1900-2000), and
+a uniform random float value between 10000 and 100000.</p>
+
+<h1>Results</h1>
+
+<p><code>sqlite</code> or <code>memory-sqlite</code> is faster for the following tasks:</p>
 
 <ul>
-<li><code>select</code> two columns from data (> 10-100x faster. pandas is roughly
-constant time)</li>
-<li><code>filter</code> data (10x-50x faster)</li>
-<li><code>sort</code> by single column: pandas is always a bit slower, but this was the
+<li><code>select</code> two columns from data (&lt;.1 millisecond for any data size for
+<code>sqlite</code>. <code>pandas</code> scales with the data, up to just under 0.5 seconds for
+10 million records)</li>
+<li><code>filter</code> data (>10x-50x faster with <code>sqlite</code>. The difference is more
+pronounced as data grows in size)</li>
+<li><code>sort</code> by single column: <code>pandas</code> is always a bit slower, but this was the
 closest</li>
 </ul>
 
-<p>pandas is faster for the following tasks:</p>
+<p><code>pandas</code> is faster for the following tasks:</p>
 
 <ul>
-<li><code>groupby</code> computation of a mean and sum (10x faster, but slower for
-smallest data)</li>
-<li><code>load</code> data from disk (5-10x faster, less difference for larger data)</li>
-<li><code>join</code> data (5x faster, but slower for smallest data)</li>
+<li><code>groupby</code> computation of a mean and sum (significantly better for large
+data, only 2x faster for &lt;10k records)</li>
+<li><code>load</code> data from disk (5x faster for >10k records, even better for smaller
+data)</li>
+<li><code>join</code> data (2-5x faster, but slower for smallest dataset of 1000 rows)</li>
 </ul>
 
-<p>Comparing memory-sqlite vs. sqlite, there was no meaningful difference,
+<p>Comparing <code>memory-sqlite</code> vs. <code>sqlite</code>, there was no meaningful difference,
 especially as data size increased.</p>
 
-<p>There is no significant speedup from loading sqlite in its own shell vs. via pandas</p>
+<p>There is no significant speedup from loading <code>sqlite</code> in its own shell vs. via
+<code>pandas</code>.</p>
 
-<h1>Definitions and code</h1>
+<p>Overall, joining and loading data is the slowest whereas select and filter are
+generally the fastest. Further, <code>pandas</code> seems to be optimized for group-by
+operations, where it performs really well (group-by is <code>pandas</code>' second fastest
+operation for larger data).</p>
 
-<p>All code is on our github page: <strong>TODO GITHUB LINK</strong>.</p>
+<p>Note that this analysis assumes you are equally proficient in writing code with
+both!  But these results could encourage you to learn the tool that you are
+less familiar with, if the performance gains are significant.</p>
 
-<p>Here are the exact definitions of our six tasks: sort, select, load, join,
-filter, and group by (see <code>driver/sqlite_driver.py</code> or
-<code>driver/pandas_driver.py</code>).</p>
+<h1>Code</h1>
 
-<p>Sqlite is first, followed by pandas:</p>
+<p>All code
+is
+<a href="https://github.com/thedataincubator/data-science-blogs">on our GitHub page</a>.</p>
+
+<p>Below are the definitions of our six tasks: sort, select, load, join, filter,
+and group by (see <code>driver/sqlite_driver.py</code> or <code>driver/pandas_driver.py</code>).</p>
+
+<p><code>sqlite</code> is first, followed by <code>pandas</code>:</p>
+
+<h3>sort</h3>
 
 <pre><code>def sort(self):
   self._cursor.execute('SELECT * FROM employee ORDER BY name ASC;')
@@ -69,17 +110,21 @@ filter, and group by (see <code>driver/sqlite_driver.py</code> or
 
 def sort(self):
   self.df_employee.sort_values(by='name')
+</code></pre>
 
+<h3>select</h3>
 
-def select(self):
+<pre><code>def select(self):
   self._cursor.execute('SELECT name, dept FROM employee;')
   self._conn.commit()
 
 def select(self):
   self.df_employee[["name", "dept"]]
+</code></pre>
 
+<h3>load</h3>
 
-def load(self):
+<pre><code>def load(self):
   self._cursor.execute('CREATE TABLE employee (name varchar(255), dept char(1), birth int, salary double);')
   df = pd.read_csv(self.employee_file)
   df.columns = employee_columns
@@ -96,9 +141,11 @@ def load(self):
 
   self.df_bonus = pd.read_csv(self.bonus_file)
   self.df_bonus.columns = bonus_columns
+</code></pre>
 
+<h3>join</h3>
 
-def join(self):
+<pre><code>def join(self):
   self._cursor.execute('SELECT employee.name, employee.salary + bonus.bonus '
                        'FROM employee INNER JOIN bonus ON employee.name = bonus.name')
   self._conn.commit()
@@ -106,17 +153,21 @@ def join(self):
 def join(self):
   joined = self.df_employee.merge(self.df_bonus, on='name')
   joined['total'] = joined['bonus'] + joined['salary']
+</code></pre>
 
+<h3>filter</h3>
 
-def filter(self):
+<pre><code>def filter(self):
   self._cursor.execute('SELECT * FROM employee WHERE dept = "a";')
   self._conn.commit()
 
 def filter(self):
   self.df_employee[self.df_employee['dept'] == 'a']
+</code></pre>
 
+<h3>group by</h3>
 
-def groupby(self):
+<pre><code>def groupby(self):
   self._cursor.execute('SELECT avg(birth), sum(salary) FROM employee GROUP BY dept;')
   self._conn.commit()
 
@@ -126,11 +177,19 @@ def groupby(self):
 
 <h1>Details</h1>
 
-<p>pandas version: 0.19.1</p>
+<p>We used <code>pandas</code> version <code>0.19.1</code> and <code>sqlite</code> version <code>3.13.0</code>. All tests
+were ran on Digital Ocean <code>Ubuntu 14.04</code> with 16GB memory and 8 core CPU.</p>
 
-<p>sqlite version: 3.13.0</p>
+<h1>References</h1>
 
-<p>Test ran on Digital Ocean Ubuntu 14.04, 16GB memory, 8 core CPU.</p>
+<p>To learn more how <code>sqlite</code> works, check
+out
+<a href="https://jvns.ca/blog/2014/09/27/how-does-sqlite-work-part-1-pages/">this awesome blog series</a>.</p>
+
+<p>Here is
+a
+<a href="http://pandas.pydata.org/pandas-docs/stable/comparison_with_sql.html">syntax comparison</a> between
+pandas and sql.</p>
 
 </body>
 </html>

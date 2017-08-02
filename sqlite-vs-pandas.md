@@ -1,13 +1,6 @@
-# Comparing performance of sqlite and pandas
+# Sqlite vs Pandas: Performance Benchmarks.
 
-Depending on the task, you may need to choose one tool over another for
-performance considerations. 
-
-For example, your analysis requires you to perform a large number of
-group-by calculations on moderately large data. Or, your task is to filter out
-many invalid values for a dataset with 10 million records.
-
-Should you go with `pandas` or `sqlite`? 
+As a data scientist, we all know that unglamorous data manipulation is 90% of the work.  Two of the most common data manipulation tools are SQL and Pandas.  In this blog, we'll compare the performance of `pandas` and `sqlite`, a simple form a SQL favored by data scientists.
 
 Let's find out the tasks at which each of these excel. Below, we compare
 Python's `pandas` to `sqlite` for some common data analysis operations: sort,

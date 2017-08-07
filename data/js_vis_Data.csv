@@ -1,0 +1,53 @@
+,package,github_repo,aliases,forks,stars,so_tag_counts,so_questions_counts,downloads,dl_growth_rates
+0,plottable, palantir/plottable,['plottable.js'; 'plottable'],181,2170,55,94664,36553,0.486324049494
+1,taucharts, TargetProcess/tauCharts,['taucharts'; 'taucharts.js'],88,1360,0,4,20583,0.273708996964
+2,metrics-graphics, mozilla/metrics-graphics,['metrics-graphics'; 'metricsgraphics.js'; 'metricsgraphics'],436,6693,0,167,11845,0.0416176729254
+3,dc, dc-js/dc.js,['dc.js'],1551,5774,1195,1195,65422,-0.0022064607979
+4,smoothie, joewalnes/smoothie,['smoothie charts'; 'smoothie.js'],156,1646,9,13,4769,0.0352487015357
+5,keen-dataviz, keen/keen-dataviz.js,['keen-dataviz.js'; 'keen-dataviz'],29,118,0,5,10495,-0.0379486606458
+6,chartist, gionkunz/chartist-js, ['chartist-js' ; 'chartist'],1808,9743,0,253,243584,0.0613518510755
+7,highcharts, highcharts/highcharts, ['highcharts'; 'highcharts.js'],2017,6521,16587,18312,1425832,0.104917155577
+8,n3-charts, n3-charts/line-chart,['n3-charts'; 'n3-line-chart'],200,1217,11,46,13330,-0.0654696469862
+9,leaflet, Leaflet/Leaflet,['leaflet'],3245,19098,5766,5766,1007700,0.0912900337186
+10,deck.gl, uber/deck.gl,['deck.gl'],380,3308,6,6,57605,0.205971518992
+11,raphael, DmitryBaranovskiy/raphael,['raphael'],1465,9224,2961,2961,255688,0.218769218971
+12,elycharts, voidlabs/elycharts,['elycharts'; 'ely charts'; 'elycharts.js'],11,7,0,417,NaN,NaN
+13,amcharts, ChimpStudios/AmCharts,['amcharts'],33,110,1175,1175,4573,0.0749390974022
+14,cytoscape, cytoscape/cytoscape.js,['cytoscape.js'; 'cytoscape'],506,3358,720,913,64635,0.0332302734348
+15,chart.js, chartjs/Chart.js,['chart.js'],7988,31567,3181,3181,2259748,0.0510969025843
+16,rgraph, mhammiche/rgraph,['rgraph'],11,13,82,82,NaN,NaN
+17,morris.js, morrisjs/morris.js,['morris.js'],1144,6589,454,454,47247,0.0807520362641
+18,vaadin charts, vaadin/charts,['vaadin charts'],54,30,0,0,NaN,NaN
+19,jsxgraph, jsxgraph/jsxgraph,['jsxgraph'],86,334,32,32,164,0.0757762440503
+20,pizza pie charts, zurb/pizza,['pizza pie charts'],65,423,0,0,82,0.0198244513278
+21,jquery-sparkline, gwatts/jquery.sparkline,['jquery sparklines'; 'jquery-sparkline'],251,1071,0,173,71805,0.148199036661
+22,chartkick, ankane/chartkick,['chartkick'],437,4397,205,205,16667,0.161966000576
+23,zingchart, zingchart/ZingChart,['zingchart'],27,146,195,195,10203,0.106328499243
+24,anychart, AnyChart/AnyChart,['anychart'],14,127,85,85,6554,0.319863072602
+25,dojo charting, johntexastechsmith/DojoTrendCharting,['dojo charting'; 'dojox charting'],0,0,0,121,189350,-0.000458564973825
+26,d3, d3/d3,['d3'; 'd3.js'],17486,66875,26868,47457,5022889,0.0403594872079
+27,vizceral, Netflix/vizceral,['vizceral'],134,1541,0,0,10270,-0.117836244814
+28,envision, HumbleSoftware/envisionjs,['envisionjs'; 'envision.js'],257,1564,1,2,286,-0.0351040222755
+29,jenscript, sjanaud/jenscript,['jenscript'; 'jenscript.js'],0,13,0,0,1278,-0.00153492997232
+30,ejscharts, EmpriseCorporation/EJSCharts, ['ejschart'; 'ejscharts'; 'ejs chart'],19,23,0,29,188,No downloads first month
+31,protovis, mbostock/protovis,['protovis'],111,596,107,107,NaN,NaN
+32,cubism, square/cubism, ['cubism.js'],541,4553,92,92,2133,-0.057776985543
+33,flot, flot/flot, ['flot charts'; 'flot'],1411,5410,2016,2619,34492,0.131368852349
+34,flotr2, HumbleSoftware/Flotr2,['flotr2'],535,2414,32,32,439,0.463450121224
+35,echarts, ecomfe/echarts,['echarts'; 'echarts.js'],6129,19712,96,161,179641,0.210272050224
+36,jqplot, jqPlot/jqPlot,['jqplot'],70,147,1689,1689,538,0.211073541191
+37,uvcharts, Imaginea/uvCharts,['uvcharts'],76,228,1,1,47,0.0576809264052
+38,xcharts, tenXer/xcharts,['xcharts'],194,1792,10,10,526,0.0933572837892
+39,plotly.js, plotly/plotly.js,['plotly.js'; 'plotly'],705,6656,1959,94975,188821,0.0347455987218
+40,dygraphs, danvk/dygraphs, ['dygraphs'; 'dygraph'],491,2221,744,1683,40067,0.078817452536
+41,nvd3, novus/nvd3,['nvd3'],2071,6099,0,1766,422159,0.0151473449031
+42,fusioncharts, fusioncharts/fusionmaps-dist,['fusioncharts'],1,0,607,607,8196,0.16862495128
+43,c3, vace/c3.js,['c3.js'; 'c3'],2,8,872,18235,432160,0.0407318193275
+44,webcharts, RhoInc/Webcharts,['webcharts'],1,13,0,0,706,-0.0609796911194
+45,victory, FormidableLabs/victory,['victory'],139,4669,0,0,159738,0.0685924422712
+46,sigma, jacomyal/sigma.js, ['sigma.js'; 'sigma js'],1169,7391,158,208,4979,0.0909358834586
+47,cesium, AnalyticalGraphicsInc/cesium,['cesium'],1131,2361,394,394,37328,0.0703746911563
+48,graphael, jjacobson93/graphael,['graphael'],2,16,186,186,2329,0.565590918618
+49,ember-charts, Addepar/ember-charts,['ember-charts'; 'embercharts'],126,768,4,93,10356,0.19250355859
+50,modestmaps, stamen/modestmaps-js,['modestmaps-js'; 'modestmaps'],161,566,0,15,10237,-0.223164966515
+51,rickshaw, shutterstock/rickshaw,['rickshaw'; 'rickshaw.js'],952,6076,184,272,30494,-0.014670945109

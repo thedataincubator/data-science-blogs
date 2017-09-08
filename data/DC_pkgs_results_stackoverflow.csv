@@ -1,0 +1,77 @@
+package,so_alias,so_tag_count,so_question_count
+apache storm,apache-storm,2082,2205
+stratio crossdata,stratio-crossdata,0,0
+kite,kite,9,330
+twitter gizzard,twitter-gizzard,0,4
+apache reef,apache-reef,0,2
+pachyderm,pachyderm,0,6
+nextflow,nextflow,0,4
+cascalog,cascalog,26,34
+parsely streamparse,streamparse,16,25
+datasalt pangool,datasalt-pangool,0,0
+succinct spark,succinct-spark,0,3
+blaze,blaze,103,2033
+netflix staash,netflix-staash,0,0
+skale,skale,0,8
+metamarkets druid,druid,145,302
+distributedr,distributedr,0,3
+sigmoidanalytics spork,sigmoidanalytics-spork,0,0
+stratio streaming,stratio-streaming,0,9
+apache gora,gora,38,124
+ebay oink,ebay-oink,0,0
+rackerlabs blueflood,rackerlabs-blueflood,0,1
+apache twill,apache-twill,11,11
+apache mapreduce,apache-mapreduce,0,542
+stratio decision,stratio-decision,0,0
+hazelcast,hazelcast,1387,1668
+apache hadoop,hadoop,35316,41656
+spatialhadoop,spatialhadoop,0,3
+gis tools for hadoop,gis-tools-for-hadoop,0,6
+drools,drools,2573,2998
+gearpump,gearpump,0,2
+kryo,kryo,292,623
+apache ignite,ignite,710,3694
+ampcrowd,ampcrowd,0,1
+arvados,arvados,0,0
+pigpen,pigpen,0,11
+netflix aegisthus,netflix-aegisthus,0,0
+apache apex,apache-apex,46,73
+apache pig,apache-pig,4883,4991
+twitter scalding,scalding,184,214
+apache beam,apache-beam,339,379
+twitter heron,twitter-heron,0,7
+netflix zeno,netflix-zeno,0,0
+twitter summingbird,twitter-summingbird,0,0
+apache samza,apache-samza,66,72
+seqpig,seqpig,0,0
+oryx,oryx,13,38
+netflix lipstick,netflix-lipstick,0,1
+apache spark streaming,apache-spark-streaming,0,682
+onyx,onyx,0,172
+apache spark,apache-spark,31099,31956
+snap,stanford network analysis platform,0,0
+nokia disco,disco,26,1116
+netflix surus,netflix-surus,0,0
+apache s4,apache-s4,0,40
+netflix pigpen,netflix-pigpen,0,0
+spring for apache hadoop,spring-for-apache-hadoop,0,42
+streamsx.topology,streamsx.topology,0,1
+apache flink,apache-flink,1211,1258
+apache gearpump,apache-gearpump,0,1
+tuktu,tuktu,0,0
+geotrellis,geotrellis,5,13
+hparser,hparser,0,9
+linkedin cubert,linkedin-cubert,0,0
+spark-dataflow,spark-dataflow,0,29
+apache datafu,apache-datafu,4,11
+damballa parkour,damballa-parkour,0,0
+scaleout hserver,scaleout-hserver,5,5
+akela,akela,0,7
+getstream stream framework,getstream-stream-framework,0,11
+addthis hydra,addthis-hydra,0,0
+concurrent cascading,cascading,316,14356
+pydoop,pydoop,0,38
+apache tez,apache-tez,58,108
+apache hama,hama,21,61
+streamdrill,streamdrill,0,0
+tigon,tigon,0,5

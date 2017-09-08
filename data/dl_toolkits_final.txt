@@ -1,0 +1,1 @@
+sonnet torch tflearn opennn deeplearning4j keras caffe tensorflow bigdl cntk pytorch matconvnet dlib mxnet caffe2 lasagne chainer dynet theano apache singa nvidia digits nervana neon paddlepaddle

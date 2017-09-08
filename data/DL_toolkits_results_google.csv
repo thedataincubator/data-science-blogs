@@ -1,0 +1,24 @@
+toolkit,search_term,search_results
+apache singa,'signa' + 'deep learning',2910
+bigdl,'bigdl' + 'deep learning',1520
+caffe,'caffe' + 'deep learning',49000
+caffe2,'caffe2' + 'deep learning',4370
+chainer,'chainer' + 'deep learning',7560
+cntk,'cntk' + 'deep learning',8580
+deeplearning4j,'deeplearning4j' + 'deep learning',9480
+dlib,'dlib' + 'deep learning',2760
+dynet,'dynet' + 'deep learning',843
+keras,'keras' + 'deep learning',35700
+lasagne,'lasagne' + 'deep learning',3780
+matconvnet,'matconvnet' + 'deep learning',3120
+mxnet,'mxnet' + 'deep learning',20300
+nervana neon,'nervana+neon' + 'deep learning',239
+nvidia digits,'nvidia+digits' + 'deep learning',2540
+opennn,'opennn' + 'deep learning',636
+paddlepaddle,'paddlepaddle' + 'deep learning',1130
+pytorch,'pytorch' + 'deep learning',8450
+sonnet,'sonnet' + 'deep learning',2340
+tensorflow,'tensorflow' + 'deep learning',157000
+tflearn,'tflearn' + 'deep learning',2270
+theano,'theano' + 'deep learning',31900
+torch,'torch' + 'deep learning',22400

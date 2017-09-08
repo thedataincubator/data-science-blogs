@@ -1,0 +1,77 @@
+package,search_term,search_results
+apache storm,apache+storm,798000
+stratio crossdata,stratio+crossdata,223
+kite,kite+API,349000
+twitter gizzard,twitter+gizzard,190000
+apache reef,apache+reef,82800
+pachyderm,pachyderm+pipeline,1340
+nextflow,nextflow,7630
+cascalog,cascalog,1980
+parsely streamparse,parsely+streamparse,169
+datasalt pangool,datasalt+pangool,118
+succinct spark,succinct+spark,32300
+blaze,blaze+python,397000
+netflix staash,netflix+staash,128
+skale,skale+engine,20200
+metamarkets druid,metamarkets+druid,1190
+distributedr,distributedr,3980
+sigmoidanalytics spork,sigmoidanalytics+spork,32
+stratio streaming,stratio+streaming,1580
+apache gora,apache+gora,14300
+ebay oink,ebay+oink,31500
+rackerlabs blueflood,rackerlabs+blueflood,79
+apache twill,apache+twill,12700
+apache mapreduce,apache+mapreduce,312000
+stratio decision,stratio+decision,3310
+hazelcast,hazelcast,32400
+apache hadoop,apache+hadoop,1680000
+spatialhadoop,spatialhadoop,1340
+gis tools for hadoop,gis+tools+for+hadoop,38200
+drools,kiegroup+drools,344
+gearpump,apache+gearpump,2180
+kryo,kryo,192000
+apache ignite,apache+ignite,49700
+ampcrowd,ampcrowd,127
+arvados,arvados,725
+pigpen,pigpen,231000
+netflix aegisthus,netflix+aegisthus,365
+apache apex,apache+apex,191000
+apache pig,apache+pig,327000
+twitter scalding,twitter+scalding,107000
+apache beam,apache+beam,215000
+twitter heron,twitter+heron+stream,93900
+netflix zeno,netflix+zeno,35500
+twitter summingbird,twitter+summingbird,980
+apache samza,apache+samza,7120
+seqpig,seqpig,246
+oryx,oryx+framework,26000
+netflix lipstick,lipstick+apache,48000
+apache spark streaming,apache+spark+streaming,264000
+onyx,onyx+platform,326000
+apache spark,apache+spark,1450000
+snap,"""stanford+network+analysis+platform""",466
+nokia disco,nokia+disco,355000
+netflix surus,netflix+surus,318
+apache s4,apache+s4,95400
+netflix pigpen,netflix+pigpen,5830
+spring for apache hadoop,spring+for+apache+hadoop,253000
+streamsx.topology,IBMStreams+streamsx.topology,355
+apache flink,apache+flink,36300
+apache gearpump,apache+gearpump,2180
+tuktu,tuktu,7940
+geotrellis,geotrellis,2230
+hparser,hparser,1160
+linkedin cubert,linkedin+cubert,2060
+spark-dataflow,spark-dataflow,36200
+apache datafu,apache+datafu,4430
+damballa parkour,damballa+parkour,60
+scaleout hserver,scaleout+hserver,221
+akela,mozilla+akela,14400
+getstream stream framework,getstream+stream+framework,7240
+addthis hydra,addthis+hydra,83600
+concurrent cascading,concurrent+cascading,27500
+pydoop,pydoop,1010
+apache tez,apache+tez,28600
+apache hama,apache+hama,26900
+streamdrill,streamdrill,313
+tigon,tigon,121000

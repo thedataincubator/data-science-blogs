@@ -4,36 +4,39 @@ At [The Data Incubator](https://www.thedataincubator.com/), we pride ourselves o
 
 # The Rankings
 
-Below is a ranking of deep learning libraries that are useful for Data Science, based on Github and Stack Overflow activity, as well as google search results. The table shows standardized scores, where a value of 1 means one standard deviation above average (average = score of 0). For example, `Caffe` is one standard deviation above average in Github activity, while `deeplearning4j` is close to average. See [below for methods](#Methods).
+Below is a ranking of 23 open-source deep learning libraries that are useful for Data Science, based on Github and Stack Overflow activity, as well as Google search results. The table shows standardized scores, where a value of 1 means one standard deviation above average (average = score of 0). For example, `Caffe` is one standard deviation above average in Github activity, while `deeplearning4j` is close to average. See [below for methods](#Methods).
 
 <img src="img/DL_libraries_rank.png" width=500px></img>
 
 
 # Results and Discussion
 
-The ranking is based on equally weighing its three components: Github (stars and forks), Stack Overflow (tags and questions), and number of Google search results. These were obtained using available APIs. Coming up with a comprehensive list of deep learning toolkits was tricky - in the end, we scraped five different lists that we thought were representative (see [methods](#Methods) below for details). Computing standardized scores for each metric allows us to see which packages stand out in each category. The [full ranking is here](output/DL_libraries_final_Rankings.csv), while the [raw data is here](output/deep_learning_data.csv).
+The ranking is based on equally weighing its three components: Github (stars and forks), Stack Overflow (tags and questions), and Google Results (total and six month growth rate). These were obtained using available APIs. Coming up with a comprehensive list of deep learning toolkits was tricky - in the end, we scraped five different lists that we thought were representative (see [methods](#Methods) below for details). Computing standardized scores for each metric allows us to see which packages stand out in each category. The [full ranking is here](output/DL_libraries_final_Rankings.csv), while the [raw data is here](output/deep_learning_data.csv).
 
 ## `TensorFlow` dominates the field with the largest active community
-`TensorFlow` is at least four standard deviations above the mean on all calculated metrics. `TensorFlow` has almost three times as many Github forks and more than six times as many Stack Overflow questions than the second most popular library, `Caffe`. First open-sourced by the Google Brain team in 2015, `TensorFlow` has climbed over more senior libraries such as `Theano` (4) and `Torch` (5) for the top spot on our list. While `TensorFlow` is distributed with a Python API running on a C++ engine, several of the libraries on our list can utlize `TensorFlow` as a back-end and offer their own interfaces. These include `Keras` (3), which will [soon be part of core TensorFlow](https://twitter.com/fchollet/status/820746845068505088), `TFLearn` (11), and `sonnet` (16). The popularity of `TensorFlow` is likely due to a combination of its general-purpose deep learning framework, flexible interface, good-looking computational graph visualizations, and Google’s significant developer and community resources.
+`TensorFlow` is at least two standard deviations above the mean on all calculated metrics. `TensorFlow` has almost three times as many Github forks and more than six times as many Stack Overflow questions than the second most popular library, `Caffe`. First open-sourced by the Google Brain team in 2015, `TensorFlow` has climbed over more senior libraries such as `Theano` (5) and `Torch` (8) for the top spot on our list. While `TensorFlow` is distributed with a Python API running on a C++ engine, several of the libraries on our list can utlize `TensorFlow` as a back-end and offer their own interfaces. These include `Keras` (2), which will [soon be part of core TensorFlow](https://twitter.com/fchollet/status/820746845068505088) and `Sonnet` (4). The popularity of `TensorFlow` is likely due to a combination of its general-purpose deep learning framework, flexible interface, good-looking computational graph visualizations, and Google’s significant developer and community resources.
 
 ## `Caffe` has yet to be replaced by `Caffe2`
-`Caffe` takes a strong second place on our list with more Github activity and Google search results than all of its competitors (excluding `TensorFlow`). `Caffe` is traditionally thought of as more specialized than `Tensorflow` and was developed with a focus on image processing, objection recognition, and pre-trained convolutional neural networks. Facebook released `Caffe2` (12) in April 2017, and it already ranks in the top half the deep learning libraries. `Caffe2` is a more lightweight, modular, and scalable version of `Caffe` that includes recurrent neural networks. `Caffe` and `Caffe2` are separate repos, so data scientists can continue to use the orginial `Caffe`. However, there are migration tools such as [Caffe Translator](https://github.com/caffe2/caffe2/blob/master/caffe2/python/caffe_translator.py) that provide a means of using `Caffe2` to drive existing `Caffe` models.
+`Caffe` takes a strong third place on our list with more Github activity and Google search results than all of its competitors (excluding `TensorFlow`). `Caffe` is traditionally thought of as more specialized than `Tensorflow` and was developed with a focus on image processing, objection recognition, and pre-trained convolutional neural networks. Facebook released `Caffe2` (6) in April 2017, and it already ranks in the top half the deep learning libraries. `Caffe2` is a more lightweight, modular, and scalable version of `Caffe` that includes recurrent neural networks. `Caffe` and `Caffe2` are separate repos, so data scientists can continue to use the orginial `Caffe`. However, there are migration tools such as [Caffe Translator](https://github.com/caffe2/caffe2/blob/master/caffe2/python/caffe_translator.py) that provide a means of using `Caffe2` to drive existing `Caffe` models.
 
 ## `Keras` is the most popular front-end for deep learing
-`Keras` (3) is highest ranked non-framework library. `Keras` can be used as a front-end for `TensorFlow` (1), `Theano` (4), `MXNet` (6), `CNTK` (7), or `deeplearning4j` (8). `Keras` performed better than average on all three metrics measured. The popularity of `Keras` is likely due to its simplicity and ease-of-use. `Keras` allows for fast protoyping at the cost of some of the flexibility and control that comes from working directly with a framework. `Keras` is favorited by data scientists experimenting with deep learning on their data sets. The development and popularity of `Keras` continues with R Studio recently releasing [an interface](https://keras.rstudio.com) in `R` for `Keras`.  
+`Keras` (2) is highest ranked non-framework library. `Keras` can be used as a front-end for `TensorFlow` (1), `Theano` (5), `MXNet` (7), `CNTK` (10), or `deeplearning4j` (13). `Keras` performed better than average on all three metrics measured. The popularity of `Keras` is likely due to its simplicity and ease-of-use. `Keras` allows for fast protoyping at the cost of some of the flexibility and control that comes from working directly with a framework. `Keras` is favorited by data scientists experimenting with deep learning on their data sets. The development and popularity of `Keras` continues with R Studio recently releasing [an interface](https://keras.rstudio.com) in `R` for `Keras`.  
 
 ## `Theano` continues to hold a top spot even without large industry support
-In a sea of new deep learning frameworks, `Theano` (4) has the distiction of the oldest library in our rankings. `Theano` pioneered the use of the computational graph and remains popular in the research community for deep learning and machine learning in general. `Theano` is essentially a numerical computation library for Python, but can be used with high-level deep learning wrappers like `Lasagne` (14). While Google supports `TensorFlow` (1) and `Keras` (3), Facebook backs `PyTorch` (9) and `Caffe2` (12), `MXNet` (6) is the offical deep learning framework of Amazon Web Services, and Microsoft designed and maintains `CNTK` (7), `Theano` remains popular without offical support from a technology industry giant.
+In a sea of new deep learning frameworks, `Theano` (5) has the distiction of the oldest library in our rankings. `Theano` pioneered the use of the computational graph and remains popular in the research community for deep learning and machine learning in general. `Theano` is essentially a numerical computation library for Python, but can be used with high-level deep learning wrappers like `Lasagne` (18). While Google supports `TensorFlow` (1) and `Keras` (2), Facebook backs `PyTorch` (9) and `Caffe2` (6), `MXNet` (7) is the offical deep learning framework of Amazon Web Services, and Microsoft designed and maintains `CNTK` (10), `Theano` remains popular without offical support from a technology industry giant.
+
+## `Sonnet` is the fastest growing library
+Early in 2017 Google's DeepMind publicly released the code for `Sonnet` (4), a high-level object oriented library built on top of `TensorFlow`. The number of pages returned in Google search resutls for "Sonnet+'deep learning'" has a 68% compound monthly growth rate over the past six months, the largest of all the libraries we ranked. Although Google aquired the British artifical intelligence company in 2014, DeepMind and Google Brain have remained mostly independent teams. DeepMind has a focus on artifical general intelligence and `Sonnet` can help a user build on top of their specific AI ideas and research.   
 
 ## Python is the language of deep learning interfaces
-Out of the 23 open-source deep learning frameworks and wrappers we ranked, only three did not have interfaces in Python: `Dlib` (13), `MatConvNet` (18), and `OpenNN` (23). C++ and R interfaces were available in seven and six of the 23 libraries, respectively. While the data science community has somewhat reached a consensus when it comes to using Python, there are still many options for deep learning.
+Out of the 23 open-source deep learning frameworks and wrappers we ranked, only three did not have interfaces in Python: `Dlib` (11), `MatConvNet` (20), and `OpenNN` (23). C++ and R interfaces were available in seven and six of the 23 libraries, respectively. While the data science community has somewhat reached a consensus when it comes to using Python, there are still many options for deep learning.
 
 
 # Limitations
 
-As with [any analysis](https://twitter.com/benhamner/status/732392995610198016), decisions were made along the way. All source code and data is on [our Github Page](https://github.com/thedataincubator/data-science-blogs). The full list of deep learning libraries [came from a few sources](#Methods). 
+As with any analysis, decisions were made along the way. All source code and data is on [our Github Page](https://github.com/thedataincubator/data-science-blogs). The full list of deep learning libraries [came from a few sources](#Methods). 
 
-Naturally, some libraries that have been around longer will have higher metrics, and therefore higher ranking. This is not adjusted for in any way.
+Naturally, some libraries that have been around longer will have higher metrics, and therefore higher ranking. The only metric that takes this into account is the Google search compound monthly growth rate.
 
 The data presented a few difficulties:
 
@@ -49,7 +52,7 @@ The data presented a few difficulties:
 
 All source code and data is on [our Github Page](https://github.com/thedataincubator/data-science-blogs).
 
-We first generated a list of deep learning libraries [from](https://svds.com/understanding-ai-toolkits/) [each of](https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software) [five](https://www.packtpub.com/books/content/top-10-deep-learning-frameworks) [different](https://twitter.com/fchollet/status/882995652233371648) [sources](https://svds.com/wp-content/uploads/2017/02/Deep_learning_ratings_final-1024x563.png), and then collected metrics for all of them, to come up with the ranking. Github data is based on both stars and forks, while Stack Overflow data is based on tags and questions containing the package name. Search results are from Google.
+We first generated a list of 23 open-source deep learning libraries [from](https://svds.com/understanding-ai-toolkits/) [each of](https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software) [five](https://www.packtpub.com/books/content/top-10-deep-learning-frameworks) [different](https://twitter.com/fchollet/status/882995652233371648) [sources](https://svds.com/wp-content/uploads/2017/02/Deep_learning_ratings_final-1024x563.png), and then collected metrics for all of them, to come up with the ranking. Github data is based on both stars and forks, Stack Overflow data is based on tags and questions containing the package name, and Google Results are based on total number of Google search results and the compound monthly growth rate of results calculated over the past six months.
 
 A few other notes:
 
@@ -59,7 +62,7 @@ A few other notes:
   get Github and Stack Overflow scores, and, combined with Serch Results, the Overall score. 
 * Some manual checks were done to confirm Github repository location.
 
-All data was downloaded on September 6, 2017.
+All data was downloaded on September 12, 2017.
 
 # Resources
 
@@ -70,4 +73,4 @@ Source code is available on [The Data Incubator](https://www.thedataincubator.co
 3. [Hiring Data Scientists](https://www.thedataincubator.com/hiring.html)
 
 # Authors:
-[Michael Li](https://github.com/tianhuil/) and [Rachel Allen](https://github.com/raykallen/).
+[Rachel Allen](https://github.com/raykallen/) and [Michael Li](https://github.com/tianhuil/)

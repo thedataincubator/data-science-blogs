@@ -1,24 +1,24 @@
-toolkit,search_term,search_results
-apache singa,'signa' + 'deep learning',2910
-bigdl,'bigdl' + 'deep learning',1520
-caffe,'caffe' + 'deep learning',49000
-caffe2,'caffe2' + 'deep learning',4370
-chainer,'chainer' + 'deep learning',7560
-cntk,'cntk' + 'deep learning',8580
-deeplearning4j,'deeplearning4j' + 'deep learning',9480
-dlib,'dlib' + 'deep learning',2760
-dynet,'dynet' + 'deep learning',843
-keras,'keras' + 'deep learning',35700
-lasagne,'lasagne' + 'deep learning',3780
-matconvnet,'matconvnet' + 'deep learning',3120
-mxnet,'mxnet' + 'deep learning',20300
-nervana neon,'nervana+neon' + 'deep learning',239
-nvidia digits,'nvidia+digits' + 'deep learning',2540
-opennn,'opennn' + 'deep learning',636
-paddlepaddle,'paddlepaddle' + 'deep learning',1130
-pytorch,'pytorch' + 'deep learning',8450
-sonnet,'sonnet' + 'deep learning',2340
-tensorflow,'tensorflow' + 'deep learning',157000
-tflearn,'tflearn' + 'deep learning',2270
-theano,'theano' + 'deep learning',31900
-torch,'torch' + 'deep learning',22400
+toolkit,growth_rate,search_term,search_results
+apache singa,,'apache+singa' + 'deep learning',280
+bigdl,0.021122527928,'bigdl' + 'deep learning',1540
+caffe,-0.0868859948407,'caffe' + 'deep learning',54000
+caffe2,0.433892433533,'caffe2' + 'deep learning',4740
+chainer,0.0175545771756,'chainer' + 'deep learning',7670
+cntk,0.0181337207363,'cntk' + 'deep learning',9110
+deeplearning4j,-0.0603206702879,'deeplearning4j' + 'deep learning',9520
+dlib,0.0912715001838,'dlib' + 'deep learning',2690
+dynet,0.0752800064056,'dynet' + 'deep learning',664
+keras,0.0501055338845,'keras' + 'deep learning',36300
+lasagne,-0.0888726954504,'lasagne' + 'deep learning',3810
+matconvnet,-0.06014623565,'matconvnet' + 'deep learning',3120
+mxnet,0.0681740092487,'mxnet' + 'deep learning',20800
+nervana neon,-0.221629458449,'nervana+neon' + 'deep learning',235
+nvidia digits,-0.152831673066,'nvidia+digits' + 'deep learning',2310
+opennn,-0.190809886035,'opennn' + 'deep learning',637
+paddlepaddle,0.0974742914678,'paddlepaddle' + 'deep learning',1230
+pytorch,0.17497264331,'pytorch' + 'deep learning',8730
+sonnet,0.682308947532,'sonnet' + 'deep learning',2750
+tensorflow,0.0844717711977,'tensorflow' + 'deep learning',155000
+tflearn,-0.126126628,'tflearn' + 'deep learning',2250
+theano,0.0280809765081,'theano' + 'deep learning',33400
+torch,0.00292402653464,'torch' + 'deep learning',20500

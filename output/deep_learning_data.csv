@@ -1,24 +1,24 @@
-toolkit,full_name,forks,stars,so_tag_counts,so_question_count,growth_rate,search_term,search_results
-apache singa,apache/incubator-singa,253,1037,,1,,'apache+singa' + 'deep learning',280
-bigdl,intel-analytics/BigDL,400,1987,,3,0.021122527928,'bigdl' + 'deep learning',1540
-caffe,BVLC/caffe,12349,20119,2188.0,2631,-0.0868859948407,'caffe' + 'deep learning',54000
-caffe2,caffe2/caffe2,1230,5619,25.0,33,0.433892433533,'caffe2' + 'deep learning',4740
-chainer,chainer/chainer,768,2916,49.0,938,0.0175545771756,'chainer' + 'deep learning',7670
-cntk,Microsoft/CNTK,3183,12348,300.0,315,0.0181337207363,'cntk' + 'deep learning',9110
-deeplearning4j,deeplearning4j/deeplearning4j,3571,7162,139.0,198,-0.0603206702879,'deeplearning4j' + 'deep learning',9520
-dlib,davisking/dlib,942,2713,419.0,621,0.0912715001838,'dlib' + 'deep learning',2690
-dynet,clab/dynet,436,1718,,2,0.0752800064056,'dynet' + 'deep learning',664
-keras,fchollet/keras,7048,19462,4074.0,4505,0.0501055338845,'keras' + 'deep learning',36300
-lasagne,Lasagne/Lasagne,901,3222,226.0,352,-0.0888726954504,'lasagne' + 'deep learning',3810
-matconvnet,vlfeat/matconvnet,577,826,58.0,99,-0.06014623565,'matconvnet' + 'deep learning',3120
-mxnet,apache/incubator-mxnet,4166,11095,203.0,234,0.0681740092487,'mxnet' + 'deep learning',20800
-nervana neon,NervanaSystems/neon,704,3209,3.0,4,-0.221629458449,'nervana+neon' + 'deep learning',235
-nvidia digits,NVIDIA/DIGITS,906,2464,68.0,90,-0.152831673066,'nvidia+digits' + 'deep learning',2310
-opennn,Artelnics/OpenNN,135,366,1.0,13,-0.190809886035,'opennn' + 'deep learning',637
-paddlepaddle,PaddlePaddle/Paddle,1441,5396,,8,0.0974742914678,'paddlepaddle' + 'deep learning',1230
-pytorch,pytorch/pytorch,1444,7318,220.0,245,0.17497264331,'pytorch' + 'deep learning',8730
-sonnet,deepmind/sonnet,647,5283,1.0,46,0.682308947532,'sonnet' + 'deep learning',2750
-tensorflow,tensorflow/tensorflow,34262,69590,16379.0,17547,0.0844717711977,'tensorflow' + 'deep learning',155000
-tflearn,tflearn/tflearn,1404,6636,243.0,370,-0.126126628,'tflearn' + 'deep learning',2250
-theano,Theano/Theano,2288,6897,2323.0,2928,0.0280809765081,'theano' + 'deep learning',33400
-torch,torch/torch7,2149,7255,774.0,1846,0.00292402653464,'torch' + 'deep learning',20500
+toolkit,full_name,forks,stars,so_tag_counts,so_question_count,growth_rate,search_results
+apache singa,apache/incubator-singa,253,1036,,1,0.6,233
+bigdl,intel-analytics/BigDL,401,1990,,3,0.791176470588,1490
+caffe,BVLC/caffe,12371,20155,2191.0,2636,0.575757575758,46300
+caffe2,caffe2/caffe2,1233,5628,26.0,34,1.08641975309,3690
+chainer,chainer/chainer,772,2925,49.0,940,0.95652173913,6590
+cntk,Microsoft/CNTK,3190,12366,301.0,316,1.23622047244,7830
+deeplearning4j,deeplearning4j/deeplearning4j,3590,7175,139.0,198,0.280701754386,8550
+dlib,davisking/dlib,941,2724,421.0,625,1.20948616601,2230
+dynet,clab/dynet,435,1723,,2,0.660550458716,585
+keras,fchollet/keras,7067,19504,4098.0,4529,0.962264150943,30800
+lasagne,Lasagne/Lasagne,899,3225,227.0,353,0.548076923077,3350
+matconvnet,vlfeat/matconvnet,579,826,58.0,99,0.368421052632,2820
+mxnet,apache/incubator-mxnet,4179,11127,206.0,238,1.07171314741,18400
+nervana neon,NervanaSystems/neon,705,3212,3.0,4,0.0232558139535,223
+nvidia digits,NVIDIA/DIGITS,908,2468,68.0,90,0.302139037433,2320
+opennn,Artelnics/OpenNN,135,366,1.0,13,-0.233333333333,506
+paddlepaddle,PaddlePaddle/Paddle,1447,5405,,8,0.943127962085,1150
+pytorch,pytorch/pytorch,1456,7361,224.0,249,2.36036036036,7740
+sonnet,deepmind/sonnet,650,5290,1.0,46,2.72440944882,1920
+tensorflow,tensorflow/tensorflow,34355,69781,16462.0,17641,1.28057553957,98500
+tflearn,tflearn/tflearn,1413,6645,245.0,372,-0.104,2060
+theano,Theano/Theano,2290,6902,2329.0,2935,1.13043478261,28400
+torch,torch/torch7,2154,7265,774.0,1848,0.923954372624,18000

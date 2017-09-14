@@ -1,20 +1,20 @@
 toolkit,so_tag_counts,so_question_count
-tensorflow,16379.0,17547
-keras,4074.0,4505
-theano,2323.0,2928
-caffe,2188.0,2631
-torch,774.0,1846
-dlib,419.0,621
-cntk,300.0,315
-tflearn,243.0,370
-lasagne,226.0,352
-pytorch,220.0,245
-mxnet,203.0,234
+tensorflow,16462.0,17641
+keras,4098.0,4529
+theano,2329.0,2935
+caffe,2191.0,2636
+torch,774.0,1848
+dlib,421.0,625
+cntk,301.0,316
+tflearn,245.0,372
+lasagne,227.0,353
+pytorch,224.0,249
+mxnet,206.0,238
 deeplearning4j,139.0,198
 nvidia digits,68.0,90
 matconvnet,58.0,99
-chainer,49.0,938
-caffe2,25.0,33
+chainer,49.0,940
+caffe2,26.0,34
 nervana neon,3.0,4
 sonnet,1.0,46
 opennn,1.0,13

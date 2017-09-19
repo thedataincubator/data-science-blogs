@@ -11,7 +11,7 @@ Below is a ranking of JavaScript data visualization packages that are useful for
 
 # Results and Discussion
 
-The ranking is based on equally weighing its three components: Github (stars and forks), Stack Overflow (tags and questions), and npm downloads(totals and compounded monthly growth rate). These were obtained using available APIs. Coming up with a comprehensive list of JavaScript visualization packages was tricky - in the end, we scraped four different lists that we thought were representative (see [methods](#Methods) below for details). Computing standardized scores for each metric allows us to see which packages stand out in each category. The [full ranking is here](output/js_viz_final_Rankings.csv), while the [raw data is here](output/JS_VIZ_data.csv).
+The ranking is based on equally weighing its three components: Github (stars and forks), Stack Overflow (tags and questions), and npm downloads(totals and compounded monthly growth rate). These were obtained using available APIs. Coming up with a comprehensive list of JavaScript visualization packages was tricky - in the end, we scraped four different lists that we thought were representative (see [methods](#Methods) below for details) and ranked 141 JS packages (excluding d3-modules). Computing standardized scores for each metric allows us to see which packages stand out in each category. The [full ranking is here](output/js_viz_final_Rankings.csv), while the [raw data is here](output/JS_VIZ_data.csv).
 
 ## `d3.js` and its derivatives dominate the field
 
@@ -24,7 +24,7 @@ The ranking is based on equally weighing its three components: Github (stars and
 `sigma.js` (17) is a JavaScript library solely dedicated to graph drawing, but in fact it is the only package in our top 20 even capable of graph/network visualization (besides the customizations offered by `d3.js`). Another package specializing in graph theory, `cytoscape` (38) has a strong showing slightly outperforming `sigma.js` in StackOverflow and npmjs download activity. However, `sigma.js` weighs in with more than twice as many stars and forks on GitHub. 
 
 ## `britecharts` has the largest growth rate for 2017
-With so many data visualization options (we ranked over 100), one might think it would be hard for a new charting package to gain a following. `britechars`, a reusable charting library based on D3.js and created by [eventbrite](https://www.eventbrite.com/engineering/introducing-britecharts/), was first made publicly available less than two years ago. `britecharts` earned the number 7 spot in our overall rankings, and the highest compound monthly growth rate (110%) over the last 6 months. The next package to even come close is `graphael` with a 56% growth rate.
+With so many data visualization options (we ranked over 141), one might think it would be hard for a new charting package to gain a following. `britechars`, a reusable charting library based on D3.js and created by [eventbrite](https://www.eventbrite.com/engineering/introducing-britecharts/), was first made publicly available less than two years ago. `britecharts` earned the number 7 spot in our overall rankings, and the highest compound monthly growth rate (110%) over the last 6 months. The next package to even come close is `graphael` with a 56% growth rate.
 
 ## There's a place near the top for both `flot` and `flotr2`
 `flot` (rhymes with plot) comes in just one spot behind its successor `flotr2`. `flot` is a pure JavaScript plotting library for jQuery, while `flotr2` has a similiar syntax but with no dependence on jQuery. Although it was released over five years ago, `flotr2` has yet to outperform `flot` in GitHub or StackOverflow activity. `flotr2` has a larger growth rate, but both packages rank highly on our list and continue to be actively maintained by separate groups.
@@ -69,4 +69,4 @@ Source code is available on [The Data Incubator](https://www.thedataincubator.co
 3. [Hiring Data Scientists](https://www.thedataincubator.com/hiring.html)
 
 # Authors:
-[Michael Li](https://github.com/tianhuil/) and [Rachel Allen](https://github.com/raykallen/).
+[Rachel Allen](https://github.com/raykallen/) and [Michael Li](https://github.com/tianhuil/)

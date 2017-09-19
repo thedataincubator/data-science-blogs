@@ -1,77 +1,141 @@
 package,full_name,forks,stars
-apache storm,apache/storm,3295,4471
-stratio crossdata,Stratio/crossdata,40,152
-kite,kite-sdk/kite,203,299
-twitter gizzard,twitter-archive/gizzard,209,2143
-apache reef,apache/reef,88,73
-pachyderm,pachyderm/pachyderm,207,2143
-nextflow,nextflow-io/nextflow,72,372
-cascalog,nathanmarz/cascalog,179,1306
+apache storm,apache/storm,3314,4496
+stratio crossdata,Stratio/crossdata,40,154
+kite,kite-sdk/kite,203,301
+twitter gizzard,twitter-archive/gizzard,208,2144
+apache knox,apache/knox,62,37
+apache reef,apache/reef,88,72
+apache tajo,apache/tajo,95,97
+pachyderm,pachyderm/pachyderm,206,2159
+nextflow,nextflow-io/nextflow,77,379
+apache sqoop,apache/sqoop,293,334
+apache metamodel,apache/metamodel,74,72
+apache vxquery,apache/vxquery,24,15
+cascalog,nathanmarz/cascalog,179,1308
 parsely streamparse,goavki/streamparser,1,3
 datasalt pangool,datasalt/pangool,13,59
-succinct spark,amplab/succinct,43,170
-blaze,blaze/blaze,289,2109
-netflix staash,Netflix/staash,36,169
-skale,skale-me/skale-engine,23,159
-metamarkets druid,druid-io/druid,1311,5401
+apache parquet,apache/parquet-mr,368,456
+succinct spark,amplab/succinct,43,172
+blaze,blaze/blaze,294,2119
+netflix staash,Netflix/staash,36,170
+skale,skale-me/skale-engine,23,161
+metamarkets druid,druid-io/druid,1326,5443
 distributedr,vertica/DistributedR,57,143
+twitter tsar,NA,0,0
 sigmoidanalytics spork,sigmoidanalytics/spork,26,85
-stratio streaming,Stratio/sparta,136,376
-apache gora,apache/gora,66,61
+apache ambari,apache/ambari,706,684
+amplab simr,NA,0,0
+apache calcite,apache/calcite,406,514
+stratio streaming,Stratio/sparta,137,381
+apache gora,apache/gora,68,62
+apache helix,apache/helix,75,102
+apache edgent,apache/incubator-edgent,107,62
+disco,discoproject/disco,248,1474
 ebay oink,eBay/oink,8,23
-rackerlabs blueflood,rackerlabs/blueflood,85,545
+rackerlabs blueflood,rackerlabs/blueflood,85,546
+torch,mattstauffer/Torch,102,793
+pinterest pinlater,NA,0,0
+google mapreduce,dbravender/go_mapreduce,15,75
 apache twill,apache/twill,26,26
-apache mapreduce,apache/hadoop-mapreduce,54,40
-stratio decision,Stratio/Decision,76,276
-hazelcast,hazelcast/hazelcast,917,2210
-apache hadoop,apache/hadoop,3452,3712
+google dataflow,GoogleCloudPlatform/DataflowJavaSDK,336,784
+apache mapreduce,apache/hadoop-mapreduce,55,40
+apache bigtop,apache/bigtop,252,225
+apache bookkeeper,apache/bookkeeper,121,182
+hazelcast,hazelcast/hazelcast,922,2217
+apache flume,apache/flume,916,1096
+datatorrent stram,NA,0,0
+graphlab dato,NA,0,0
 spatialhadoop,aseldawy/spatialhadoop2,85,111
-gis tools for hadoop,Esri/gis-tools-for-hadoop,169,311
-drools,kiegroup/drools,1179,1071
-gearpump,gearpump/gearpump,138,636
-kryo,EsotericSoftware/kryo,503,2838
-apache ignite,apache/ignite,678,1165
-ampcrowd,amplab/ampcrowd,12,46
-arvados,curoverse/arvados,47,141
-pigpen,Netflix/PigPen,57,469
-netflix aegisthus,Netflix/aegisthus,72,238
-apache apex,apache/apex-core,158,254
-apache pig,apache/pig,411,503
-twitter scalding,twitter/scalding,637,2868
-apache beam,apache/beam,800,1372
-twitter heron,twitter/heron,518,2886
+gis tools for hadoop,Esri/gis-tools-for-hadoop,173,310
+twitter crane,NA,0,0
+drools,kiegroup/drools,1187,1087
+gearpump,gearpump/gearpump,139,636
+apache falcon,apache/falcon,97,72
+kryo,EsotericSoftware/kryo,506,2859
+apache ignite,apache/ignite,689,1186
+sqlstream blaze,NA,0,0
+twitter summingbird,twitter/summingbird,249,1885
+arvados,curoverse/arvados,48,142
+apache giraph,apache/giraph,226,425
+netflix aegisthus,Netflix/aegisthus,72,239
+apache apex,apache/apex-core,160,256
+netflix mantis,NA,0,0
+google flumejava,NA,0,0
+google millwheel,NA,0,0
+apache pig,apache/pig,411,504
+metamarkers druid,NA,0,0
+twitter scalding,twitter/scalding,635,2871
+apache beam,apache/beam,821,1383
+twitter heron,twitter/heron,517,2890
 netflix zeno,Netflix/zeno,55,190
-twitter summingbird,twitter/summingbird,247,1883
-apache samza,apache/samza,160,352
+microsoft trill,NA,0,0
+tibco activespaces,TIBCOSoftware/as2-jdbc,4,2
+pubnub,pubnub/objective-c,175,163
+ampcrowd,amplab/ampcrowd,12,46
+microsoft project orleans,NA,0,0
+apache samza,apache/samza,161,360
+amazon lambda,NA,0,0
 seqpig,HadoopGenomics/SeqPig,6,9
-oryx,OryxProject/oryx,312,1224
+oryx,OryxProject/oryx,313,1231
+high-performance computing cluster (hpcc),hpcc-systems/HPCC-Platform,173,317
+amplab g-ola,NA,0,0
 netflix lipstick,Netflix/Lipstick,116,401
-apache spark streaming,yahoo/streaming-benchmarks,161,294
-onyx,onyx-platform/onyx,153,1566
-apache spark,apache/spark,13341,14241
-snap,snap-stanford/snap,348,685
-nokia disco,discoproject/disco,248,1471
+ibm streams,IBMStreams/streamsx.topology,36,16
+apache spark streaming,yahoo/streaming-benchmarks,162,297
+teradata querygrid,NA,0,0
+onyx,onyx-platform/onyx,153,1572
+apache spark,apache/spark,13434,14365
+snap,snap-stanford/snap,353,686
+google bigquery,NA,0,0
+apache couchdb,apache/couchdb,702,3222
+nokia disco,discoproject/disco,248,1474
+apache phoenix,apache/phoenix,497,357
+apache kafka,apache/kafka,3776,6157
+apache drill,apache/drill,583,840
 netflix surus,Netflix/Surus,78,339
 apache s4,apache/incubator-s4,17,36
-netflix pigpen,Netflix/PigPen,57,469
-spring for apache hadoop,spring-projects/spring-hadoop,308,489
-streamsx.topology,IBMStreams/streamsx.topology,36,16
-apache flink,apache/flink,1851,2686
-apache gearpump,apache/incubator-gearpump,80,206
-tuktu,UnderstandLingBV/Tuktu,15,48
-geotrellis,locationtech/geotrellis,192,606
+netflix pigpen,Netflix/PigPen,57,471
 hparser,hotchpotch/hparser,5,24
+spring for apache hadoop,spring-projects/spring-hadoop,307,491
+facebook scuba,NA,0,0
+streamsx.topology,IBMStreams/streamsx.topology,36,16
+apache flink,apache/flink,1872,2709
+apache airavata,apache/airavata,57,43
+apache zeppelin,apache/zeppelin,1593,3122
+apache gearpump,apache/incubator-gearpump,82,207
+tuktu,UnderstandLingBV/Tuktu,15,48
+datatorrent rts,ben-humangeo/datatorrent-rts,0,0
+ceph,ceph/ceph,2092,3627
 linkedin cubert,linkedin/Cubert,60,233
+amazon spice,NA,0,0
 spark-dataflow,jhlch/spark-dataflow,60,0
-apache datafu,linkedin/datafu,148,597
-damballa parkour,damballa/parkour,19,259
+apache datafu,linkedin/datafu,147,597
+damballa parkour,damballa/parkour,19,258
+microsoft azure stream analytics,NA,0,0
+esper,espertechinc/esper,114,298
 scaleout hserver,scaleoutsoftware/hServer,1,3
 akela,mozilla-metrics/akela,29,77
-getstream stream framework,tschellenbach/Stream-Framework,388,3137
+getstream stream framework,tschellenbach/Stream-Framework,391,3153
+cheetah,sunnyelf/cheetah,66,222
+facebook corona,NA,0,0
 addthis hydra,addthis/hydra,75,396
+trident,benjamin-42/Trident,115,212
+geotrellis,locationtech/geotrellis,195,608
+apache hadoop,apache/hadoop,3476,3754
+facebook peregrine,NA,0,0
+apache avro,apache/avro,569,771
+apache oozie,apache/oozie,306,317
 concurrent cascading,cwensel/cascading,223,297
+stratio decision,Stratio/Decision,76,279
 pydoop,crs4/pydoop,46,122
-apache tez,apache/tez,157,151
-apache hama,apache/hama,68,110
-streamdrill,streamdrill/streamdrill-core,3,6
+presto,prestodb/presto,2131,6482
+jaql,catap/jaql,0,2
+apache lens,apache/lens,79,42
+apache tez,apache/tez,160,152
+apache hama,apache/hama,67,110
+streamdrill,streamdrill/streamdrill-client,3,5
+sumo logic,NA,0,0
+apache orc,apache/orc,89,117
+microsoft orleans,OrleansContrib/OrleansDashboard,27,112
+apache crunch,cloudera/crunch,83,313
 tigon,caskdata/tigon,35,243

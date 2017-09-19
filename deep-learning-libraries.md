@@ -36,7 +36,7 @@ Early in 2017 Google's DeepMind publicly released the code for `Sonnet` (6), a h
 
 As with any analysis, decisions were made along the way. All source code and data is on [our Github Page](https://github.com/thedataincubator/data-science-blogs). The full list of deep learning libraries [came from a few sources](#Methods). 
 
-Naturally, some libraries that have been around longer will have higher metrics, and therefore higher ranking. The only metric that takes this into account is the Google search monthly growth rate.
+Naturally, some libraries that have been around longer will have higher metrics, and therefore higher ranking. The only metric that takes this into account is the Google search quarterly growth rate.
 
 The data presented a few difficulties:
 

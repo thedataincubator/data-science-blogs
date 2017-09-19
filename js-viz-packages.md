@@ -4,7 +4,7 @@ At [The Data Incubator](https://www.thedataincubator.com/), we pride ourselves o
 
 # The Rankings
 
-Below is a ranking of JavaScript data visualization packages that are useful for Data Science, based on Github and Stack Overflow activity, as well as npmjs [(javascript package manager)](https://www.npmjs.com/) downloads. The table shows standardized scores, where a value of 1 means one standard deviation above average (average = score of 0). For example, `chart.js` is 3.29 standard deviations above average in Github activity, while `plotly.js` is close to average. See [below for methods](#Methods).
+Below is a ranking of the top 20 of 141 JavaScript data visualization packages that are useful for Data Science, based on Github and Stack Overflow activity, as well as npmjs [(javascript package manager)](https://www.npmjs.com/) downloads. The table shows standardized scores, where a value of 1 means one standard deviation above average (average = score of 0). For example, `chart.js` is 3.29 standard deviations above average in Github activity, while `plotly.js` is close to average. See [below for methods](#Methods).
 
 <img src="img/js_viz_rank.png" width=500px></img>
 
@@ -48,7 +48,7 @@ The data presented a few difficulties:
 
 All source code and data is on [our Github Page](https://github.com/thedataincubator/data-science-blogs).
 
-We first generated a list of Data Science packages [from](https://github.com/fasouto/awesome-dataviz') [these](https://github.com/wbkd/awesome-d3) [four](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_charting_frameworks) [sources](https://cssauthor.com/javascript-charting-libraries), and then collected metrics for all of them, to come up with the ranking. Github data is based on both stars and forks, while Stack Overflow data is based on tags and questions containing the package name. Downloads data is from npmjs. Downloads were totaled over a six month period, and the compound monthly growth rate was calculated over the same period. After scraping other sites for JS visualization package names, we had gathered over 100 "unique" package names. Many of them were aliases for the same packages (d3, D3JS). If a the first result of github search returned the same repo as another package, we treated them as the same package, but saved the aliases to search Stack Overflow questions. 
+We first generated a list of 141 Data Science packages [from](https://github.com/fasouto/awesome-dataviz') [these](https://github.com/wbkd/awesome-d3) [four](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_charting_frameworks) [sources](https://cssauthor.com/javascript-charting-libraries), and then collected metrics for all of them, to come up with the ranking. Github data is based on both stars and forks, while Stack Overflow data is based on tags and questions containing the package name. Downloads data is from npmjs. Downloads were totaled over a six month period, and the compound monthly growth rate was calculated over the same period. After scraping other sites for JS visualization package names, we had gathered over 200 package names. Many of them were aliases for the same packages (d3, D3JS). If a the first result of Github search returned the same repo as another package, we treated them as the same package, but saved the aliases to search Stack Overflow questions. 
 
 A few other notes:
 

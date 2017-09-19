@@ -46,7 +46,7 @@ The data presented a few difficulties:
 
 All source code and data is on [our Github Page](https://github.com/thedataincubator/data-science-blogs).
 
-We first generated a list of 140 distributed computing packages [from](https://github.com/onurakpolat/awesome-bigdata) [these](https://projects.apache.org/projects.html?category) [four](http://analyticsindiamag.com/10-hadoop-alternatives-consider-big-data/) [sources](http://bigdata.andreamostosi.name/), and then collected metrics for all of them, to come up with the ranking. Github data is based on both stars and forks, while Stack Overflow data is based on tags and questions containing the package name. Search results are from Google.
+We first generated a list of 140 distributed computing packages [from](https://github.com/onurakpolat/awesome-bigdata) [these](https://projects.apache.org/projects.html?category) [four](http://analyticsindiamag.com/10-hadoop-alternatives-consider-big-data/) [sources](http://bigdata.andreamostosi.name/), and then collected metrics for all of them, to come up with the ranking. Github data is based on both stars and forks, Stack Overflow data is based on tags and questions containing the package name, and Google Results are based on total number of Google search results over the last five years and the quarterly growth rate of results calculated over the past three months as compared to the prior three months.
 
 A few other notes:
  * Any unavailable Stack Overflow or counts were converted to zero count. 

@@ -1,0 +1,112 @@
+,package,github_repo,tags,search_terms,stars,forks,description,so_question_count,so_tag_counts,downloads,growth_rates
+0,amcharts,ChimpStudios/AmCharts,[amcharts],[amcharts],111.0,33.0,A Native Objective C wrapper for the AmCharts charting library. http://www.amcharts.com,1175,1175,9888.0,0.07493909740215532
+1,anychart,AnyChart/AnyChart,[anychart],[anychart;anychartjs] ,127.0,14.0,JavaScript Charts designed to be embedded and integrated,102,85,7552.0,0.3198630726020799
+2,arbor,samizdatco/arbor,[arbor.js],[arbor-js;arbor.js],2418.0,589.0,a graph visualization library using web workers and jQuery,113,66,3194.0,0.08188165462424957
+3,billboard.js,naver/billboard.js,[billboard.js],[billboard.js; billboardjs],1193.0,52.0,":bar_chart: Re-usable easy interface JavaScript chart library, based on D3 v4+:chart_with_upwards_trend:",4,0,899.0,
+4,britecharts,eventbrite/britecharts,[britecharts],[britecharts],2602.0,95.0,Client-side reusable Charting Library based on D3.js v4 that allows easy and intuitive use of charts and components that can be composed together creating amazing visualizations.,0,0,6445.0,1.1055810620446431
+5,bullet chart,stefanwalther/qvD3BulletCharts,[bullet-chart],[bullet-chart;bulletchart],7.0,6.0,D3BulletCharts QlikView Extension,287,11,584.0,-0.04278511969663834
+6,c3,c3js/c3,[c3;c3.js],[c3;c3.js;c3js],7041.0,1197.0,A D3-based reusable chart library,18862,875,916477.0,0.040731819327495256
+7,cal-heatmap,wa0x6e/cal-heatmap,[cal-heatmap],[cal-heatmap],1690.0,198.0,Cal-Heatmap is a javascript module to create calendar heatmap to visualize time series data,27,27,58573.0,-0.02129119860633155
+8,cartodb,CartoDB/cartodb,[cartodb],[cartodb;carto],1528.0,440.0,Location Intelligence & Data Visualization tool,286,106,16628.0,0.14831530749507538
+9,cesium,AnalyticalGraphicsInc/cesium,[cesium],[cesium;cesiumjs],2378.0,1140.0,An open-source JavaScript library for world-class 3D globes and maps :earth_americas:,463,396,63275.0,0.07037469115625794
+10,chart.js,chartjs/Chart.js,[chart.js],[chartjs;chart.js],31687.0,8010.0,Simple HTML5 Charts using the <canvas> tag,6229,3371,3834235.0,0.05109690258427935
+11,chartist,gionkunz/chartist-js,[chartist.js],[chartist;chartistjs],9754.0,1813.0,Simple responsive charts,186,129,482167.0,0.06135185107545982
+12,chartkick,ankane/chartkick,[chartkick],[chartkick;chartkickjs],4406.0,439.0,Create beautiful JavaScript charts with one line of Ruby,315,207,22918.0,0.16196600057648847
+13,charts-4-php,kevinkhill/lavacharts,['charts-4-php'],['lavacharts';'charts-4-php'],358.0,96.0,Lavacharts is a graphing / charting library for PHP 5.4+ that wraps Google's Javascript Chart API.,252,0,,
+14,chess-dataviz,ebemunk/chess-dataviz,[chess-dataviz],[chess-dataviz],30.0,3.0,chess visualization library written for d3.js,0,0,,
+15,chroma-js,gka/chroma.js,[chroma.js],[chroma.js],4431.0,330.0,JavaScript library for all kinds of color manipulations,0,0,812900.0,0.06679184042006026
+16,chroniton,arankek/chroniton,[chroniton],[chroniton],103.0,7.0,"<input type=""dateslider"" /> for the time being",0,0,782.0,0.03584568731805149
+17,cirrus.js,planet-os/cirrusjs,[cirrus.js],[cirrusjs;cirrus.js],88.0,5.0,A multi-renderer charts library,0,0,,
+18,codeflower,fzaninotto/CodeFlower,[codeflower],[codeflower],428.0,251.0,Source code visualization utility written in JavaScript with d3.js. Does your code look beautiful?,0,0,,
+19,colajs,WPAdictos/ColaJS,[colajs],[cola-js;colajs],0.0,0.0,Ejemplo de Cola en JS,40,0,360.0,0.03401069143341484
+20,comic.js,balint42/comic.js,[comic.js],[comic.js],107.0,13.0,Cartoon style drawing for HTML5 Canvas & Raphael.js & D3.js & SVG.js,0,0,,
+21,composite-projections,OSUCartography/adaptive-composite-map-projections,['composite-projections'],['composite-projections'],48.0,6.0,Adaptive composite map projections combine several projections,0,0,,
+22,cubism,square/cubism,[cubism.js],[cubism;cubismjs],4558.0,541.0,Cubism.js: A JavaScript library for time series visualization.,88,92,6309.0,-0.057776985543004145
+23,cytoscape,cytoscape/cytoscape.js,[cytoscape.js;cytoscape],[cytoscape;cytoscapejs],3386.0,509.0,"Graph theory / network library for analysis and visualisation (supports CommonJS/Node.js/Browserify/Webpack, AMD/Require.js, npm, CDNJS, Bower, jspm, Meteor, jQuery, and plain JS/JavaScript)",479,725,153162.0,0.03323027343478979
+24,d3,d3/d3,[d3.js],[d3;d3js],67147.0,17533.0,"Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",37754,26951,11528772.0,0.040359487207901834
+25,d4,heavysixer/d4,[d4],[d4],401.0,42.0,A friendly reusable charts DSL for D3,0,0,980.0,-0.04681570700306348
+26,datamaps,markmarkoh/datamaps,[datamaps],[datamaps],2425.0,656.0,Customizable SVG map visualizations for the web in a single Javascript file using D3.js,71,71,140902.0,0.010837527312556494
+27,dc,dc-js/dc.js,[dc.js],[dcjs;dc.js;dc-js],5782.0,1554.0,Multi-Dimensional charting built to work natively with crossfilter rendered with d3.js,1854,1202,165224.0,-0.0022064607979042083
+28,deck.gl,uber/deck.gl,[deck.gl],[deck.gl],3329.0,385.0,WebGL based visualization layers,7,7,81609.0,0.20597151899166755
+29,dimple,PMSI-AlignAlytics/dimple,[dimple.js],[dimple;dimplejs],2539.0,492.0,An object-oriented API for business analytics,325,374,4578.0,0.014965508337311029
+30,dragit,azinasili/dragit,[d3-dragit],[d3-dragit],0.0,0.0,Click/tap and drag to scroll content within a container.,0,0,461.0,
+31,dtree,ErikGartner/dTree,[dtree],[d3-dtree],78.0,19.0,A library for visualizing data trees with multiple parents (such as family trees) built on top of D3,0,0,2772.0,-0.021080201746559446
+32,dygraphs,danvk/dygraphs,[dygraphs],[dygraphs],2224.0,491.0,Interactive visualizations of time series using JavaScript and the HTML canvas tag,743,743,61546.0,0.0788174525359513
+33,echarts,ecomfe/echarts,[echarts],[echarts;echartsjs],19861.0,6165.0,"A powerful, interactive charting and visualization library for browser",148,96,260138.0,0.21027205022393058
+34,ejscharts,EmpriseCorporation/EJSCharts,[ejs-chart],[ejs-chart;ejscharts],23.0,19.0,Emprise Javascript Charts,28,2,188.0,
+35,ember-charts,Addepar/ember-charts,[ember-charts],[ember-charts;embercharts],,,NA,93,4,17116.0,0.19250355858959178
+36,envision,HumbleSoftware/envisionjs,[envision.js],[envision.js],1566.0,255.0,Dynamic HTML5 visualization,1,1,6212.0,-0.035104022275470936
+37,epoch-charting,epochjs/epoch,[epoch-charting],[epoch-charting],4862.0,285.0,"A general purpose, real-time visualization library.",0,0,4032.0,-0.04894575882811636
+38,eventDrops,marmelab/EventDrops,[eventdrops],[eventdrops],765.0,151.0,A time based / event series interactive visualization using d3.js,0,0,2136.0,0.018479755386767716
+39,fancycharts,ahoiin/Fancycharts.js,[fancycharts],[fancycharts],90.0,7.0,JS library to visualize percentage values http://fancycharts.ahoi.in,0,0,,
+40,firespray,boundary/firespray,[firespray],[firespray],84.0,12.0,Blazingly fast streaming charts,0,0,,
+41,flot,flot/flot,[flot],[flot;flotjs],5416.0,1411.0,Attractive JavaScript charts for jQuery,2546,2017,74860.0,0.1313688523487735
+42,flotr2,HumbleSoftware/Flotr2,[flotr2],[flotr2],2415.0,534.0,Graphs and Charts for Canvas in JavaScript.,32,32,477.0,0.4634501212238704
+43,forest-d3,robinfhu/forest-d3,[forest-d3],[forest-d3],48.0,1.0,"My attempt at implementing a better time series charting library, based on d3.js",0,0,,
+44,fusioncharts,fusioncharts/fusionmaps-dist,[fusioncharts],[fusioncharts],0.0,1.0,FusionCharts JavaScript charting framework for distribution,608,608,13225.0,0.1686249512802509
+45,gantt-chart,dk8996/Gantt-Chart,[gantt-chart],[gantt-chart],256.0,136.0,Gantt chart library using D3.js.  ,419,419,1867.0,0.04572525062411925
+46,graph-scroll,1wheel/graph-scroll,[graph-scroll.js],[graph-scroll.js],366.0,32.0,experiments using scrolling instead of steppers ,0,0,1054.0,-0.06943535887051933
+47,graphael,jjacobson93/graphael,[graphael],[graphael;graphaeljs],16.0,2.0,A graph database implemented in Rust,123,186,4295.0,0.5655909186177899
+48,highcharts,highcharts/highcharts,[highcharts],[highcharts;highchartsjs],6543.0,2020.0,"Highcharts JS, the JavaScript charting framework",16545,16639,2378386.0,0.10491715557688952
+49,insight-js,ignacioola/insights,[insights],[insights-js; insightsjs],182.0,41.0,A JavaScript library to visualize and navigate graphs,1402,0,,
+50,iopctrl,metormote/iopctrl,[iopctrl],[iopctrl],33.0,11.0,A minimal ui-component lib for D3,0,0,,
+51,jenscript,sjanaud/jenscript,[jenscript],[jenscript],13.0,0.0,JavaScript HTML5/SVG chart library,0,0,3157.0,-0.0015349299723178556
+52,jqplot,jqPlot/jqPlot,[jqplot],[jqplot],147.0,71.0,A Versatile and Expandable jQuery Plotting Plugin,1687,1687,707.0,0.21107354119068278
+53,jquery-mapael,neveldo/jQuery-Mapael,[mapael],[mapael],817.0,169.0,jQuery plugin based on raphael.js that allows you to display dynamic vector maps,22,22,3051.0,0.06347694454394892
+54,jquery-sparkline,gwatts/jquery.sparkline,[sparklines],[jquery-sparkline;jquery-sparklines],1072.0,251.0,A plugin for the jQuery javascript library to generate small sparkline charts directly in the browser,281,142,129802.0,0.14819903666087986
+55,jsdoc2diagram,amcmillan01/jsdoc2diagram,[jsdoc2diagram],[jsdoc2diagram],30.0,5.0,Create D3 Tree Diagram from your awesome jsdoc,0,0,1979.0,-0.03979039560683284
+56,jsxgraph,jsxgraph/jsxgraph,[jsxgraph],[jsxgraph],336.0,86.0,"JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser.",32,32,335.0,0.07577624405028471
+57,kartograph-js,kartograph/kartograph.js,[kartograph],[kartograph;kartographjs],1498.0,231.0,Open source JavaScript renderer for Kartograph SVG maps,32,32,2378.0,0.030853320886444546
+58,keen-dataviz,keen/keen-dataviz.js,[keen-dataviz.js;keen-dataviz],[keen-dataviz],118.0,29.0,"Data Visualization SDK for Keen IO  build secure, fully serverless analytics features",0,0,22575.0,-0.037948660645765075
+59,kodama,y310/kodama,[kodama],[kodama],175.0,9.0,ruby-binlog based MySQL replication listener,0,0,2915.0,0.031760365011097136
+60,koto,kotojs/kotojs,[koto],[koto;kotojs],273.0,14.0,A framework for building reusable components with d3.js,7,0,6882.0,0.050891733754578006
+61,leaflet,Leaflet/Leaflet,[leaflet],[leaflet],19162.0,3256.0, :leaves: JavaScript library for mobile-friendly interactive maps,5793,5793,2060887.0,0.09129003371861577
+62,leaflet-d3,Asymmetrik/leaflet-d3,[dc.leaflet.js],[dc.leaflet.js],143.0,26.0,Collection of plugins for using d3.js with Leaflet,26,26,,
+63,leaflet-dvf,humangeo/leaflet-dvf,[leaflet-dvf],[leaflet-dvf],492.0,111.0,Leaflet Data Visualization Framework,0,0,2274.0,-0.21470586577163853
+64,mapmap,mapmapteam/mapmap,[mapmap],[mapmap],76.0,15.0,Open source video mapping software,0,0,2770.0,0.0412552323252553
+65,mapsense.js,mapsense/mapsense.js,[mapsense.js],[mapsense.js],82.0,24.0,Mapsense.js,0,0,20.0,
+66,maptable,Packet-Clearing-House/maptable,[maptable],[maptable],48.0,5.0,"JS library which converts any dataset to an interactive set of components: a choropleth or heat map, filters and table",0,0,224.0,-0.04278511969663834
+67,mermaid,knsv/mermaid,[mermaid],[d3-mermaid],13671.0,738.0,Generation of diagram and flowchart from text in a similar manner as markdown,0,21,78488.0,0.09077469165253405
+68,metrics-graphics,mozilla/metrics-graphics,[metricsgraphicsjs],[metrics-graphics;metricsgraphicsjs],6701.0,437.0,A library optimized for concise and principled data graphics and layouts.,159,13,28291.0,0.04161767292542362
+69,micropolar,biovisualize/micropolar,[micropolar],[micropolar],108.0,20.0,A tiny polar charts library made with D3.js,0,0,,
+70,modestmaps,stamen/modestmaps-js,[modestmaps.js],[modestmap;modestmapsjs],566.0,161.0,Modest Maps javascript port,10,0,46135.0,-0.22316496651491657
+71,morris.js,morrisjs/morris.js,[morris.js],[morris-charts;morrisjs;morris.js],6598.0,1146.0,Pretty time-series line graphs,1020,454,84564.0,0.08075203626410166
+72,mpld3,mpld3/mpld3,[mpld3],[mpld3],1490.0,259.0,D3 Renderings of Matplotlib Graphics,85,85,,
+73,n3-charts,n3-charts/line-chart,[n3-charts],[n3-charts;n3-line-chart],1217.0,200.0,Awesome charts for AngularJS.,46,11,52004.0,-0.06546964698618052
+74,nextcharts,nextreports/nextcharts,['nextcharts'],['nextcharts'],32.0,9.0,Open source HTML5 charts using the canvas tag.,0,0,,
+75,netvis,dborzov/netvis,[netvis],[netvis],10.0,0.0,d3.js-based tool to visualize network communication for arbitrary protocols,0,0,,
+76,peek,mtmacdonald/peek,[peek-js],[peek-js],64.0,5.0,A chart library based on D3.js,0,0,3269.0,0.16073331194911855
+77,peity,benpickles/peity,[peity],[peity],3857.0,368.0,"Progressive <svg> pie, donut, bar and line charts",0,0,42500.0,0.08789706168031852
+78,piecon,lipka/piecon,[piecon],[piecon],2338.0,122.0,A tiny javascript library for generating progress pie charts in your favicon.,0,0,3601.0,0.25439234447507353
+79,pizza pie charts,zurb/pizza,[pizza-pie-charts],[pizza-pie-charts],423.0,65.0,"Better pie, donut, line, and bar graphs.",0,0,464.0,0.01982445132775279
+80,plotly.js,plotly/plotly.js,[plotly],[plotly;plotlyjs],6702.0,713.0,The open source JavaScript graphing library that powers plotly,95240,1994,280496.0,0.03474559872183436
+81,plottable,palantir/plottable,[plottable.js;plottable],[plottable;plottablejs],2173.0,182.0,:bar_chart: A library of modular chart components built on D3,95066,55,44898.0,0.48632404949430286
+82,pykcharts,pykih/PykCharts.js,[pykcharts],[pykcharts;pykchartsjs],272.0,59.0,"26+ well-designed, themeable, responsive, real-time and easy to use charts and 109+ maps.",7,6,,
+83,react-stockcharts,rrag/react-stockcharts,[react-stockcharts],[react-stockcharts],869.0,233.0,Highly customizable stock charts with ReactJS and d3,0,0,36160.0,0.08006976106811092
+84,react-vis,uber/react-vis,[react-vis],[react-vis],2156.0,170.0,Data-Visualization oriented components,3,3,67630.0,0.13930505638506152
+85,recharts,recharts/recharts,[recharts],[recharts],6346.0,437.0,Redefined chart library built with React and D3,20,20,766615.0,0.14108878727995267
+86,rickshaw,shutterstock/rickshaw,[rickshaw],[rickshaw;rickshawjs],6079.0,952.0, JavaScript toolkit for creating interactive real-time graphs,235,184,80116.0,-0.014670945108961386
+87,sigma,jacomyal/sigma.js,[sigma.js],[sigma-js;sigmajs],7416.0,1171.0,A JavaScript library dedicated to graph drawing,104,159,13759.0,0.09093588345856496
+88,simple map,vdw/MapIt,[simple map],[simple-map-js],42.0,8.0,An easy way to embed google maps in your site.,0,0,1200.0,-0.053075093559384
+89,smoothie,joewalnes/smoothie,[smoothie.js],[smoothie-charts;smoothie.js;smoothiejs],1651.0,157.0,Smoothie Charts: smooooooth JavaScript charts for realtime streaming data,28,9,13035.0,0.035248701535650406
+90,spam.js,newsappsio/spam,[spam.js],[spam.js],82.0,8.0,A D3 library to create maps with Canvas,0,0,,
+91,swoopyarrows,bizweekgraphics/swoopyarrows,[swoopyarrows],[swoopyarrows],79.0,3.0,swoopyarrows makes swoopy arrows between things,0,0,,
+92,taucharts,TargetProcess/tauCharts,[taucharts; taucharts.js],[taucharts;tauchartsjs],1362.0,88.0,D3 based data-focused charting library. Designed with passion. Flexible.,4,0,45412.0,0.27370899696411843
+93,techan,andredumas/techan.js,[techan.js],[techan; techanjs],996.0,259.0,"A visual, technical analysis and charting (Candlestick, OHLC, indicators) library built on D3.",14,0,5178.0,0.0735864304427769
+94,textures,riccardoscalco/textures,[textures.js],[textures.js],4219.0,185.0,Textures.js is a JavaScript library for creating SVG patterns,0,0,32642.0,0.12056346187495426
+95,timelinejs3,NUKnightLab/TimelineJS3,[timelinejs3],[timelinejs3],1132.0,297.0,TimelineJS v3: A Storytelling Timeline built in JavaScript.  http://timeline.knightlab.com,0,0,153.0,
+96,uvcharts,Imaginea/uvCharts,[uvcharts],[uvcharts],228.0,76.0,Simple yet powerful JavaScript Charting library built using d3.js,1,1,95.0,0.05768092640521627
+97,vaadin-charts,vaadin/vaadin-charts,['vaadin-charts'],['vaadin-charts'],33.0,17.0,A Web Component for high quality charts.,39,39,,
+98,vega,vega/vega,[vega],[vega],5194.0,567.0,A visualization grammar.,90,90,125025.0,0.014023879046298093
+99,victory,FormidableLabs/victory,[victory-charts],[victory-charts],4733.0,143.0,A collection of composable React components for building interactive data visualizations,6,6,246464.0,0.06859244227116434
+100,vis.js,almende/vis,[vis.js],[vis.js; visjs],5503.0,992.0,"Dynamic, browser-based visualization library",445,334,,
+101,vivagraphjs,anvaka/VivaGraphJS,[vivagraphjs],[vivagraph; vivagraphjs],2344.0,299.0,Graph drawing library for JavaScript,58,26,10636.0,0.013546849595455157
+102,vizabi,vizabi/vizabi,[vizabi],[vizabi],138.0,46.0,Vizabi is a framework for building visual data exploration tools freely provided by Gapminder [WARNING: Vizabi is in alpha  Don't expect too much!],0,0,943539.0,-0.049565634909804035
+103,vizceral,Netflix/vizceral,[vizceral],[vizceral],1555.0,138.0,WebGL visualization for displaying animated traffic graphs,0,0,18457.0,-0.11783624481371835
+104,vx,hshoff/vx,[vx-js],[vx-js],2403.0,77.0,react + d3 = vx | visualization components,0,0,547.0,0.10962899218547628
+105,webcharts,RhoInc/Webcharts,[webcharts],[webcharts],14.0,1.0,"Reusable, flexible, interactive charts with JavaScript",0,0,2880.0,-0.06097969111941948
+106,webcola,tgdwyer/WebCola,[webcola],[webcola;cola.js;colajs],1005.0,155.0,Javascript constraint-based graph layout,25,7,32104.0,0.21044109426559654
+107,xcharts,tenXer/xcharts,[xcharts],[xcharts],1794.0,194.0,A D3-based library for building custom charts and graphs.,10,10,2815.0,0.0933572837891552
+108,xkcdplot,tlrobinson/xkcdplot,[xkcdplot],[xkcdplot],0.0,0.0,XKCD-style plots in Javascript using D3. Fork of http://dan.iel.fm/xkcd/,0,0,5480.0,-0.1869414775715148
+109,zingchart,zingchart/ZingChart,[zingchart],[zingchart],146.0,27.0,"A declarative, efficient, and simple JavaScript library for building responsive charts",195,195,23381.0,0.10632849924250576
+110,zoomcharts,ennosol/zoomcharts,['zoomcharts'],['zoomcharts'],0.0,3.0,"This is _not_ an official repository for Zoomcharts. Visit http://zoomcharts.com for more info. Since Zoomcharts is currently only available as a zip file and that zip file seems to have occasional issues, we created this repo to helps us keep our deployment pipeline stable.",26,26,,

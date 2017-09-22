@@ -1,0 +1,24 @@
+toolkit,full_name,forks,stars,so_tag_counts,so_question_count,growth_rate,search_results
+apache singa,apache/incubator-singa,253,1036,,1,0.6,233
+bigdl,intel-analytics/BigDL,401,1990,,3,0.791176470588,1490
+caffe,BVLC/caffe,12371,20155,2191.0,2636,0.575757575758,46300
+caffe2,caffe2/caffe2,1233,5628,26.0,34,1.08641975309,3690
+chainer,chainer/chainer,772,2925,49.0,940,0.95652173913,6590
+cntk,Microsoft/CNTK,3190,12366,301.0,316,1.23622047244,7830
+deeplearning4j,deeplearning4j/deeplearning4j,3590,7175,139.0,198,0.280701754386,8550
+dlib,davisking/dlib,941,2724,421.0,625,1.20948616601,2230
+dynet,clab/dynet,435,1723,,2,0.660550458716,585
+keras,fchollet/keras,7067,19504,4098.0,4529,0.962264150943,30800
+lasagne,Lasagne/Lasagne,899,3225,227.0,353,0.548076923077,3350
+matconvnet,vlfeat/matconvnet,579,826,58.0,99,0.368421052632,2820
+mxnet,apache/incubator-mxnet,4179,11127,206.0,238,1.07171314741,18400
+nervana neon,NervanaSystems/neon,705,3212,3.0,4,0.0232558139535,223
+nvidia digits,NVIDIA/DIGITS,908,2468,68.0,90,0.302139037433,2320
+opennn,Artelnics/OpenNN,135,366,1.0,13,-0.233333333333,506
+paddlepaddle,PaddlePaddle/Paddle,1447,5405,,8,0.943127962085,1150
+pytorch,pytorch/pytorch,1456,7361,224.0,249,2.36036036036,7740
+sonnet,deepmind/sonnet,650,5290,1.0,46,2.72440944882,1920
+tensorflow,tensorflow/tensorflow,34355,69781,16462.0,17641,1.28057553957,98500
+tflearn,tflearn/tflearn,1413,6645,245.0,372,-0.104,2060
+theano,Theano/Theano,2290,6902,2329.0,2935,1.13043478261,28400
+torch,torch/torch7,2154,7265,774.0,1848,0.923954372624,18000

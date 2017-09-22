@@ -1,0 +1,24 @@
+toolkit,full_name,forks,stars
+apache singa,apache/incubator-singa,253,1036
+bigdl,intel-analytics/BigDL,401,1990
+caffe,BVLC/caffe,12371,20155
+caffe2,caffe2/caffe2,1233,5628
+chainer,chainer/chainer,772,2925
+cntk,Microsoft/CNTK,3190,12366
+deeplearning4j,deeplearning4j/deeplearning4j,3590,7175
+dlib,davisking/dlib,941,2724
+dynet,clab/dynet,435,1723
+keras,fchollet/keras,7067,19504
+lasagne,Lasagne/Lasagne,899,3225
+matconvnet,vlfeat/matconvnet,579,826
+mxnet,apache/incubator-mxnet,4179,11127
+nervana neon,NervanaSystems/neon,705,3212
+nvidia digits,NVIDIA/DIGITS,908,2468
+opennn,Artelnics/OpenNN,135,366
+paddlepaddle,PaddlePaddle/Paddle,1447,5405
+pytorch,pytorch/pytorch,1456,7361
+sonnet,deepmind/sonnet,650,5290
+tensorflow,tensorflow/tensorflow,34355,69781
+tflearn,tflearn/tflearn,1413,6645
+theano,Theano/Theano,2290,6902
+torch,torch/torch7,2154,7265

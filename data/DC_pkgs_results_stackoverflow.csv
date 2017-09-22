@@ -1,0 +1,141 @@
+package,so_alias,so_tag_count,so_question_count
+apache storm,apache-storm,2086,2209
+stratio crossdata,stratio-crossdata,0,0
+kite,kite,9,330
+twitter gizzard,twitter-gizzard,0,4
+apache knox,knox-gateway,20,33
+apache reef,apache-reef,0,2
+apache tajo,apache-tajo,7,12
+pachyderm,pachyderm,0,6
+nextflow,nextflow,0,4
+apache sqoop,apache-sqoop,256,397
+apache metamodel,apache-metamodel,38,61
+apache vxquery,apache-vxquery,0,1
+cascalog,cascalog,26,34
+parsely streamparse,streamparse,16,25
+datasalt pangool,datasalt-pangool,0,0
+apache parquet,parquet,832,1965
+succinct spark,succinct-spark,0,3
+blaze,blaze,103,2044
+netflix staash,netflix-staash,0,0
+skale,skale,0,8
+metamarkets druid,druid,146,304
+distributedr,distributedr,0,3
+twitter tsar,twitter-tsar,0,1
+sigmoidanalytics spork,sigmoidanalytics-spork,0,0
+apache ambari,ambari,465,833
+amplab simr,amplab-simr,0,0
+apache calcite,calcite,47,88
+stratio streaming,stratio-streaming,0,9
+apache gora,gora,39,125
+apache helix,apache-helix,0,14
+apache edgent,apache-edgent,4,6
+disco,disco,26,1117
+ebay oink,ebay-oink,0,0
+rackerlabs blueflood,rackerlabs-blueflood,0,1
+torch,torch,778,1851
+pinterest pinlater,pinterest-pinlater,0,0
+google mapreduce,google-mapreduce,0,281
+apache twill,apache-twill,12,12
+google dataflow,google-dataflow,0,668
+apache mapreduce,apache-mapreduce,0,543
+apache bigtop,bigtop,16,44
+apache bookkeeper,apache-bookkeeper,0,18
+hazelcast,hazelcast,1403,1684
+apache flume,flume,1027,1558
+datatorrent stram,datatorrent-stram,0,1
+graphlab dato,graphlab-dato,0,11
+spatialhadoop,spatialhadoop,0,3
+gis tools for hadoop,gis-tools-for-hadoop,0,6
+twitter crane,twitter-crane,0,0
+drools,drools,2579,3006
+gearpump,gearpump,0,2
+apache falcon,apache-falcon,17,35
+kryo,kryo,294,627
+apache ignite,ignite,722,3715
+sqlstream blaze,sqlstream-blaze,0,0
+twitter summingbird,twitter-summingbird,0,0
+arvados,arvados,0,0
+apache giraph,giraph,140,176
+netflix aegisthus,netflix-aegisthus,0,0
+apache apex,apache-apex,46,74
+netflix mantis,netflix-mantis,0,0
+google flumejava,google-flumejava,0,1
+google millwheel,google-millwheel,0,1
+apache pig,apache-pig,4884,4993
+metamarkers druid,metamarkers-druid,0,0
+twitter scalding,scalding,183,213
+apache beam,apache-beam,360,402
+twitter heron,twitter-heron,0,7
+netflix zeno,netflix-zeno,0,0
+microsoft trill,microsoft-trill,0,0
+tibco activespaces,tibco-activespaces,0,5
+pubnub,pubnub,842,1093
+ampcrowd,ampcrowd,0,1
+microsoft project orleans,microsoft-project-orleans,0,3
+apache samza,apache-samza,66,72
+amazon lambda,amazon-lambda,177,940
+seqpig,seqpig,0,0
+oryx,oryx,12,37
+high-performance computing cluster (hpcc),hpcc,10,27
+amplab g-ola,amplab-g-ola,0,0
+netflix lipstick,netflix-lipstick,0,1
+ibm streams,ibm-streams,15,189
+apache spark streaming,spark-streaming,3311,4852
+teradata querygrid,teradata-querygrid,0,0
+onyx,onyx,0,173
+apache spark,apache-spark,31460,32329
+snap,stanford-snap,0,14
+google bigquery,google-bigquery,5428,5714
+apache couchdb,couchdb,4972,6397
+nokia disco,disco,26,1117
+apache phoenix,pheonix,0,86
+apache kafka,apache-kafka,6232,6607
+apache drill,apache-drill,400,460
+netflix surus,netflix-surus,0,0
+apache s4,apache-s4,0,40
+netflix pigpen,netflix-pigpen,0,0
+hparser,hparser,0,9
+spring for apache hadoop,spring-for-apache-hadoop,0,33
+facebook scuba,facebook-scuba,0,2
+streamsx.topology,streamsx.topology,0,1
+apache flink,apache-flink,1228,1276
+apache airavata,apache-airavata,0,7
+apache zeppelin,apache-zeppelin,656,696
+apache gearpump,apache-gearpump,0,1
+tuktu,tuktu,0,0
+datatorrent rts,datatorrent-rts,0,2
+ceph,ceph,171,257
+linkedin cubert,linkedin-cubert,0,0
+amazon spice,amazon-spice,0,3
+spark-dataflow,spark-dataflow,0,30
+apache datafu,apache-datafu,4,11
+damballa parkour,damballa-parkour,0,0
+microsoft azure stream analytics,azure-stream-analytics,310,378
+esper,esper,373,3316
+scaleout hserver,scaleout-hserver,5,5
+akela,akela,0,7
+getstream stream framework,getstream-stream-framework,0,11
+cheetah,cheetah,57,394
+facebook corona,facebook-corona,0,55
+addthis hydra,addthis-hydra,0,0
+trident,trident,115,2584
+geotrellis,geotrellis,5,13
+apache hadoop,hadoop,35431,41804
+facebook peregrine,facebook-peregrine,0,0
+apache avro,avro,1254,2290
+apache oozie,oozie,1566,1915
+concurrent cascading,cascading,318,14370
+stratio decision,stratio-decision,0,0
+pydoop,pydoop,0,39
+presto,prestodb,264,274
+jaql,jaql,0,19
+apache lens,apache-lens,0,17
+apache tez,apache-tez,58,109
+apache hama,hama,21,61
+streamdrill,streamdrill,0,0
+sumo logic,sumologic,19,28
+apache orc,orc,177,1039
+microsoft orleans,microsoft-orleans,0,29
+apache crunch,apache-crunch,35,80
+tigon,tigon,0,5

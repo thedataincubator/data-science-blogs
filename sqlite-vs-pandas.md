@@ -155,6 +155,8 @@ were ran on Digital Ocean `Ubuntu 14.04` with 16GB memory and 8 core CPU.
 
 # References
 
+For resource on becoming a data scientist, check out our [blog](https://blog.thedataincubator.com/), particular this article on [preparing for our free data science fellowship](https://blog.thedataincubator.com/2014/09/how-to-prepare-for-the-data-incubator/) and this one on [data manipulating data like a professional data scientist](https://blog.thedataincubator.com/2015/01/processing-data-like-a-professional-data-scientist/).
+
 To learn more how `sqlite` works, check
 out
 [this awesome blog series](https://jvns.ca/blog/2014/09/27/how-does-sqlite-work-part-1-pages/).

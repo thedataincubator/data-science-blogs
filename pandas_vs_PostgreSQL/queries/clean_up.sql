@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS test_table_A;
+DROP TABLE IF EXISTS test_table_B;

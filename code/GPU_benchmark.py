@@ -9,7 +9,7 @@ benchmark_log = np.array([[0,0,0]])
 
 num_iterations = 1000
 
-txt = open('text_sample.txt', 'r').read().lower()
+txt = open('../data/text_sample.txt', 'r').read().lower()
 
 chars = list(set(txt))
 data = [chars.index(c) for c in txt]

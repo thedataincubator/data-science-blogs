@@ -134,8 +134,8 @@ HTTP_PORT=$(kubectl get svc <ingress-controller> -o yaml | shyaml get-value spec
 HTTPS_PORT=$(kubectl get svc <ingress-controller> -o yaml | shyaml get-value spec.ports.1.nodePort)
 ```
 
-Set Up DNS records
-Now we can set up an A record to point at our static ip (or a CNAME record if you are using a loadbalancer without a static ip).  This will hit the loadbalancer which will direct the traffic to our ingress-controller
+## Set Up DNS records
+Now we can set up an A record to point at our static ip (or a CNAME record if you are using a loadbalancer without a static ip).  This will direct traffic to our host to the loadbalancer which will direct the traffic to our ingress-controller.  With this configuration we are relying on the specified host in the Ingress and without this configuration, your website will not be able to run.  If you want to check your application without setting up DNS records, you can use a NodePort in your service description.  This will open up a port on all of your nodes through which you can communicate with the service.  You can then point your load balancer at these ports.
 
 ## Get SSL Certificate
 We can use lets-encrypt to supply a ssl certificate for our pods and use the [kube-lego](https://github.com/jetstack/kube-lego) service to automatically provision and keep updated certificates for all the hosts specific in our ingresses.  We will need to create an annotation on the ingresses we want to be marked.  Before you deploy this, make sure that your application is reachable over both http and https.

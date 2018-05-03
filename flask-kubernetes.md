@@ -1,24 +1,28 @@
 # Flask Apps on Kubernetes
 
-At [The Data Incubator](https://www.thedataincubator.com/) we use Kubernetes with varying hardware backends to power a large portion of our resources.  Kubernetes orchestrates containers within a cluster of compute resources and allows seamless networking within the cluster.  All your microservices can easily talk to each other without having to care too much about the details of how those requests get routed around the cluster components.  For many services, this internal networking is enough, but sometimes we do need to talk to the outside world.  When we do so, best practices dictate we use SSL encryption which requires both exposing an internal service to external requests and provisioning the proper certificates into the cluster.  This guide will walk you through creating a simple Flask application in a containerized fashion, using Kubernetes to run this as a deployment, and finally exposing the deployment to the outside world over an encrypted connection using an ingress and certificates provisioned with [Let's Encrypt](https://letsencrypt.org/).  
+At [The Data Incubator](https://www.thedataincubator.com/) we use Kubernetes with varying hardware backends to power a large portion of our resources.  Kubernetes orchestrates containers within a cluster of compute resources and allows seamless networking within the cluster.  All your microservices can easily talk to each other without having to care too much about the details of how those requests get routed around the cluster components.  For many services, this internal networking is enough, but sometimes we do need to talk to the outside world.  When we do so, best practices dictate we use SSL encryption which requires both exposing an internal service to external requests and provisioning the proper certificates into the cluster.  This guide will walk you through creating a simple Flask application in a containerized fashion, using Kubernetes to run this as a deployment, and finally exposing the deployment to the outside world over an encrypted connection using an Ingress and certificates provisioned with [Let's Encrypt](https://letsencrypt.org/).  
 
-This article assumes a running Kubernetes cluster, preferable with helm running.  Our example is built for a bare metal cluster running on [Digital Ocean](https://www.digitalocean.com), but extensions to other providers should be fairly straightforward.
+This article assumes a running Kubernetes cluster, preferably with helm running.  Our example is built for a bare metal cluster running on [Digital Ocean](https://www.digitalocean.com), but extensions to other providers should be fairly straightforward.  We also assume that `docker` and `kubectl` are installed.
 
 ## Dockerize that Flask application
 
-The first step we must take is to Dockerize our Flask application.  We will start an app based on the excellent template by Kenneth Reitz [repo](https://github.com/thedataincubator/flask-framework/tree/docker)  which allows us to build a flask application quickly.  Add your flask code to the `app/app.py` file.  Once this is complete we can run a docker command to build our application.  Before we run it on Kubernetes, we should test locally.  We can do this by first building our app from the directory containing the `Dockerfile`
+The first step we must take is to Dockerize our Flask application.  We will start an app based on the excellent template by Kenneth Reitz [repo](https://github.com/thedataincubator/flask-framework/tree/docker).  Add your flask entrypoint flask code to the `app/app.py` file, we recommend something very simple.  Once this is complete we can run a docker command to build our application into a Docker image, but before we deploy to our Kubernetes cluster, we should test locally.  One of the many advantages of Docker is that if it works locally it "should" work pretty much anywhere.
+
+So lets do this in a few steps. First we can build our app from the directory containing the `Dockerfile` with the follow command
 
 ```bash
 docker build -t k8s-flask .
 ```
 
-then by running it locally
+and then run it locally with
 
 ```bash
 docker run -it -e PORT=5000 -p 5000:5000 k8s-flask
 ```
 
-while this running, you can navigate to localhost:5000 in a web browser of your choice and hopefully see your application.  The application is being run with gunicorn so its fairly ready for the prime time.  Remember to adhere to good practices here, make most things stateless and if you need to use state, use a database.  Now lets push our application to a docker repository.  You can use a repository of your choice, AWS, GCP, DockerHub, Quay.io are just a few.  Now we have a running app, lets deploy it on our Kubernetes cluster. 
+While this running, you can navigate to localhost:5000 in a web browser of your choice and hopefully see your application.  The application is being run with gunicorn so its fairly ready for the prime time.  Remember to adhere to good practices here, make most things stateless and if you need to use state, use a database. 
+
+Finally, we can push our application to a docker repository (or push to github and build off CI).  You can use a repository of your choice, a few ones we have used are AWS, GCP, DockerHub, Quay.io.  Now that we have a containerized application, lets deploy it on our Kubernetes cluster. 
 
 ## Create a Deployment
 

@@ -6,7 +6,7 @@ This article assumes a running Kubernetes cluster, preferable with helm running.
 
 ## Dockerize that Flask application
 
-The first step we must take is to Dockerize our Flask application.  We will start an app based on the excellent template by Kenneth Reitz https://github.com/thedataincubator/flask-framework/tree/docker  which allows us to build a flask application quickly.  Add your flask code to the `app/app.py` file.  Once this is complete we can run a docker command to build our application.  Before we run it on Kubernetes, we should test test locally.  We can do this by first building our app
+The first step we must take is to Dockerize our Flask application.  We will start an app based on the excellent template by Kenneth Reitz [repo](https://github.com/thedataincubator/flask-framework/tree/docker)  which allows us to build a flask application quickly.  Add your flask code to the `app/app.py` file.  Once this is complete we can run a docker command to build our application.  Before we run it on Kubernetes, we should test test locally.  We can do this by first building our app
 
 ```bash
 docker build -t k8s-flask .
@@ -22,7 +22,7 @@ while this running, you can navigate to localhost:5000 in a web browser of your 
 
 ## Create a Deployment
 
-Here we will use a Deployment to control how our application is deployed across the Kubernetes cluster (rather well named).  We can think of the Deployment as controlling the desired state of our application and it specifies details like how many replicas of our container we desire, how much memory to alot to each one and environmental variables that should be passed to each container.  Kubernetes will perform actions to ensure that the state described in the Deployment matches reality and handle things like node failures, upgrades, and scaling.  Our deployment should look something like 
+Here we will use a Deployment to control how our application is deployed across the Kubernetes cluster (rather well named).  We can think of the Deployment as controlling the desired state of our application and it specifies details like how many replicas of our container we desire, how much memory to alot to each one, and environmental variables that should be passed to each container.  Kubernetes will perform actions to ensure that the state described in the Deployment matches reality and handle things like node failures, upgrades, and scaling.  Our deployment should look something like 
 
 ```yaml
 apiVersion: extensions/v1beta1

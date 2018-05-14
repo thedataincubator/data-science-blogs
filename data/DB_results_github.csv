@@ -1,0 +1,195 @@
+toolkit,full_name,forks,stars
+4store,4store/4store,54,236
+accumulo,apache/accumulo,201,368
+actordb,biokoda/actordb,50,1010
+aerospike,,0,0
+agensgraph,bitnine-oss/agensgraph,46,542
+alasql,agershun/alasql,327,2433
+altibase,ALTIBASE/altibase,30,54
+amazon aurora,claranet/terraform-aws-aurora,10,11
+apache drill,apache/drill,662,951
+apache phoenix,apache/phoenix,582,459
+arangodb,arangodb/arangodb,418,5600
+badger,dgraph-io/badger,197,3663
+bangdb,sachin-sinha/BangDB,2,18
+basex,BaseXdb/basex,218,346
+bergdb,bergdb/bergdb,0,0
+bigchaindb,bigchaindb/bigchaindb,472,2478
+blazegraph,alexiejmarckut/blazegraph,0,80
+blueflood,rackerlabs/blueflood,89,559
+boltdb,boltdb/bolt,723,8465
+brightstardb,BrightstarDB/BrightstarDB,81,339
+cachelot.io,cachelot/cachelot.github.io,1,0
+cassandra,apache/cassandra,2007,4373
+citus,citusdata/citus,190,2690
+clickhouse,yandex/ClickHouse,598,3986
+cloudkit,jcrosby/cloudkit,23,310
+cockroachdb,cockroachdb/cockroach,1374,13342
+codernitydb,perchouli/codernitydb,10,36
+comdb2,bloomberg/comdb2,91,731
+couchbase,,0,0
+couchdb,apache/couchdb,770,3614
+cratedb,crate/crate,263,1999
+csql,,0,0
+cubicweb,,0,0
+cubrid,CUBRID/cubrid,52,89
+database management library,,0,0
+dataease,,0,0
+dataphor,DBCG/Dataphor,7,28
+db4o,,0,0
+dbase,,0,0
+densodb,teamdev/DensoDB,17,54
+derby,derbyjs/derby,255,4317
+dgraph,dgraph-io/dgraph,354,5500
+djondb,,0,0
+druid,druid-io/druid,1582,6459
+ehcache,,0,0
+ejdb,Softmotions/ejdb,102,928
+elasticsearch,elastic/elasticsearch,10643,30732
+elliptics,reverbrain/elliptics,83,460
+event store,EventStore/EventStore,438,2431
+exist-db,eXist-db/exist,105,202
+extremedb,,0,0
+firebird,FirebirdSQL/firebird,63,222
+fleetdb,mmcgrana/fleetdb,17,166
+flockdb,twitter-archive/flockdb,261,3138
+foundationdb,apple/foundationdb,459,7623
+frontbase,,0,0
+geode,apache/geode,438,1229
+giraph,apache/giraph,253,455
+google fusion tables,,0,0
+grakn.ai,graknlabs/grakn,126,938
+graph engine,Microsoft/GraphEngine,176,1485
+graphite,,0,0
+greenplum,kailashjoshi/greenplum,10,7
+griddb,,0,0
+h2,,0,0
+hawkular metrics,hawkular/hawkular-metrics,71,188
+hawq,apache/incubator-hawq,201,358
+hazelcast,hazelcast/hazelcast,1004,2571
+hbase,apache/hbase,1529,1940
+heroic,spotify/heroic,74,617
+hgraphdb,rayokota/hgraphdb,23,106
+hibari,hibari/hibari,25,216
+hive,apache/hive,1948,1855
+hsqldb,,0,0
+hypergraphdb,hypergraphdb/hypergraphdb,25,92
+hyperleveldb,rescrv/HyperLevelDB,64,361
+hypersql,IzzySoft/HyperSQL,4,10
+iboxdb,,0,0
+ignite,apache/ignite,926,1678
+impala,apache/impala,91,151
+infinidb,infinidb/infinidb,90,220
+infinispan,infinispan/infinispan,444,656
+influxdb,influxdata/influxdb,1921,13291
+infogrid,,0,0
+informix,,0,0
+ingres,fosslc/Ingres,10,19
+interbase,,0,0
+jackrabbit,apache/jackrabbit,146,183
+janusgraph,JanusGraph/janusgraph,319,1443
+jasdb,oberasoftware/jasdb,9,24
+jena,apache/jena,342,404
+kairosdb,kairosdb/kairosdb,255,1228
+kyoto cabinet,,0,0
+kyoto tycoon,,0,0
+ledisdb,siddontang/ledisdb,295,2524
+leveldb,google/leveldb,3371,13600
+libreoffice base,,0,0
+litedb,mbdavid/LiteDB,524,2860
+lokijs,techfort/LokiJS,339,4072
+lovefield,google/lovefield,343,5818
+luciddb,LucidDB/luciddb,13,38
+manticore search,manticoresoftware/manticoresearch,25,96
+mapd,mapd/mapd-core,193,1433
+mapdb,jankotek/mapdb,678,3104
+mariadb,,0,0
+memcached,memcached/memcached,2347,7667
+mnesia,erlang-labs/mnesia,4,9
+modeshape,ModeShape/modeshape,196,185
+monetdb,MonetDB/MonetDB,33,144
+mongodb,mongodb/mongo,3553,13662
+msql,mick88/MSQLite,4,15
+mulgara,quoll/mulgara,6,26
+mysql,,0,0
+nanolat,Nanolat/nldb,3,20
+ncache,Alachisoft/NCache,70,279
+neo4j,neo4j/neo4j,1340,5022
+netezza,,0,0
+neventstore,NEventStore/NEventStore,327,1231
+newts,OpenNMS/newts,33,164
+nosdb,Alachisoft/NosDB,21,27
+openoffice.org base,,0,0
+openqm,gregjurman/openqm,0,3
+opentsdb,OpenTSDB/opentsdb,933,3032
+oracle berkeley db,,0,0
+orientdb,orientechnologies/orientdb,731,3455
+origodb,DevrexLabs/OrigoDB,27,113
+percona server for mongodb,percona/percona-server-mongodb,23,69
+percona server for mysql,percona/percona-server,180,423
+perst,,0,0
+pipelinedb,pipelinedb/pipelinedb,141,1675
+postgres-xl,Postgres-XL/Postgres-XL,5,8
+postgresql,postgres/postgres,1335,3913
+pouchdb,pouchdb/pouchdb,1060,10503
+prestodb,prestodb/presto,2511,7459
+project voldemort,voldemort/voldemort,528,2079
+prometheus,prometheus/prometheus,2044,16196
+pyrrho,,0,0
+raptordb,mgholam/RaptorDB-Document,19,82
+rasdaman,dioptre/rasdaman,2,6
+ravendb,ravendb/ravendb,678,1907
+rdf4j,eclipse/rdf4j,39,112
+redis,antirez/redis,11167,28905
+redland,,0,0
+redstore,njh/redstore,5,44
+resin cache,,0,0
+rethinkdb,rethinkdb/rethinkdb,1680,21215
+riak kv,basho/riak_kv,198,414
+riak ts,basho/riak,498,2991
+rocksdb,facebook/rocksdb,2293,10498
+rrdtool,octo/rrdtool,12,18
+scalaris,scalaris-team/scalaris,20,101
+scidb,,0,0
+scylladb,scylladb/scylla,483,4000
+sedna,sedna/sedna,2,4
+senseidb,,0,0
+sequoiadb,SequoiaDB/SequoiaDB,329,739
+siridb,SiriDB/siridb-server,28,349
+sisodb,danielwertheim/SisoDb-Provider,25,128
+sitewhere,sitewhere/sitewhere,126,200
+smallsql,,0,0
+snappydata,SnappyDataInc/snappydata,127,717
+solr,apache/lucene-solr,1333,1601
+spark sql,,0,0
+sphinx,sphinx-doc/sphinx,780,1851
+sql.js,kripken/sql.js,491,4259
+sqlite,,0,0
+strabon,esarbanis/strabon,2,2
+stsdb,STSSoft/STSdb4,31,36
+swaydb,simerplaha/SwayDB,2,17
+tajo,apache/tajo,97,106
+tarantool,tarantool/tarantool,191,1865
+tayzgrid,Alachisoft/TayzGrid,6,6
+teradata,,0,0
+tidb,pingcap/tidb,1773,13144
+timescaledb,timescale/timescaledb,201,4718
+tinkergraph,,0,0
+tokyo cabinet,,0,0
+tokyo tyrant,,0,0
+tomp2p,tomp2p/TomP2P,99,300
+torodb,torodb/torodb,1,7
+trafodion,apache/trafodion,115,160
+txtsql,,0,0
+upscaledb,cruppstahl/upscaledb,43,399
+vertica,,0,0
+virtuoso,openlink/virtuoso-opensource,137,470
+voltdb,VoltDB/voltdb,325,1163
+wakandadb,,0,0
+warp 10,cityzendata/warp10-platform,34,67
+webscalesql,webscalesql/webscalesql-5.6,397,3032
+whitedb,priitj/whitedb,53,429
+wiredtiger,wiredtiger/wiredtiger,202,1165
+xapian,xapian/xapian,197,409
+zodb,zopefoundation/ZODB,39,237
+zookeeper,apache/zookeeper,2966,4354

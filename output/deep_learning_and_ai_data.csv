@@ -1,0 +1,41 @@
+toolkit,full_name,forks,stars,so_tag_counts,so_question_count,growth_rate,search_results
+apache mxnet,apache/incubator-mxnet,5119,13815,,13.0,0.0921409214092,22600
+apache singa,apache/incubator-singa,311,1421,,1.0,5.03846153846,5340
+bigdl,intel-analytics/BigDL,546,2429,,10.0,0.692883895131,1900
+caffe,BVLC/caffe,14647,23938,2480.0,3009.0,1.28571428571,73500
+caffe2,caffe2/caffe2,1914,7848,67.0,84.0,0.746376811594,7530
+chainer,chainer/chainer,982,3727,85.0,1022.0,0.595744680851,11300
+cntk,Microsoft/CNTK,3818,14344,451.0,482.0,0.648514851485,14200
+deeplearning4j,deeplearning4j/deeplearning4j,4216,8806,191.0,265.0,2.36904761905,11600
+deeppy,andersbll/deeppy,306,1245,,1.0,-0.285714285714,143
+dlib,davisking/dlib,1447,4790,550.0,809.0,0.786666666667,7200
+dynet,clab/dynet,540,2247,5.0,9.0,0.454545454545,953
+hebel,hannes-brt/hebel,134,1176,,3.0,1.36569579288,2560
+intel data analytics acceleration library,intel/daal,56,197,,1.0,-0.678571428571,214
+intel math kernel library,intel/mkl-dnn,197,728,,74.0,0.812030075188,1500
+keras,keras-team/keras,10732,28880,7890.0,8734.0,1.02912621359,83200
+lasagne,Lasagne/Lasagne,926,3426,209.0,348.0,0.982142857143,5410
+libpgm,CyberPoint/libpgm,36,60,,14.0,1.0,51
+matlab + neural network toolbox,sebastian-lapuschkin/lrp_toolbox,30,83,,136.0,0.597222222222,964
+mlpy,evenmarbles/mlpy,2,3,,36.0,1.5,552
+nervana neon,NervanaSystems/neon,793,3476,5.0,7.0,0.538461538462,249
+nltk,nltk/nltk,1813,6340,4485.0,5866.0,1.33838383838,24000
+nolearn,dnouri/nolearn,256,902,45.0,76.0,0.0,773
+nupic,numenta/nupic,1515,5571,33.0,39.0,-0.168421052632,910
+nvidia digits,NVIDIA/DIGITS,1147,3096,82.0,108.0,0.463503649635,3130
+opencv,opencv/opencv,17429,24257,44099.0,49364.0,2.45945945946,183000
+opennn,Artelnics/OpenNN,172,469,6.0,18.0,0.68115942029,759
+paddlepaddle,PaddlePaddle/Paddle,1853,6817,,9.0,0.860759493671,2640
+pattern,clips/pattern,1222,6239,,16.0,,0
+pgmpy,pgmpy/pgmpy,299,726,8.0,13.0,0.5,159
+pybrain,pybrain/pybrain,771,2534,314.0,373.0,0.366459627329,1860
+pyevolve,perone/Pyevolve,92,272,25.0,40.0,1.66666666667,310
+pymc,pymc-devs/pymc,191,670,408.0,492.0,0.350318471338,2050
+pynlpl,proycon/pynlpl,51,310,,2.0,1.0,74
+pytorch,pytorch/pytorch,3287,14689,794.0,899.0,1.10416666667,29300
+shogun,shogun-toolbox/shogun,866,2091,49.0,89.0,4.9156626506,9200
+sonnet,deepmind/sonnet,852,6384,,52.0,3.05479452055,6630
+tensorflow,tensorflow/tensorflow,62206,98119,26578.0,28674.0,-0.206364513018,504000
+tflearn,tflearn/tflearn,1934,7986,367.0,527.0,0.677611940299,3130
+theano,Theano/Theano,2454,8175,2360.0,3080.0,1.06329113924,41200
+torch,torch/torch7,2276,7865,855.0,2173.0,1.68085106383,42700

@@ -1,0 +1,45 @@
+toolkit,so_tag_counts,so_question_count
+caffe,2480.0,3009.0
+caffe2,67.0,84.0
+chainer,85.0,1022.0
+cntk,451.0,482.0
+deeplearning4j,191.0,265.0
+dlib,550.0,809.0
+dynet,5.0,9.0
+keras,7890.0,8734.0
+lasagne,209.0,348.0
+nervana neon,5.0,7.0
+nltk,4485.0,5866.0
+nolearn,45.0,76.0
+nupic,33.0,39.0
+nvidia digits,82.0,108.0
+opencv,44099.0,49364.0
+opennn,6.0,18.0
+design patterns,25459.0,
+pgmpy,8.0,13.0
+pybrain,314.0,373.0
+pyevolve,25.0,40.0
+pymc,408.0,492.0
+pytorch,794.0,899.0
+scikit image,698.0,1128.0
+scikit learn,10995.0,11976.0
+shogun,49.0,89.0
+tensorflow,26578.0,28674.0
+tflearn,367.0,527.0
+theano,2360.0,3080.0
+torch,855.0,2173.0
+sonnet,,52.0
+apache singa,,1.0
+apache mxnet,,13.0
+intel data analytics acceleration library,,1.0
+datamelt (dmelt),,0.0
+pynlpl,,2.0
+pattern,,16.0
+matlab + neural network toolbox,,136.0
+intel math kernel library,,74.0
+deeppy,,1.0
+libpgm,,14.0
+bigdl,,10.0
+hebel,,3.0
+paddlepaddle,,9.0
+mlpy,,36.0

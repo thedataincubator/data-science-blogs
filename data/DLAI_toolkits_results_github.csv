@@ -1,0 +1,43 @@
+toolkit,full_name,forks,stars
+apache mxnet,apache/incubator-mxnet,5119,13815
+apache singa,apache/incubator-singa,311,1421
+bigdl,intel-analytics/BigDL,546,2429
+caffe,BVLC/caffe,14647,23938
+caffe2,caffe2/caffe2,1914,7848
+chainer,chainer/chainer,982,3727
+cntk,Microsoft/CNTK,3818,14344
+deeplearning4j,deeplearning4j/deeplearning4j,4216,8806
+deeppy,andersbll/deeppy,306,1245
+dlib,davisking/dlib,1447,4790
+dynet,clab/dynet,540,2247
+hebel,hannes-brt/hebel,134,1176
+intel data analytics acceleration library,intel/daal,56,197
+intel math kernel library,intel/mkl-dnn,197,728
+keras,keras-team/keras,10732,28880
+lasagne,Lasagne/Lasagne,926,3426
+libpgm,CyberPoint/libpgm,36,60
+matlab + neural network toolbox,sebastian-lapuschkin/lrp_toolbox,30,83
+mlpy,evenmarbles/mlpy,2,3
+nervana neon,NervanaSystems/neon,793,3476
+nltk,nltk/nltk,1813,6340
+nolearn,dnouri/nolearn,256,902
+nupic,numenta/nupic,1515,5571
+nvidia digits,NVIDIA/DIGITS,1147,3096
+opencv,opencv/opencv,17429,24257
+opennn,Artelnics/OpenNN,172,469
+paddlepaddle,PaddlePaddle/Paddle,1853,6817
+pattern,clips/pattern,1222,6239
+pgmpy,pgmpy/pgmpy,299,726
+pybrain,pybrain/pybrain,771,2534
+pyevolve,perone/Pyevolve,92,272
+pymc,pymc-devs/pymc,191,670
+pynlpl,proycon/pynlpl,51,310
+pytorch,pytorch/pytorch,3287,14689
+scikit-image,scikit-image/scikit-image,1012,2222
+scikit-learn,scikit-learn/scikit-learn,13888,27769
+shogun,shogun-toolbox/shogun,866,2091
+sonnet,deepmind/sonnet,852,6384
+tensorflow,tensorflow/tensorflow,62206,98119
+tflearn,tflearn/tflearn,1934,7986
+theano,Theano/Theano,2454,8175
+torch,torch/torch7,2276,7865

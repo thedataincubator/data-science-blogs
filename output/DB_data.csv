@@ -1,193 +1,193 @@
 toolkit,full_name,forks,stars,so_tag_counts,so_question_count,growth_rate,search_results
-4store,4store/4store,54,236,19.0,30.0,0.289473684211,677
-accumulo,apache/accumulo,201,368,235.0,422.0,0.835365853659,23200
-actordb,biokoda/actordb,50,1010,,2.0,-0.555555555556,610
-aerospike,,0,0,522.0,583.0,3.77551020408,9460
-agensgraph,bitnine-oss/agensgraph,46,542,,14.0,1.51515151515,443
-alasql,agershun/alasql,327,2433,184.0,237.0,2.34545454545,1050
-altibase,ALTIBASE/altibase,30,54,,2.0,0.648648648649,3160
-amazon aurora,claranet/terraform-aws-aurora,10,11,,114.0,0.409703504043,26900
-apache drill,apache/drill,662,951,436.0,499.0,1.97222222222,6310
-apache phoenix,apache/phoenix,582,459,,283.0,0.502024291498,3030
-arangodb,arangodb/arangodb,418,5600,1144.0,1185.0,1.05660377358,6560
-badger,dgraph-io/badger,197,3663,,281.0,1.55421686747,227000
-bangdb,sachin-sinha/BangDB,2,18,,3.0,-0.615384615385,119
-basex,BaseXdb/basex,218,346,293.0,492.0,0.477419354839,2150
-bergdb,bergdb/bergdb,0,0,,0.0,2.0,25
-bigchaindb,bigchaindb/bigchaindb,472,2478,19.0,31.0,1.04885993485,2370
-blazegraph,alexiejmarckut/blazegraph,0,80,66.0,78.0,0.438202247191,841
-blueflood,rackerlabs/blueflood,89,559,,2.0,-0.75,246
-boltdb,boltdb/bolt,723,8465,19.0,44.0,0.575757575758,1040
-brightstardb,BrightstarDB/BrightstarDB,81,339,5.0,6.0,-0.565217391304,220
-cachelot.io,cachelot/cachelot.github.io,1,0,,0.0,,6
-cassandra,apache/cassandra,2007,4373,14271.0,17907.0,0.959459459459,720000
-citus,citusdata/citus,190,2690,37.0,45.0,1.59591836735,3250
-clickhouse,yandex/ClickHouse,598,3986,96.0,101.0,0.896551724138,4320
-cloudkit,jcrosby/cloudkit,23,310,1515.0,1766.0,0.903669724771,3570
-cockroachdb,cockroachdb/cockroach,1374,13342,107.0,112.0,1.71052631579,3820
-codernitydb,perchouli/codernitydb,10,36,,5.0,15.0,91
-comdb2,bloomberg/comdb2,91,731,,2.0,1.37931034483,308
-couchbase,,0,0,2717.0,3405.0,1.32608695652,55300
-couchdb,apache/couchdb,770,3614,5280.0,6856.0,1.86220472441,42400
-cratedb,crate/crate,263,1999,51.0,65.0,0.752941176471,842
-csql,,0,0,,97.0,1.21052631579,974
-cubicweb,,0,0,,4.0,1.57142857143,259
-cubrid,CUBRID/cubrid,52,89,11.0,28.0,2.89285714286,4470
-database management library,,0,0,,768.0,6.30357142857,944
-dataease,,0,0,,3.0,0.520833333333,766
-dataphor,DBCG/Dataphor,7,28,,1.0,,133
-db4o,,0,0,382.0,522.0,1.48372093023,2590
-dbase,,0,0,241.0,1761.0,1.7805907173,39700
-densodb,teamdev/DensoDB,17,54,,1.0,5.0,49
-derby,derbyjs/derby,255,4317,2241.0,4011.0,0.159574468085,536000
-dgraph,dgraph-io/dgraph,354,5500,18.0,64.0,2.80176211454,2670
-djondb,,0,0,,3.0,1.0,80
-druid,druid-io/druid,1582,6459,195.0,366.0,1.4347826087,543000
-ehcache,,0,0,2044.0,3504.0,1.22857142857,12100
-ejdb,Softmotions/ejdb,102,928,4.0,9.0,-0.307692307692,342
-elasticsearch,elastic/elasticsearch,10643,30732,32029.0,36268.0,1.71710526316,475000
-elliptics,reverbrain/elliptics,83,460,,953.0,5.25,211
-event store,EventStore/EventStore,438,2431,144.0,26700.0,1.09433962264,3930
-extremedb,,0,0,,5.0,0.222222222222,907
-firebird,FirebirdSQL/firebird,63,222,2645.0,3474.0,1.71212121212,188000
-fleetdb,mmcgrana/fleetdb,17,166,3.0,7.0,6.0,49
-flockdb,twitter-archive/flockdb,261,3138,7.0,19.0,0.135802469136,984
-foundationdb,apple/foundationdb,459,7623,15.0,26.0,3.53299492386,3700
-frontbase,,0,0,6.0,97.0,0.263157894737,1410
-geode,apache/geode,438,1229,166.0,261.0,4.33628318584,16200
-giraph,apache/giraph,253,455,145.0,180.0,0.786885245902,4780
-google fusion tables,,0,0,1368.0,1587.0,1.54471544715,2750
-grakn.ai,graknlabs/grakn,126,938,,3.0,0.244444444444,415
-graph engine,Microsoft/GraphEngine,176,1485,,1059.0,3.95652173913,2640
-graphite,,0,0,806.0,1365.0,0.862068965517,441000
-greenplum,kailashjoshi/greenplum,10,7,451.0,509.0,1.04785894207,42000
-griddb,,0,0,,6.0,0.729166666667,775
-h2,,0,0,2694.0,48858.0,-0.507281553398,1130000
-hawkular metrics,hawkular/hawkular-metrics,71,188,,15.0,-0.168831168831,800
-hawq,apache/incubator-hawq,201,358,124.0,127.0,1.1512195122,3750
-hazelcast,hazelcast/hazelcast,1004,2571,1606.0,1930.0,0.833333333333,15100
-hbase,apache/hbase,1529,1940,6046.0,7880.0,1.74100719424,324000
-heroic,spotify/heroic,74,617,,141.0,1.93243243243,394000
-hgraphdb,rayokota/hgraphdb,23,106,,2.0,1.33333333333,182
-hibari,hibari/hibari,25,216,,2.0,1.02197802198,3660
-hive,apache/hive,1948,1855,13711.0,19021.0,13.9,685000
-hsqldb,,0,0,2175.0,3113.0,0.943820224719,16300
-hypergraphdb,hypergraphdb/hypergraphdb,25,92,3.0,19.0,0.8,603
-hyperleveldb,rescrv/HyperLevelDB,64,361,,0.0,2.5,220
-hypersql,IzzySoft/HyperSQL,4,10,11.0,79.0,0.509523809524,2190
-iboxdb,,0,0,,4.0,0.25,70
-ignite,apache/ignite,926,1678,1052.0,4237.0,1.30845771144,377000
-impala,apache/impala,91,151,980.0,1365.0,2.63218390805,237000
-infinidb,infinidb/infinidb,90,220,32.0,45.0,-0.14880952381,1670
-infinispan,infinispan/infinispan,444,656,680.0,1154.0,0.966153846154,5270
-influxdb,influxdata/influxdb,1921,13291,1017.0,1287.0,1.10674157303,22000
-infogrid,,0,0,,39.0,1.0,599
-informix,,0,0,1683.0,2084.0,1.89728096677,57600
-ingres,fosslc/Ingres,10,19,129.0,214.0,1.49704142012,20300
-interbase,,0,0,285.0,530.0,2.99115044248,24800
-jackrabbit,apache/jackrabbit,146,183,572.0,770.0,1.33333333333,11600
-janusgraph,JanusGraph/janusgraph,319,1443,196.0,209.0,0.622580645161,3100
-jasdb,oberasoftware/jasdb,9,24,1.0,2.0,5.0,81
-jena,apache/jena,342,404,1827.0,2284.0,1.91,312000
-kairosdb,kairosdb/kairosdb,255,1228,50.0,67.0,0.342342342342,1160
-kyoto cabinet,,0,0,,52.0,1.75,437
-kyoto tycoon,,0,0,,7.0,3.8,213
-ledisdb,siddontang/ledisdb,295,2524,,0.0,-0.526315789474,175
-leveldb,google/leveldb,3371,13600,280.0,618.0,1.02739726027,10700
-libreoffice base,,0,0,105.0,247.0,1.35483870968,3650
-litedb,mbdavid/LiteDB,524,2860,48.0,58.0,0.36036036036,1160
-lokijs,techfort/LokiJS,339,4072,88.0,111.0,1.7,581
-lovefield,google/lovefield,343,5818,10.0,14.0,1.94366197183,1340
-luciddb,LucidDB/luciddb,13,38,,5.0,0.404761904762,510
-manticore search,manticoresoftware/manticoresearch,25,96,,7.0,0.0,38
-mapd,mapd/mapd-core,193,1433,,32.0,4.41935483871,5420
-mapdb,jankotek/mapdb,678,3104,84.0,144.0,1.32407407407,1530
-mariadb,,0,0,4553.0,8124.0,1.27906976744,562000
-memcached,memcached/memcached,2347,7667,4759.0,8894.0,1.30263157895,202000
-mnesia,erlang-labs/mnesia,4,9,367.0,680.0,0.717105263158,2150
-modeshape,ModeShape/modeshape,196,185,83.0,101.0,0.244897959184,756
-monetdb,MonetDB/MonetDB,33,144,340.0,371.0,11.7307692308,8300
-mongodb,mongodb/mongo,3553,13662,98445.0,98435.0,0.592920353982,1080000
-msql,mick88/MSQLite,4,15,,803.0,1.56666666667,11500
-mulgara,quoll/mulgara,6,26,,5.0,0.0526315789474,628
-mysql,,0,0,517409.0,517388.0,-5.17021276596,6120000
-nanolat,Nanolat/nldb,3,20,,1.0,0.5,22
-ncache,Alachisoft/NCache,70,279,58.0,193.0,0.417085427136,2180
-neo4j,neo4j/neo4j,1340,5022,15675.0,17026.0,1.51111111111,65900
-netezza,,0,0,966.0,1077.0,1.97701149425,28900
-neventstore,NEventStore/NEventStore,327,1231,40.0,48.0,-0.4,192
-newts,OpenNMS/newts,33,164,,305.0,0.46875,9950
-nosdb,Alachisoft/NosDB,21,27,2.0,2.0,2.25,263
-openoffice.org base,,0,0,,24.0,1.77777777778,875
-openqm,gregjurman/openqm,0,3,,0.0,0.478260869565,255
-opentsdb,OpenTSDB/opentsdb,933,3032,220.0,273.0,1.42181818182,4320
-oracle berkeley db,,0,0,,50.0,-0.0989010989011,1030
-orientdb,orientechnologies/orientdb,731,3455,2372.0,2573.0,1.91071428571,9320
-origodb,DevrexLabs/OrigoDB,27,113,2.0,2.0,2.0,82
-percona server for mongodb,percona/percona-server-mongodb,23,69,,11.0,1.58620689655,2640
-percona server for mysql,percona/percona-server,180,423,,229.0,1.23456790123,3460
-perst,,0,0,,14.0,0.025974025974,1040
-pipelinedb,pipelinedb/pipelinedb,141,1675,41.0,49.0,1.18918918919,623
-postgresql,postgres/postgres,1335,3913,84132.0,84120.0,0.88,1650000
-pouchdb,pouchdb/pouchdb,1060,10503,1165.0,1429.0,2.21212121212,5290
-prestodb,prestodb/presto,2511,7459,358.0,371.0,1.97478991597,2050
-project voldemort,voldemort/voldemort,528,2079,,27.0,0.727272727273,663
-prometheus,prometheus/prometheus,2044,16196,664.0,910.0,1.91780821918,162000
-pyrrho,,0,0,,1.0,-0.236111111111,678
-raptordb,mgholam/RaptorDB-Document,19,82,1.0,4.0,1.0,132
-rasdaman,dioptre/rasdaman,2,6,,10.0,0.047619047619,703
-ravendb,ravendb/ravendb,678,1907,2244.0,2520.0,2.26530612245,7740
-rdf4j,eclipse/rdf4j,39,112,53.0,68.0,0.247619047619,987
-redis,antirez/redis,11167,28905,13480.0,23861.0,-0.20697954272,640000
-redland,,0,0,39.0,62.0,2.31896551724,14600
-redstore,njh/redstore,5,44,,2.0,-0.65,91
-resin cache,,0,0,,17.0,1.0,17
-rethinkdb,rethinkdb/rethinkdb,1680,21215,1298.0,1482.0,0.826666666667,8820
-riak kv,basho/riak_kv,198,414,,61.0,0.833333333333,662
-riak ts,basho/riak,498,2991,28.0,37.0,1.38461538462,403
-rocksdb,facebook/rocksdb,2293,10498,127.0,220.0,0.937743190661,5510
-rrdtool,octo/rrdtool,12,18,354.0,479.0,1.03846153846,8460
-scalaris,scalaris-team/scalaris,20,101,,12.0,1.41717791411,2660
-scidb,,0,0,4.0,8.0,0.443548387097,2000
-scylladb,scylladb/scylla,483,4000,,18.0,1.82170542636,3300
-sedna,sedna/sedna,2,4,19.0,41.0,6.35897435897,6300
-senseidb,,0,0,,3.0,0.333333333333,145
-sequoiadb,SequoiaDB/SequoiaDB,329,739,,1.0,5.04,4940
-siridb,SiriDB/siridb-server,28,349,,0.0,0.545454545455,88
-sisodb,danielwertheim/SisoDb-Provider,25,128,3.0,3.0,5.0,56
-sitewhere,sitewhere/sitewhere,126,200,,5.0,-0.75,279
-smallsql,,0,0,1.0,8.0,1.0,163
-snappydata,SnappyDataInc/snappydata,127,717,100.0,100.0,1.2875,1140
-solr,apache/lucene-solr,1333,1601,17022.0,19986.0,2.5873015873,221000
-spark sql,,0,0,,4996.0,1.13725490196,26400
-sphinx,sphinx-doc/sphinx,780,1851,2254.0,6393.0,1.18487394958,421000
-sql.js,kripken/sql.js,491,4259,25.0,129.0,1.93181818182,1150
-sqlite,,0,0,60959.0,60955.0,1.84803921569,752000
-strabon,esarbanis/strabon,2,2,,2.0,0.44,611
-stsdb,STSSoft/STSdb4,31,36,,5.0,4.0,663
-swaydb,simerplaha/SwayDB,2,17,,0.0,4.0,7
-tajo,apache/tajo,97,106,,14.0,1.18333333333,7440
-tarantool,tarantool/tarantool,191,1865,72.0,79.0,1.13004484305,2620
-tayzgrid,Alachisoft/TayzGrid,6,6,,0.0,-0.55,198
-teradata,,0,0,3112.0,3586.0,3.32432432432,375000
-tidb,pingcap/tidb,1773,13144,23.0,25.0,1.60416666667,4500
-timescaledb,timescale/timescaledb,201,4718,22.0,25.0,1.55670103093,774
-tinkergraph,,0,0,6.0,79.0,0.365853658537,478
-tokyo cabinet,,0,0,77.0,132.0,0.232558139535,1110
-tokyo tyrant,,0,0,25.0,52.0,2.33333333333,397
-tomp2p,tomp2p/TomP2P,99,300,,8.0,5.0,76
-torodb,torodb/torodb,1,7,2.0,3.0,0.411764705882,281
-trafodion,apache/trafodion,115,160,,10.0,1.05555555556,637
-txtsql,,0,0,,12.0,-0.538461538462,118
-upscaledb,cruppstahl/upscaledb,43,399,,0.0,-0.428571428571,120
-vertica,,0,0,878.0,1409.0,2.625,35100
-virtuoso,openlink/virtuoso-opensource,137,470,403.0,581.0,1.4670487106,43600
-voltdb,VoltDB/voltdb,325,1163,106.0,135.0,1.51898734177,5520
-wakandadb,,0,0,,0.0,0.0,98
-warp 10,cityzendata/warp10-platform,34,67,,190.0,1.3125,514
-webscalesql,webscalesql/webscalesql-5.6,397,3032,,0.0,0.253333333333,1330
-whitedb,priitj/whitedb,53,429,,0.0,-0.25,130
-wiredtiger,wiredtiger/wiredtiger,202,1165,96.0,475.0,0.742765273312,4800
-xapian,xapian/xapian,197,409,98.0,212.0,1.3309352518,2350
-zodb,zopefoundation/ZODB,39,237,173.0,271.0,0.405660377358,1300
-zookeeper,apache/zookeeper,2966,4354,,5231.0,0.833333333333,74300
+4store,4store/4store,54,238,19.0,30.0,0.486486486486,658
+accumulo,apache/accumulo,202,370,236.0,421.0,1.04430379747,23100
+actordb,biokoda/actordb,49,1014,,2.0,,583
+aerospike,aerospike,59,147,526.0,587.0,2.77551020408,8570
+agensgraph,bitnine-oss/agensgraph,47,547,,14.0,1.57575757576,445
+alasql,agershun/alasql,328,2451,184.0,236.0,1.06060606061,994
+altibase,ALTIBASE/altibase,30,55,,2.0,1.18181818182,3140
+amazon aurora,claranet/terraform-aws-aurora,13,11,,115.0,0.549333333333,28100
+apache drill,apache/drill,664,958,437.0,502.0,2.02631578947,6390
+apache phoenix,apache/phoenix,582,463,,284.0,0.624,3000
+arangodb,arangodb/arangodb,421,5657,1148.0,1191.0,1.16,6250
+badger,dgraph-io/badger,201,3727,,280.0,1.63529411765,234000
+bangdb,sachin-sinha/BangDB,2,18,,3.0,1.0,125
+basex,BaseXdb/basex,218,346,295.0,494.0,0.64375,2140
+bergdb,bergdb/bergdb,0,0,,0.0,3.0,26
+bigchaindb,bigchaindb/bigchaindb,477,2515,22.0,34.0,1.10749185668,2380
+blazegraph,alexiejmarckut/blazegraph,0,80,66.0,78.0,0.478260869565,831
+blueflood,rackerlabs/blueflood,89,559,,2.0,-0.705882352941,256
+boltdb,boltdb/bolt,733,8510,19.0,44.0,1.22222222222,1040
+brightstardb,BrightstarDB/BrightstarDB,81,339,5.0,6.0,-0.653846153846,207
+cachelot.io,cachelot/cachelot.github.io,1,0,,0.0,,8
+cassandra,apache/cassandra,2017,4391,14316.0,17966.0,0.0366972477064,803000
+citus,citusdata/citus,191,2702,37.0,45.0,1.23333333333,3440
+clickhouse,yandex/ClickHouse,606,4039,99.0,104.0,0.860040567951,4480
+cloudkit,jcrosby/cloudkit,23,310,1516.0,1769.0,1.16894977169,3810
+cockroachdb,cockroachdb/cockroach,1383,13418,108.0,113.0,1.52873563218,10800
+codernitydb,perchouli/codernitydb,10,37,,5.0,17.0,83
+comdb2,bloomberg/comdb2,91,735,,2.0,2.35,316
+couchbase,couchbase,20,15,2722.0,3411.0,1.57777777778,55600
+couchdb,apache/couchdb,774,3637,5292.0,6874.0,2.11067193676,42200
+cratedb,crate/crate,265,2007,50.0,64.0,1.32876712329,839
+csql,,0,0,,97.0,1.48648648649,972
+cubicweb,,0,0,,4.0,1.27777777778,281
+cubrid,CUBRID/cubrid,53,89,11.0,28.0,3.4358974359,4570
+database management library,,0,0,,770.0,8.9696969697,1320
+dataease,,0,0,,3.0,0.173913043478,820
+dataphor,DBCG/Dataphor,7,28,,1.0,5.0,135
+db4o,,0,0,382.0,522.0,3.51401869159,2850
+dbase,,0,0,241.0,1764.0,2.08368200837,39700
+densodb,teamdev/DensoDB,17,54,,1.0,,50
+derby,derbyjs/derby,255,4319,2242.0,4019.0,-0.351810790835,610000
+dgraph,dgraph-io/dgraph,361,5561,19.0,65.0,3.63636363636,2770
+djondb,,0,0,,3.0,1.5,84
+druid,alibaba/druid,4606,11358,198.0,368.0,1.51052631579,549000
+ehcache,ehcache,10,27,2048.0,3510.0,1.24285714286,12000
+ejdb,Softmotions/ejdb,101,930,4.0,9.0,2.10526315789,470
+elasticsearch,elastic/elasticsearch,10714,30971,32194.0,36449.0,1.75,457000
+elliptics,reverbrain/elliptics,84,460,,954.0,-0.653846153846,216
+event store,EventStore/EventStore,441,2437,144.0,26781.0,1.32442748092,3290
+extremedb,,0,0,,5.0,1.12280701754,954
+firebird,FirebirdSQL/firebird,63,226,2656.0,3487.0,1.89552238806,188000
+fleetdb,mmcgrana/fleetdb,17,166,3.0,7.0,2.5,48
+flockdb,twitter-archive/flockdb,262,3140,7.0,19.0,0.4,966
+foundationdb,apple/foundationdb,498,7796,15.0,26.0,4.49717514124,3700
+frontbase,,0,0,6.0,97.0,0.4375,1380
+geode,apache/geode,438,1239,168.0,266.0,4.26086956522,16300
+giraph,apache/giraph,251,460,146.0,182.0,0.767624020888,4760
+google fusion tables,,0,0,1368.0,1588.0,1.87179487179,2660
+grakn.ai,graknlabs/grakn,128,959,,3.0,0.344827586207,398
+graph engine,Microsoft/GraphEngine,176,1492,,1063.0,3.60162601626,2590
+graphite,graphite-project,219,161,808.0,1373.0,0.926136363636,430000
+greenplum,kailashjoshi/greenplum,10,7,454.0,510.0,1.60856269113,36600
+griddb,griddb_nosql,29,317,,6.0,0.442307692308,783
+h2,h2database,25,511,2704.0,49071.0,0.932692307692,1200000
+hawkular metrics,hawkular/hawkular-metrics,71,190,,15.0,0.314285714286,768
+hawq,apache/incubator-hawq,202,362,124.0,127.0,1.14356435644,3660
+hazelcast,hazelcast/hazelcast,1005,2581,1617.0,1944.0,0.936507936508,15800
+hbase,apache/hbase,1534,1956,6053.0,7900.0,1.89473684211,352000
+heroic,spotify/heroic,74,618,,141.0,1.86708860759,355000
+hgraphdb,rayokota/hgraphdb,24,110,,2.0,-0.780487804878,161
+hibari,hibari/hibari,25,216,,2.0,1.61111111111,3670
+hive,apache/hive,1958,1868,13819.0,19149.0,-5.21428571429,741000
+hsqldb,,0,0,2176.0,3118.0,0.977777777778,16100
+hypergraphdb,hypergraphdb/hypergraphdb,25,93,3.0,19.0,0.944444444444,588
+hyperleveldb,rescrv/HyperLevelDB,64,362,,0.0,-0.555555555556,227
+hypersql,IzzySoft/HyperSQL,4,10,11.0,79.0,0.623762376238,2140
+iboxdb,iboxdb,54,146,,4.0,0.125,76
+ignite,apache/ignite,940,1701,1069.0,4260.0,1.53768844221,366000
+impala,apache/impala,92,153,987.0,1375.0,3.02247191011,271000
+infinidb,infinidb/infinidb,91,220,33.0,46.0,-0.0479041916168,1640
+infinispan,infinispan/infinispan,445,657,685.0,1158.0,1.23782234957,5250
+influxdb,influxdata/influxdb,1928,13361,1031.0,1305.0,1.19428571429,21800
+infogrid,infogrid-org,0,1,,39.0,1.15384615385,592
+informix,,0,0,1685.0,2089.0,2.27272727273,57300
+ingres,fosslc/Ingres,11,19,129.0,214.0,1.91875,20300
+interbase,,0,0,286.0,531.0,3.26956521739,24800
+jackrabbit,apache/jackrabbit,146,185,572.0,771.0,1.52941176471,11800
+janusgraph,JanusGraph/janusgraph,326,1469,202.0,217.0,0.485465116279,3120
+jasdb,oberasoftware/jasdb,9,24,1.0,2.0,6.0,83
+jena,apache/jena,343,405,1829.0,2289.0,1.87254901961,334000
+kairosdb,kairosdb/kairosdb,260,1246,50.0,66.0,0.444444444444,1140
+kyoto cabinet,alticelabs/kyoto/kyotocabinet,19,149,,52.0,2.45454545455,424
+kyoto tycoon,alticelabs/kyoto/kyototycoon,19,149,,7.0,-0.590909090909,186
+ledisdb,siddontang/ledisdb,297,2538,,0.0,5.25,173
+leveldb,google/leveldb,3391,13692,279.0,621.0,1.17142857143,10400
+libreoffice base,,0,0,106.0,249.0,1.29901960784,3540
+litedb,mbdavid/LiteDB,525,2872,49.0,60.0,0.407079646018,1140
+lokijs,techfort/LokiJS,345,4092,89.0,112.0,1.58064516129,555
+lovefield,google/lovefield,342,5820,10.0,14.0,2.10344827586,866
+luciddb,LucidDB/luciddb,13,38,,5.0,0.725,552
+manticore search,manticoresoftware/manticoresearch,28,101,,7.0,0.333333333333,36
+mapd,mapd/mapd-core,197,1441,,32.0,3.29411764706,5490
+mapdb,jankotek/mapdb,679,3122,84.0,144.0,1.64516129032,1700
+mariadb,MariaDB,188,208,4606.0,8196.0,1.34705882353,565000
+memcached,memcached/memcached,2351,7710,4765.0,8900.0,1.45205479452,217000
+mnesia,erlang-labs/mnesia,4,9,367.0,681.0,1.0275862069,2160
+modeshape,ModeShape/modeshape,197,184,83.0,101.0,0.255813953488,754
+monetdb,MonetDB/MonetDB,34,145,340.0,372.0,5.73913043478,7380
+mongodb,mongodb/mongo,3571,13725,98733.0,98733.0,1.70886075949,1020000
+msql,mick88/MSQLite,4,15,,802.0,1.6393442623,11400
+mulgara,quoll/mulgara,6,26,,5.0,0.047619047619,693
+mysql,mysql,1737,11971,518518.0,518516.0,1.52941176471,6040000
+nanolat,Nanolat/nldb,3,20,,1.0,,20
+ncache,Alachisoft/NCache,70,279,58.0,193.0,0.593908629442,2180
+neo4j,neo4j/neo4j,1348,5057,15739.0,17090.0,1.55319148936,66300
+netezza,,0,0,967.0,1078.0,2.16766467066,27100
+neventstore,NEventStore/NEventStore,327,1232,40.0,48.0,-0.6,190
+newts,OpenNMS/newts,33,164,,306.0,0.670212765957,9790
+nosdb,Alachisoft/NosDB,21,27,2.0,2.0,2.5,271
+openoffice.org base,,0,0,,24.0,1.65909090909,867
+openqm,gregjurman/openqm,0,3,,0.0,2.07692307692,243
+opentsdb,eswdd/aardvark,4,6,219.0,273.0,1.77358490566,4480
+oracle berkeley db,,0,0,,50.0,-0.14,1040
+orientdb,orientechnologies/orientdb,734,3468,2381.0,2581.0,1.94915254237,9510
+origodb,DevrexLabs/OrigoDB,28,113,2.0,2.0,2.0,73
+percona server for mongodb,percona/percona-server-mongodb,23,69,,11.0,1.64539007092,2540
+percona server for mysql,percona/percona-server,182,429,,232.0,1.45714285714,3580
+perst,,0,0,,14.0,0.2,1080
+pipelinedb,pipelinedb/pipelinedb,142,1681,42.0,50.0,1.39393939394,573
+postgresql,postgres/postgres,1344,3945,84498.0,84498.0,0.186234817814,1580000
+pouchdb,pouchdb/pouchdb,1063,10535,1170.0,1439.0,1.53333333333,5660
+prestodb,prestodb/presto,2522,7495,365.0,378.0,1.3768115942,2030
+project voldemort,voldemort/voldemort,529,2088,,27.0,2.84615384615,643
+prometheus,prometheus/prometheus,2073,16358,677.0,926.0,2.27272727273,181000
+pyrrho,,0,0,,1.0,0.0655737704918,688
+raptordb,mgholam/RaptorDB-Document,19,83,1.0,4.0,2.5,133
+rasdaman,dioptre/rasdaman,2,6,,10.0,0.238095238095,700
+ravendb,ravendb/ravendb,679,1918,2247.0,2523.0,2.48936170213,7470
+rdf4j,eclipse/rdf4j,40,112,54.0,69.0,0.481132075472,977
+redis,antirez/redis,11248,29052,13523.0,23960.0,-0.320388349515,658000
+redland,,0,0,39.0,62.0,2.125,14100
+redstore,njh/redstore,5,44,,2.0,0.5,96
+resin cache,,0,0,,17.0,4.0,17
+rethinkdb,rethinkdb/rethinkdb,1686,21262,1299.0,1483.0,1.41666666667,8760
+riak kv,basho/riak_kv,198,414,,61.0,1.40816326531,648
+riak ts,basho/riak,498,3004,28.0,37.0,3.29166666667,527
+rocksdb,facebook/rocksdb,2319,10562,128.0,225.0,1.0866807611,5180
+rrdtool,octo/rrdtool,12,18,354.0,480.0,1.16702819957,8070
+scalaris,scalaris-team/scalaris,20,101,,12.0,1.61585365854,2540
+scidb,,0,0,4.0,8.0,0.2,1950
+scylladb,scylladb/scylla,486,4015,,19.0,2.34862385321,2950
+sedna,sedna/sedna,3,4,19.0,41.0,7.475,6730
+senseidb,senseidb,0,4,,3.0,0.666666666667,139
+sequoiadb,SequoiaDB/SequoiaDB,332,743,,1.0,5.24,4810
+siridb,SiriDB/siridb-server,28,350,,0.0,1.0,86
+sisodb,danielwertheim/SisoDb-Provider,25,128,3.0,3.0,6.0,56
+sitewhere,sitewhere/sitewhere,127,206,,5.0,-0.666666666667,273
+smallsql,kevinvandervlist/SE/tree/master/smallsql,2,0,1.0,8.0,6.0,153
+snappydata,SnappyDataInc/snappydata,127,720,105.0,106.0,1.55223880597,1030
+solr,apache/lucene-solr,1353,1627,17059.0,20034.0,2.56923076923,263000
+spark sql,apache/spark/tree/master/sql,31,38,,5038.0,1.10313901345,27900
+sphinx,sphinx-doc/sphinx,793,1872,2261.0,6415.0,1.13008130081,362000
+sql.js,kripken/sql.js,494,4280,25.0,129.0,1.66666666667,1080
+sqlite,,0,0,61102.0,61103.0,1.74774774775,811000
+strabon,esarbanis/strabon,2,2,,2.0,0.64,617
+stsdb,STSSoft/STSdb4,31,37,,5.0,-0.5,631
+swaydb,simerplaha/SwayDB,2,18,,0.0,,40
+tajo,apache/tajo,97,107,,14.0,1.4406779661,7420
+tarantool,tarantool/tarantool,191,1874,72.0,79.0,1.32843137255,2490
+tayzgrid,Alachisoft/TayzGrid,6,6,,0.0,-0.571428571429,198
+teradata,teradata,247,1643,3122.0,3601.0,3.77876106195,556000
+tidb,pingcap/tidb,1793,13285,30.0,32.0,1.66666666667,4010
+timescaledb,timescale/timescaledb,201,4781,22.0,26.0,1.96470588235,753
+tinkergraph,,0,0,6.0,79.0,0.261904761905,479
+tokyo cabinet,,0,0,77.0,132.0,0.569444444444,1070
+tokyo tyrant,,0,0,25.0,52.0,3.42857142857,384
+tomp2p,tomp2p/TomP2P,100,305,,8.0,,78
+torodb,torodb/torodb,1,7,2.0,3.0,0.277777777778,272
+trafodion,apache/trafodion,116,162,,10.0,1.22535211268,621
+txtsql,,0,0,,12.0,0.25,117
+upscaledb,cruppstahl/upscaledb,43,402,,0.0,2.83333333333,124
+vertica,vertica,27,71,879.0,1414.0,2.53240740741,35100
+virtuoso,openlink/virtuoso-opensource,139,476,404.0,582.0,1.68421052632,42500
+voltdb,VoltDB/voltdb,327,1170,106.0,135.0,2.0,6020
+wakandadb,WakandaDB,23,17,,0.0,,97
+warp 10,cityzendata/warp10-platform,35,68,,191.0,1.0625,502
+webscalesql,webscalesql/webscalesql-5.6,397,3031,,0.0,0.450704225352,1260
+whitedb,priitj/whitedb,53,430,,0.0,-0.4,130
+wiredtiger,wiredtiger/wiredtiger,202,1170,97.0,475.0,0.790697674419,4720
+xapian,xapian/xapian,198,412,98.0,213.0,1.4962962963,2310
+zodb,zopefoundation/ZODB,39,239,173.0,271.0,0.4,1310
+zookeeper,apache/zookeeper,2983,4400,,5257.0,1.20689655172,68900

@@ -1,158 +1,159 @@
 toolkit,so_tag_counts,so_question_count
 4store,19.0,30.0
-accumulo,235.0,422.0
-aerospike,522.0,583.0
-alasql,184.0,237.0
-apache drill,436.0,499.0
-arangodb,1144.0,1185.0
-basex,293.0,492.0
-bigchaindb,19.0,31.0
+accumulo,236.0,421.0
+aerospike,526.0,587.0
+alasql,184.0,236.0
+apache drill,437.0,502.0
+arangodb,1148.0,1191.0
+basex,295.0,494.0
+bigchaindb,22.0,34.0
 blazegraph,66.0,78.0
 boltdb,19.0,44.0
 brightstardb,5.0,6.0
-cassandra,14271.0,17907.0
+cassandra,14316.0,17966.0
 citus,37.0,45.0
-clickhouse,96.0,101.0
-cloudkit,1515.0,1766.0
-cockroachdb,107.0,112.0
-couchbase,2717.0,3405.0
-couchdb,5280.0,6856.0
-cratedb,51.0,65.0
+clickhouse,99.0,104.0
+cloudkit,1516.0,1769.0
+cockroachdb,108.0,113.0
+couchbase,2722.0,3411.0
+couchdb,5292.0,6874.0
+cratedb,50.0,64.0
 cubrid,11.0,28.0
 db4o,382.0,522.0
-dbase,241.0,1761.0
-derby,2241.0,4011.0
-dgraph,18.0,64.0
-druid,195.0,366.0
-ehcache,2044.0,3504.0
+dbase,241.0,1764.0
+derby,2242.0,4019.0
+dgraph,19.0,65.0
+druid,198.0,368.0
+ehcache,2048.0,3510.0
 ejdb,4.0,9.0
-elasticsearch,32029.0,36268.0
-event store,144.0,26700.0
-exist db,339.0,19519.0
-firebird,2645.0,3474.0
+elasticsearch,32194.0,36449.0
+event store,144.0,26781.0
+exist db,339.0,19573.0
+firebird,2656.0,3487.0
 fleetdb,3.0,7.0
 flockdb,7.0,19.0
 foundationdb,15.0,26.0
 frontbase,6.0,97.0
-geode,166.0,261.0
-giraph,145.0,180.0
-google fusion tables,1368.0,1587.0
-graphite,806.0,1365.0
-greenplum,451.0,509.0
-h2,2694.0,48858.0
+geode,168.0,266.0
+giraph,146.0,182.0
+google fusion tables,1368.0,1588.0
+graphite,808.0,1373.0
+greenplum,454.0,510.0
+h2,2704.0,49071.0
 hawq,124.0,127.0
-hazelcast,1606.0,1930.0
-hbase,6046.0,7880.0
-hive,13711.0,19021.0
-hsqldb,2175.0,3113.0
+hazelcast,1617.0,1944.0
+hbase,6053.0,7900.0
+hive,13819.0,19149.0
+hsqldb,2176.0,3118.0
 hypergraphdb,3.0,19.0
 hypersql,11.0,79.0
-ignite,1052.0,4237.0
-impala,980.0,1365.0
-infinidb,32.0,45.0
-infinispan,680.0,1154.0
-influxdb,1017.0,1287.0
-informix,1683.0,2084.0
+ignite,1069.0,4260.0
+impala,987.0,1375.0
+infinidb,33.0,46.0
+infinispan,685.0,1158.0
+influxdb,1031.0,1305.0
+informix,1685.0,2089.0
 ingres,129.0,214.0
-interbase,285.0,530.0
-jackrabbit,572.0,770.0
-janusgraph,196.0,209.0
+interbase,286.0,531.0
+jackrabbit,572.0,771.0
+janusgraph,202.0,217.0
 jasdb,1.0,2.0
-jena,1827.0,2284.0
-kairosdb,50.0,67.0
-leveldb,280.0,618.0
-libreoffice base,105.0,247.0
-litedb,48.0,58.0
-lokijs,88.0,111.0
+jena,1829.0,2289.0
+kairosdb,50.0,66.0
+leveldb,279.0,621.0
+libreoffice base,106.0,249.0
+litedb,49.0,60.0
+lokijs,89.0,112.0
 lovefield,10.0,14.0
 mapdb,84.0,144.0
-mariadb,4553.0,8124.0
-memcached,4759.0,8894.0
-mnesia,367.0,680.0
+mariadb,4606.0,8196.0
+memcached,4765.0,8900.0
+mnesia,367.0,681.0
 modeshape,83.0,101.0
-monetdb,340.0,371.0
-mongodb,98445.0,98435.0
-mysql,517409.0,517388.0
+monetdb,340.0,372.0
+mongodb,98733.0,98733.0
+mysql,518518.0,518516.0
 ncache,58.0,193.0
-neo4j,15675.0,17026.0
-netezza,966.0,1077.0
+neo4j,15739.0,17090.0
+netezza,967.0,1078.0
 neventstore,40.0,48.0
 nosdb,2.0,2.0
-opentsdb,220.0,273.0
-orientdb,2372.0,2573.0
+opentsdb,219.0,273.0
+orientdb,2381.0,2581.0
 origodb,2.0,2.0
-pipelinedb,41.0,49.0
-postgres xl,42.0,51.0
-postgresql,84132.0,84120.0
-pouchdb,1165.0,1429.0
-prestodb,358.0,371.0
-prometheus,664.0,910.0
+pipelinedb,42.0,50.0
+postgres xl,42.0,53.0
+postgresql,84498.0,84498.0
+pouchdb,1170.0,1439.0
+prestodb,365.0,378.0
+prometheus,677.0,926.0
 raptordb,1.0,4.0
-ravendb,2244.0,2520.0
-rdf4j,53.0,68.0
-redis,13480.0,23861.0
+ravendb,2247.0,2523.0
+rdf4j,54.0,69.0
+redis,13523.0,23960.0
 redland,39.0,62.0
-rethinkdb,1298.0,1482.0
+rethinkdb,1299.0,1483.0
 riak ts,28.0,37.0
-rocksdb,127.0,220.0
-rrdtool,354.0,479.0
+rocksdb,128.0,225.0
+rrdtool,354.0,480.0
 scidb,4.0,8.0
-scylla,33.0,
+scylla,35.0,
 sedna,19.0,41.0
 sisodb,3.0,3.0
 smallsql,1.0,8.0
-snappydata,100.0,100.0
-solr,17022.0,19986.0
-sphinx,2254.0,6393.0
+snappydata,105.0,106.0
+solr,17059.0,20034.0
+apache spark sql,6486.0,
+sphinx,2261.0,6415.0
 sql.js,25.0,129.0
-sqlite,60959.0,60955.0
+sqlite,61102.0,61103.0
 tarantool,72.0,79.0
-teradata,3112.0,3586.0
-tidb,23.0,25.0
-timescaledb,22.0,25.0
+teradata,3122.0,3601.0
+tidb,30.0,32.0
+timescaledb,22.0,26.0
 tinkergraph,6.0,79.0
 tokyo cabinet,77.0,132.0
 tokyo tyrant,25.0,52.0
 torodb,2.0,3.0
-vertica,878.0,1409.0
-virtuoso,403.0,581.0
+vertica,879.0,1414.0
+virtuoso,404.0,582.0
 voltdb,106.0,135.0
-wiredtiger,96.0,475.0
-xapian,98.0,212.0
+wiredtiger,97.0,475.0
+xapian,98.0,213.0
 zodb,173.0,271.0
-apache zookeeper,2419.0,
+apache zookeeper,2427.0,
 oracle berkeley db,,50.0
 senseidb,,3.0
 tayzgrid,,0.0
 comdb2,,2.0
-graph engine,,1059.0
-badger,,281.0
+graph engine,,1063.0
+badger,,280.0
 project voldemort,,27.0
 kyoto cabinet,,52.0
 rasdaman,,10.0
 mulgara,,5.0
 swaydb,,0.0
-elliptics,,953.0
+elliptics,,954.0
 hawkular metrics,,15.0
 grakn.ai,,3.0
 wakandadb,,0.0
-apache phoenix,,283.0
-warp 10,,190.0
+apache phoenix,,284.0
+warp 10,,191.0
 bangdb,,3.0
 trafodion,,10.0
-percona server for mysql,,229.0
+percona server for mysql,,232.0
 blueflood,,2.0
 djondb,,3.0
 txtsql,,12.0
 tajo,,14.0
 luciddb,,5.0
 hgraphdb,,2.0
-zookeeper,,5231.0
-amazon aurora,,114.0
+zookeeper,,5257.0
+amazon aurora,,115.0
 csql,,97.0
 percona server for mongodb,,11.0
 openoffice.org base,,24.0
-msql,,803.0
+msql,,802.0
 nanolat,,1.0
 griddb,,6.0
 manticore search,,7.0
@@ -175,8 +176,8 @@ bergdb,,0.0
 strabon,,2.0
 riak kv,,61.0
 hibari,,2.0
-spark sql,,4996.0
-newts,,305.0
+spark sql,,5038.0
+newts,,306.0
 codernitydb,,5.0
 hyperleveldb,,0.0
 whitedb,,0.0
@@ -186,7 +187,7 @@ altibase,,2.0
 kyoto tycoon,,7.0
 iboxdb,,4.0
 extremedb,,5.0
-scylladb,,18.0
+scylladb,,19.0
 actordb,,2.0
 siridb,,0.0
 stsdb,,5.0
@@ -194,5 +195,5 @@ cachelot.io,,0.0
 redstore,,2.0
 sitewhere,,5.0
 agensgraph,,14.0
-database management library,,768.0
+database management library,,770.0
 dataease,,3.0

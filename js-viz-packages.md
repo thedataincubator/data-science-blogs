@@ -4,14 +4,14 @@ At [The Data Incubator](https://www.thedataincubator.com/), we pride ourselves o
 
 # The Rankings
 
-Below is a ranking of the top 20 of 110 JavaScript data visualization packages that are useful for Data Science, based on Github and Stack Overflow activity, as well as npmjs [(javascript package manager)](https://www.npmjs.com/) downloads. The table shows standardized scores, where a value of 1 means one standard deviation above average (average = score of 0). For example, `chart.js` is 3.29 standard deviations above average in Github activity, while `plotly.js` is close to average. See [below for methods](#Methods).
+Below is a ranking of the top 20 of 110 JavaScript data visualization packages that are useful for Data Science, based on Github and Stack Overflow activity, as well as npmjs [(JavaScript package manager)](https://www.npmjs.com/) downloads. The table shows standardized scores, where a value of 1 means one standard deviation above average (average = score of 0). For example, `chart.js` is 3.29 standard deviations above average in Github activity, while `plotly.js` is close to average. See [below for methods](#Methods).
 
 <img src="https://github.com/thedataincubator/data-science-blogs/blob/master/img/js_viz_rank.png" width=500px></img>
 
 
 # Results and Discussion
 
-The ranking is based on equally weighing its three components: Github (stars and forks), Stack Overflow (tags and questions), and npm downloads(totals and compounded monthly growth rate). These were obtained using available APIs. Coming up with a comprehensive list of JavaScript visualization packages was tricky - in the end, we scraped four different lists that we thought were representative (see [methods](#Methods) below for details) and ranked 110 JS packages (excluding 191 d3-modules we ranked separately). Computing standardized scores for each metric allows us to see which packages stand out in each category. The [full ranking is here](https://github.com/thedataincubator/data-science-blogs/blob/master/output/js_viz_final_Rankings.csv), while the [raw data is here](https://github.com/thedataincubator/data-science-blogs/blob/master/output/JS_VIZ_data.csv).
+The ranking is based on equally weighing its three components: Github (stars and forks), Stack Overflow (tags and questions), and npm downloads(totals and compounded monthly growth rate). These were obtained using available APIs. Coming up with a comprehensive list of JavaScript visualization packages was tricky - in the end, we scraped four different lists that we thought were representative (see [methods](#Methods) below for details) and ranked 110 JS packages (excluding 191 D3-modules we ranked separately). Computing standardized scores for each metric allows us to see which packages stand out in each category. The [full ranking is here](https://github.com/thedataincubator/data-science-blogs/blob/master/output/js_viz_final_Rankings.csv), while the [raw data is here](https://github.com/thedataincubator/data-science-blogs/blob/master/output/JS_VIZ_data.csv).
 
 ## `d3.js` and its derivatives dominate the field
 
@@ -27,7 +27,7 @@ The ranking is based on equally weighing its three components: Github (stars and
 With so many data visualization options (we ranked 110), one might think it would be hard for a new charting package to gain a following. `britechars`, a reusable charting library based on D3.js and created by [eventbrite](https://www.eventbrite.com/engineering/introducing-britecharts/), was first made publicly available less than two years ago. `britecharts` earned the number 7 spot in our overall rankings, and the highest compound monthly growth rate (110%) over the last 6 months. The next package to even come close is `graphael` with a 56% growth rate.
 
 ## There's a place near the top for both `flot` and `flotr2`
-`flot` (rhymes with plot) comes in just one spot behind its successor `flotr2`. `flot` is a pure JavaScript plotting library for jQuery, while `flotr2` has a similiar syntax but with no dependence on jQuery. Although it was released over five years ago, `flotr2` has yet to outperform `flot` in GitHub or StackOverflow activity. `flotr2` has a larger growth rate, but both packages rank highly on our list and continue to be actively maintained by separate groups.
+`flot` (rhymes with plot) comes in just one spot behind its successor `flotr2`. `flot` is a pure JavaScript plotting library for jQuery, while `flotr2` has a similar syntax but with no dependence on jQuery. Although it was released over five years ago, `flotr2` has yet to outperform `flot` in GitHub or StackOverflow activity. `flotr2` has a larger growth rate, but both packages rank highly on our list and continue to be actively maintained by separate groups.
 
 
 # Limitations
@@ -57,7 +57,7 @@ A few other notes:
   get Github, Stack Overflow, and Download scores, and combined to get the Overall 
   score. 
 * Some manual checks were done to confirm Github repository location.
-* 191 D3-modules were removed and d3-modules data [collection](https://github.com/thedataincubator/data-science-blogs/blob/master/code/make_D3_modules_data.ipynb), [analysis](https://github.com/thedataincubator/data-science-blogs/blob/master/code/D3_modules_analysis.ipynb), and [ranking](https://github.com/thedataincubator/data-science-blogs/blob/master/img/d3_mod_rank.png) were done separately.
+* 191 d3-modules were removed and d3-modules data [collection](https://github.com/thedataincubator/data-science-blogs/blob/master/code/make_D3_modules_data.ipynb), [analysis](https://github.com/thedataincubator/data-science-blogs/blob/master/code/D3_modules_analysis.ipynb), and [ranking](https://github.com/thedataincubator/data-science-blogs/blob/master/img/d3_mod_rank.png) were done separately.
 
 All data was downloaded on August 6, 2017.
 

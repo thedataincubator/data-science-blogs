@@ -73,7 +73,7 @@ mathematics, science, and engineering) ninth.
 
 The other deep-learning package, `Theano`, is a big distance behind
 `tensorflow` in this ranking. The interactive and
-polished [Tensorflow Playground](http://playground.tensorflow.org) could be a
+polished [TensorFlow Playground](http://playground.tensorflow.org) could be a
 factor.
 
 ## `matplotlib` most popular graphics library
@@ -136,9 +136,9 @@ on tags and questions containing the package name. Downloads are from PyPI,
 using
 a [fork of the `vanity` project](https://github.com/pavopax/vanity). Other
 projects to get download counts
-include [pypi-download-stats](https://github.com/jantman/pypi-download-stats)
+include [`pypi-download-stats`](https://github.com/jantman/pypi-download-stats)
 (couldn't get it to work)
-and [pypi-ranking.info](http://pypi-ranking.info/alltime) (gives smaller
+and [`pypi-ranking.info`](http://pypi-ranking.info/alltime) (gives smaller
 numbers than `vanity`).
 
 A few other notes:

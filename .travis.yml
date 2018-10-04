@@ -13,4 +13,4 @@ install:
 
 script:
   - docker build -t tester .
-  - docker run -i tester /bin/bash -c "pytest -v"
+  - docker run -i tester /bin/bash -c "pytest -v --tests-per-worker auto"

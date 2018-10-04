@@ -18,19 +18,7 @@ def _parse_links(filename):
     soup = BeautifulSoup(markdown.markdown(text), "lxml")
     return [link['href'] for link in soup.find_all('a', href=True)]
 
-def _test_link(link):
-    request_success = False
-    for i in range(3):
-        if request_success:
-            break
-        try:
-            r = requests.get(link)
-            request_success = True
-        except Exception:
-            print("error with", link)
 
-    assert request_success
-    assert r.status_code == 200
 
 def _valid(link):
     if '.md' in link:
@@ -41,8 +29,31 @@ def _valid(link):
         return False
     return True
 
-@pytest.mark.parametrize("filename", _get_files())
-def test_links(filename):
+
+def _get_links_from_page(filename):
+    links = []
     for link in _parse_links(filename):
         if _valid(link):
-            _test_link(link)
+            links.append((filename, link))
+    return links
+
+def _get_links():
+    links = []
+    for filename in _get_files():
+        links += _get_links_from_page(filename)
+    return links
+
+@pytest.mark.parametrize("filename,link", _get_links())
+def test_link(filename, link):
+    request_success = False
+    for i in range(3):
+        if request_success:
+            break
+        try:
+            r = requests.get(link)
+            request_success = True
+        except Exception:
+            pass
+
+    assert request_success
+    assert r.status_code == 200

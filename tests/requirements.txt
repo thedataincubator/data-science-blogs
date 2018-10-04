@@ -2,3 +2,4 @@ requests
 pytest
 beautifulsoup4
 markdown
+pytest-parallel

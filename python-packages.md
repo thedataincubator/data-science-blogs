@@ -100,7 +100,7 @@ tables), and `shogun` (machine learning). They were all below average compared
 to the ranked packages, in all categories.
 
 Importantly,
-the [Anaconda distribution](https://www.continuum.io/anaconda-overview) bundles
+the [Anaconda distribution](https://www.anaconda.com/what-is-anaconda/) bundles
 together many of these packages, and this was not considered.
 
 Further, naturally, some packages that have been around longer will have higher

@@ -18,8 +18,6 @@ def _parse_links(filename):
     soup = BeautifulSoup(markdown.markdown(text), "lxml")
     return [link['href'] for link in soup.find_all('a', href=True)]
 
-
-
 def _valid(link):
     if '.md' in link:
         return False
@@ -28,7 +26,6 @@ def _valid(link):
     if '.' not in link:
         return False
     return True
-
 
 def _get_links_from_page(filename):
     links = []

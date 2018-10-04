@@ -1,4 +1,4 @@
-# Data Science Blogs
+# Data Science Blogs [![Build Status](https://travis-ci.org/thedataincubator/data-science-blogs.svg?branch=master)](https://travis-ci.org/thedataincubator/data-science-blogs)
 A Handful of D(u)S(t) (Data Science)
 
 This repository contains the source code and data for the following data

@@ -51,7 +51,7 @@ a uniform random float value between 10000 and 100000.
     data, only 2x faster for <10k records)
   * `load` data from disk (5x faster for >10k records, even better for smaller
     data)
-  * `join` data (2-5x faster, but slower for smallest dataset of 1000 rows)
+  * `join` data (2-5x faster, but slower for smallest data set of 1000 rows)
 
 Comparing `memory-sqlite` vs. `sqlite`, there was no meaningful difference,
 especially as data size increased.
@@ -155,7 +155,7 @@ were ran on Digital Ocean `Ubuntu 14.04` with 16GB memory and 8 core CPU.
 
 # References
 
-For resource on becoming a data scientist, check out our [blog](https://blog.thedataincubator.com/), particular this article on [preparing for our free data science fellowship](https://blog.thedataincubator.com/2014/09/how-to-prepare-for-the-data-incubator/) and this one on [data manipulating data like a professional data scientist](https://blog.thedataincubator.com/2015/01/processing-data-like-a-professional-data-scientist/).  And if you're looking for a class, consider our [convenient after-work online instructor lead data science foundations course geared towards working professionals](https://www.thedataincubator.com/foundations.html) or our [free data scinece fellowship for people with advanced degrees](https://www.thedataincubator.com/fellowship.html).
+For resource on becoming a data scientist, check out our [blog](https://blog.thedataincubator.com/), particular this article on [preparing for our free data science fellowship](https://blog.thedataincubator.com/2014/09/how-to-prepare-for-the-data-incubator/) and this one on [data manipulating data like a professional data scientist](https://blog.thedataincubator.com/2015/01/processing-data-like-a-professional-data-scientist/).  And if you're looking for a class, consider our [convenient after-work online instructor lead data science foundations course geared towards working professionals](https://www.thedataincubator.com/foundations.html) or our [free data science fellowship for people with advanced degrees](https://www.thedataincubator.com/fellowship.html).
 
 To learn more how `sqlite` works, check
 out

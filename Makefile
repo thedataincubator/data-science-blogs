@@ -15,7 +15,7 @@ python-data:
 
 
 test:
-	mdspell "**/*.md" --report -a --en-us
+	mdspell "**/*.md" --report -a --en-us -n
 
 help:
 	@echo "    lint"

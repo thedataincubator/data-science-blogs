@@ -1,0 +1,8 @@
+code/
+data/
+graphs/
+img/
+output/
+__pycache__
+*.pyc 
+.git/

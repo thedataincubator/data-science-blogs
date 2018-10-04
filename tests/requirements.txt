@@ -1,0 +1,4 @@
+requests
+pytest
+beautifulsoup4
+markdown

@@ -4,3 +4,4 @@ code/secrets
 *.pyc
 .RData
 .Rhistory
+__pycache__/

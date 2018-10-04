@@ -1,7 +1,16 @@
 language: node_js
 
+sudo: required
+
+services:
+  - docker
+
 node_js:
   - "node"
   
 install:
   - npm i markdown-spellcheck -g
+
+script:
+  - docker build -t tester .
+  - docker run -i tester /bin/bash -c "pytest -v"

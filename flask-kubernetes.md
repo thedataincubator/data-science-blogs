@@ -119,7 +119,7 @@ We have created an ingress, but we don't have a proper way of routing traffic wi
 helm install stable/nginx-ingress --name my-nginx
 ```
 
-If you don't want to use helm, the documentation can walk you through setting this up.  If you are using RBAC (and hopeully you are), there is a flag that can be used here to set up the proper resources to make this work.
+If you don't want to use helm, the documentation can walk you through setting this up.  If you are using RBAC (and hopefully you are), there is a flag that can be used here to set up the proper resources to make this work.
 
 This next bit depends a bit on your cloud provider, but if an external load balancer is not automatically created, one can get the exposed ports with
 

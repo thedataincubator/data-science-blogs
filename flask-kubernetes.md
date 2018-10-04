@@ -119,7 +119,7 @@ We have created an ingress, but we don't have a proper way of routing traffic wi
 helm install stable/nginx-ingress --name my-nginx
 ```
 
-If you don't want to use helm, the documentation can walk you through setting this up.
+If you don't want to use helm, the documentation can walk you through setting this up.  If you are using RBAC (and hopefully you are), there is a flag that can be used here to set up the proper resources to make this work.
 
 This next bit depends a bit on your cloud provider, but if an external load balancer is not automatically created, one can get the exposed ports with
 
@@ -144,4 +144,8 @@ We can use lets-encrypt to supply a ssl certificate for our pods and use the [`k
 helm install --name lego stable/kube-lego --set config.LEGO_EMAIL=<email> --set config.LEGO_URL=https://acme-v01.api.letsencrypt.org/directory
 ```
 
+As before, you can set up the RBAC with just a simple flag.
+
 Now you should have a working flask app backed by a Kubernetes cluster and with a properly provisioned SSL certificate.  Feel free to change the number of replicas in your deployment to seamlessly scale up your Deployment to meet your needs.
+
+If you want the entire code here packaged up a single helm chart, check out [flask-chart](https://github.com/thedataincubator/flask-chart)

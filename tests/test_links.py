@@ -50,7 +50,7 @@ def test_link(filename, link):
         if request_success:
             break
         try:
-            r = requests.get(link)
+            r = requests.get(link, timeout=10)
             request_success = True
         except Exception:
             pass

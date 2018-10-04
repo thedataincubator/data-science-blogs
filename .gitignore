@@ -5,3 +5,4 @@ code/secrets
 .RData
 .Rhistory
 __pycache__/
+.pytest_cache/

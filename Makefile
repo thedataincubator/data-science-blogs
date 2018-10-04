@@ -13,6 +13,10 @@ r-data:
 python-data:
 	@echo "See code/make-python-data.ipynb"
 
+
+test:
+	mdspell "**/*.md" --report -a --en-us
+
 help:
 	@echo "    lint"
 	@echo "        Check style with flake8."

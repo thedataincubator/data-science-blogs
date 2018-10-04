@@ -5,6 +5,3 @@ node_js:
   
 install:
   - npm i markdown-spellcheck -g
-
-scripts:
-  - mdspell "**/*.md" --report -a --en-us
